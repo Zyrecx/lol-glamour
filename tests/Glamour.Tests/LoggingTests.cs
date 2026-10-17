@@ -34,6 +34,13 @@ public class LoggingTests : IDisposable
     public void Dispose() => _host.Dispose();
 
     [Fact]
+    public void Nothing_is_written_to_the_Windows_event_log()
+    {
+        // With the Event Log service off, every warning sent there throws (GLAMOUR-5, GLAMOUR-6).
+        Assert.DoesNotContain(_host.Services.GetServices<ILoggerProvider>(), p => p is Microsoft.Extensions.Logging.EventLog.EventLogLoggerProvider);
+    }
+
+    [Fact]
     public async Task Actions_and_refusals_are_logged_but_plain_reads_are_not()
     {
         await _host.Client(TestHost.Loopback).GetAsync("/api/state");

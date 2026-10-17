@@ -1,7 +1,7 @@
 <Project>
   <!-- One version for every project. The release workflow passes -p:Version=<tag> and -p:GlamourChannel=release; local builds stay "dev" (telemetry tags them so). -->
   <PropertyGroup>
-    <Version>0.1.1</Version>
+    <Version>0.1.2</Version>
     <GlamourChannel Condition="'$(GlamourChannel)' == ''">dev</GlamourChannel>
   </PropertyGroup>
   <ItemGroup>

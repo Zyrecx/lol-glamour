@@ -16,6 +16,8 @@ public static class GlamourApp
     {
         var builder = WebApplication.CreateBuilder(options ?? new WebApplicationOptions { Args = args });
         configure?.Invoke(builder);
+        // No Windows Event Log: with its service off (sandboxes, stripped-down Windows) every warning written there throws and takes the request down with it (GLAMOUR-5, GLAMOUR-6).
+        foreach (var d in builder.Services.Where(d => d.ImplementationType == typeof(Microsoft.Extensions.Logging.EventLog.EventLogLoggerProvider)).ToList()) builder.Services.Remove(d);
         // The log file (Diagnostics says what goes in it). The desktop app brings its own, shared across host restarts; tests and the demo host (NoClient) write none.
         if (!builder.Configuration.GetValue<bool>("Glamour:NoClient") && !builder.Services.Any(d => !d.IsKeyedService && d.ImplementationInstance is FileLog))
             builder.Logging.AddProvider(new FileLog(builder.Configuration["Glamour:LogDir"] ?? FileLog.DefaultDir));
