@@ -1,0 +1,46 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows10.0.19041.0</TargetFramework> <!-- 10.0.19041: Windows.Media.Ocr reads the augment cards -->
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWindowsForms>true</UseWindowsForms>
+    <UseWPF>true</UseWPF> <!-- only for UIAutomationClient (the click log reads the League element under a click) -->
+    <AssemblyName>Glamour</AssemblyName>
+    <RootNamespace>Glamour.Desktop</RootNamespace>
+    <ApplicationHighDpiMode>PerMonitorV2</ApplicationHighDpiMode>
+    <ApplicationIcon>glamour.ico</ApplicationIcon> <!-- written by BlossomIcon.Write (Glamour.exe with the write-icons flag), with the web app's PNGs -->
+  </PropertyGroup>
+
+  <ItemGroup>
+    <FrameworkReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Velopack" Version="1.2.161" />
+    <ProjectReference Include="..\Glamour.Host\Glamour.Host.csproj" />
+    <PackageReference Include="Microsoft.Web.WebView2" Version="1.0.4258.31" />
+    <Using Include="System.IO" /> <!-- UseWPF leaves it out of the implicit usings -->
+  </ItemGroup>
+
+  <!-- The host serves the UI from <content root>/wwwroot. The Desktop exe's content root is its own folder, so copy the host's built UI next to it (run `npm run build` in /web first). -->
+  <Target Name="CopyUi" AfterTargets="Build">
+    <ItemGroup>
+      <Ui Include="..\Glamour.Host\wwwroot\**" />
+    </ItemGroup>
+    <Copy SourceFiles="@(Ui)" DestinationFiles="@(Ui->'$(OutDir)wwwroot\%(RecursiveDir)%(Filename)%(Extension)')" SkipUnchangedFiles="true" />
+    <!-- Drop what earlier UI builds left behind (old hashed chunks), so the copy is exactly the current build. -->
+    <ItemGroup>
+      <UiStale Include="$(OutDir)wwwroot\**" Exclude="@(Ui->'$(OutDir)wwwroot\%(RecursiveDir)%(Filename)%(Extension)')" />
+    </ItemGroup>
+    <Delete Files="@(UiStale)" />
+  </Target>
+
+  <!-- A publish (the release workflow, Velopack) takes the same UI. -->
+  <Target Name="PublishUi" AfterTargets="Publish">
+    <ItemGroup>
+      <PublishedUi Include="..\Glamour.Host\wwwroot\**" />
+    </ItemGroup>
+    <Error Condition="'@(PublishedUi)' == ''" Text="No built UI in Glamour.Host\wwwroot: run npm run build in web/ first." />
+    <Copy SourceFiles="@(PublishedUi)" DestinationFiles="@(PublishedUi->'$(PublishDir)wwwroot\%(RecursiveDir)%(Filename)%(Extension)')" />
+  </Target>
+
+</Project>

@@ -1,0 +1,1919 @@
+{
+ "raw": {
+  "status": 200,
+  "body": [
+   {
+    "isDefaultPosition": true,
+    "isRecommendationOverride": false,
+    "keystone": {
+     "iconPath": "/lol-game-data/assets/v1/perk-images/Styles/Resolve/VeteranAftershock/VeteranAftershock.png",
+     "id": 8439,
+     "longDesc": "After immobilizing an enemy champion, increase your Armor and Magic Resist by 45 + 75% of your Bonus Resists for 2.5s. Then explode, dealing magic damage to nearby enemies.<br><br>Damage: 25 - 120 (+8% of your bonus health)<br>Cooldown: 20s<br><br>Resistance bonus from Aftershock capped at: 80-150 (based on level)<br>",
+     "name": "Aftershock",
+     "recommendationDescriptor": "Burst Defenses",
+     "shortDesc": "After <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Immobilize'>immobilizing</lol-uikit-tooltipped-keyword> an enemy champion gain defenses and later deal a burst of magic damage around you.",
+     "slotType": "kKeyStone",
+     "styleId": 8400,
+     "styleIdName": "resolve",
+     "tooltip": "After immobilizing an enemy champion, gain <scaleArmor>@ArmorBuff@ Armor</scaleArmor> and <scaleMR>@MagicResistBuff@ Magic Resist</scaleMR> for 2.5s. Then explode, dealing <magicDamage>@DamageCalc@ magic damage</magicDamage> to nearby enemies.<br>Cooldown: 20s<br><rules><i>Resist gains are capped at @MaxResistCalc@</i></rules><br><br>Total damage dealt: <magicDamage>@f1@</magicDamage><br>Total damage mitigated: <scaleHealth>@f9@</scaleHealth>"
+    },
+    "perks": [
+     {
+      "iconPath": "/lol-game-data/assets/v1/perk-images/Styles/Resolve/VeteranAftershock/VeteranAftershock.png",
+      "id": 8439,
+      "longDesc": "After immobilizing an enemy champion, increase your Armor and Magic Resist by 45 + 75% of your Bonus Resists for 2.5s. Then explode, dealing magic damage to nearby enemies.<br><br>Damage: 25 - 120 (+8% of your bonus health)<br>Cooldown: 20s<br><br>Resistance bonus from Aftershock capped at: 80-150 (based on level)<br>",
+      "name": "Aftershock",
+      "recommendationDescriptor": "Burst Defenses",
+      "shortDesc": "After <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Immobilize'>immobilizing</lol-uikit-tooltipped-keyword> an enemy champion gain defenses and later deal a burst of magic damage around you.",
+      "slotType": "kKeyStone",
+      "styleId": 8400,
+      "styleIdName": "resolve",
+      "tooltip": "After immobilizing an enemy champion, gain <scaleArmor>@ArmorBuff@ Armor</scaleArmor> and <scaleMR>@MagicResistBuff@ Magic Resist</scaleMR> for 2.5s. Then explode, dealing <magicDamage>@DamageCalc@ magic damage</magicDamage> to nearby enemies.<br>Cooldown: 20s<br><rules><i>Resist gains are capped at @MaxResistCalc@</i></rules><br><br>Total damage dealt: <magicDamage>@f1@</magicDamage><br>Total damage mitigated: <scaleHealth>@f9@</scaleHealth>"
+     },
+     {
+      "iconPath": "/lol-game-data/assets/v1/perk-images/Styles/Resolve/FontOfLife/FontOfLife.png",
+      "id": 8463,
+      "longDesc": "Impairing the movement of an enemy champion restores Health to you and the lowest health nearby allied champion.<br><br>70% effect for Ranged Users.<br><br>Cooldown: 20s",
+      "name": "Font of Life",
+      "recommendationDescriptor": "",
+      "shortDesc": "<lol-uikit-tooltipped-keyword key='LinkTooltip_Description_ImpairMov'>Impairing</lol-uikit-tooltipped-keyword> the movement of an enemy champion heals nearby allied champions. ",
+      "slotType": "kMixedRegularSplashable",
+      "styleId": 8400,
+      "styleIdName": "resolve",
+      "tooltip": "Impairing the movement of an enemy champion restores <healing>@BaseHeal@ Health</healing> to you and the lowest health nearby allied champion.<br>Cooldown: 20s<br><br>Total heal: <healing>@f1@</healing>"
+     },
+     {
+      "iconPath": "/lol-game-data/assets/v1/perk-images/Styles/Resolve/BonePlating/BonePlating.png",
+      "id": 8473,
+      "longDesc": "After taking damage from an enemy champion, the next 3 spells or attacks you receive from them deal 30-60 (based on level) less damage.<br><br>Duration: 1.5s<br>Cooldown: 55s",
+      "name": "Bone Plating",
+      "recommendationDescriptor": "",
+      "shortDesc": "After taking damage from an enemy champion, the next 3 spells or attacks you receive from them deal 30-60 (based on level) less damage.<br><br>Duration: 1.5s<br>Cooldown: 55s",
+      "slotType": "kMixedRegularSplashable",
+      "styleId": 8400,
+      "styleIdName": "resolve",
+      "tooltip": "After taking damage from an enemy champion, the next 3 spells or attacks you receive from them deal @BlockCalc@ less damage.<br>Duration: 1.5s<br>Cooldown: 55s<br><br>Total Damage Reduced: <scaleLevel>@f1@</scaleLevel>"
+     },
+     {
+      "iconPath": "/lol-game-data/assets/v1/perk-images/Styles/Sorcery/Unflinching/Unflinching.png",
+      "id": 8242,
+      "longDesc": "Gain 10 Armor and Magic Resist when crowd controlled and for 2 seconds after.",
+      "name": "Unflinching",
+      "recommendationDescriptor": "",
+      "shortDesc": "Gain Armor and Magic Resist when receiving crowd control.",
+      "slotType": "kMixedRegularSplashable",
+      "styleId": 8400,
+      "styleIdName": "resolve",
+      "tooltip": "Gain <scaleLevel>@f1@</scaleLevel> <scaleArmor>Armor</scaleArmor> and <scaleMR>Magic Resist</scaleMR> while crowd controlled and for 2s after.<br><br>Total combat time with increased resistances: @f6@s."
+     },
+     {
+      "iconPath": "/lol-game-data/assets/v1/perk-images/Styles/Domination/CheapShot/CheapShot.png",
+      "id": 8126,
+      "longDesc": "Damaging champions with <b>impaired movement or actions</b> deals 10 - 45 bonus true damage (based on level).<br><br>Cooldown: 4s<br><rules>Activates on damage occurring after the impairment.</rules>",
+      "name": "Cheap Shot",
+      "recommendationDescriptor": "Earned by winning ranked games in Season 2020 - Split 1.",
+      "shortDesc": "Deal bonus true damage to enemy champions with <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_ImpairAct'>impaired movement or actions</lol-uikit-tooltipped-keyword>. ",
+      "slotType": "kMixedRegularSplashable",
+      "styleId": 8100,
+      "styleIdName": "domination",
+      "tooltip": "Damaging champions with <b>impaired movement or actions</b> deals <trueDamage>@DamageCalc@ bonus true damage</trueDamage>.<br>Cooldown: 4s<br><rules>Activates on damage occurring after the impairment.</rules><br><br>Total bonus damage dealt: @f1@"
+     },
+     {
+      "iconPath": "/lol-game-data/assets/v1/perk-images/Styles/Domination/UltimateHunter/UltimateHunter.png",
+      "id": 8106,
+      "longDesc": "Your ultimate gains <attention>6</attention> Ability Haste, plus an additional <attention>5</attention> Ability Haste per <i>Bounty Hunter</i> stack. <i>Bounty Hunter</i> stacks are earned the first time you get a takedown on each enemy champion.",
+      "name": "Ultimate Hunter",
+      "recommendationDescriptor": "",
+      "shortDesc": "<b>Unique</b> <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Takedown'>takedowns</lol-uikit-tooltipped-keyword> grant permanent cooldown reduction on your Ultimate. ",
+      "slotType": "kMixedRegularSplashable",
+      "styleId": 8100,
+      "styleIdName": "domination",
+      "tooltip": "Your ultimate gains <attention>6</attention> Ability Haste, plus an additional <attention>5</attention> Ability Haste per <i>Bounty Hunter</i> stack. <i>Bounty Hunter</i> stacks are earned the first time you get a takedown on each enemy champion.<br><br>Current Ultimate Hunter increase: <attention>@f3@ Ultimate Haste</attention><br><br><u>No Claimable Bounties</u>"
+     },
+     {
+      "iconPath": "/lol-game-data/assets/v1/perk-images/StatMods/StatModsAdaptiveForceIcon.png",
+      "id": 5008,
+      "longDesc": "+9 <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>Adaptive Force</font></lol-uikit-tooltipped-keyword>",
+      "name": "Adaptive Force",
+      "recommendationDescriptor": "",
+      "shortDesc": "+9 <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>Adaptive Force</font></lol-uikit-tooltipped-keyword>",
+      "slotType": "kStatMod",
+      "styleId": 8400,
+      "styleIdName": "resolve",
+      "tooltip": "<scaleAD>+@f2@ Attack Damage</scaleAD>"
+     },
+     {
+      "iconPath": "/lol-game-data/assets/v1/perk-images/StatMods/StatModsAdaptiveForceIcon.png",
+      "id": 5008,
+      "longDesc": "+9 <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>Adaptive Force</font></lol-uikit-tooltipped-keyword>",
+      "name": "Adaptive Force",
+      "recommendationDescriptor": "",
+      "shortDesc": "+9 <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>Adaptive Force</font></lol-uikit-tooltipped-keyword>",
+      "slotType": "kStatMod",
+      "styleId": 8400,
+      "styleIdName": "resolve",
+      "tooltip": "<scaleAD>+@f2@ Attack Damage</scaleAD>"
+     },
+     {
+      "iconPath": "/lol-game-data/assets/v1/perk-images/StatMods/StatModsHealthPlusIcon.png",
+      "id": 5001,
+      "longDesc": "+10-180 Health (based on level)",
+      "name": "Health Scaling",
+      "recommendationDescriptor": "",
+      "shortDesc": "+10-180 Health (based on level)",
+      "slotType": "kStatMod",
+      "styleId": 8400,
+      "styleIdName": "resolve",
+      "tooltip": "<scaleHealth>+@f1@ Health</scaleHealth> (based on level)"
+     }
+    ],
+    "position": "JUNGLE",
+    "primaryPerkStyleId": 8400,
+    "primaryRecommendationAttribute": "kDurability",
+    "recommendationChampionId": 32,
+    "recommendationId": "2026-09-14.000543",
+    "secondaryPerkStyleId": 8100,
+    "secondaryRecommendationAttribute": "kUtility",
+    "summonerSpellIds": [
+     4,
+     11
+    ]
+   },
+   {
+    "isDefaultPosition": true,
+    "isRecommendationOverride": false,
+    "keystone": {
+     "iconPath": "/lol-game-data/assets/v1/perk-images/Styles/Precision/Conqueror/Conqueror.png",
+     "id": 8010,
+     "longDesc": "Basic attacks or spells that deal damage to an enemy champion grant 2 stacks of Conqueror for 5s, gaining 1.8-4 <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>Adaptive Force</font></lol-uikit-tooltipped-keyword> per stack. Stacks up to 12 times. Ranged champions gain only 1 stack per basic attack.<br><br>When fully stacked, heal for 8% of the damage you deal to champions (5% for ranged champions).",
+     "name": "Conqueror",
+     "recommendationDescriptor": "Bonus Damage, Sustain",
+     "shortDesc": "Gain stacks of adaptive force when attacking enemy champions. After reaching 12 stacks, heal for a portion of damage you deal to champions.",
+     "slotType": "kKeyStone",
+     "styleId": 8000,
+     "styleIdName": "precision",
+     "tooltip": "Basic attacks or spells that deal damage to an enemy champion grant 2 stacks of Conqueror for 5s, gaining <scaleLevel>@f5.1@</scaleLevel> <scaleAD>Attack Damage</scaleAD> per stack. Stacks up to 12 times. Ranged champions gain only 1 stack per basic attack.<br><br>When fully stacked, heal for 8% of the damage you deal to champions (5% for ranged champions).<br><br>Total Healing: @f1@"
+    },
+    "perks": [
+     {
+      "iconPath": "/lol-game-data/assets/v1/perk-images/Styles/Precision/Conqueror/Conqueror.png",
+      "id": 8010,
+      "longDesc": "Basic attacks or spells that deal damage to an enemy champion grant 2 stacks of Conqueror for 5s, gaining 1.8-4 <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>Adaptive Force</font></lol-uikit-tooltipped-keyword> per stack. Stacks up to 12 times. Ranged champions gain only 1 stack per basic attack.<br><br>When fully stacked, heal for 8% of the damage you deal to champions (5% for ranged champions).",
+      "name": "Conqueror",
+      "recommendationDescriptor": "Bonus Damage, Sustain",
+      "shortDesc": "Gain stacks of adaptive force when attacking enemy champions. After reaching 12 stacks, heal for a portion of damage you deal to champions.",
+      "slotType": "kKeyStone",
+      "styleId": 8000,
+      "styleIdName": "precision",
+      "tooltip": "Basic attacks or spells that deal damage to an enemy champion grant 2 stacks of Conqueror for 5s, gaining <scaleLevel>@f5.1@</scaleLevel> <scaleAD>Attack Damage</scaleAD> per stack. Stacks up to 12 times. Ranged champions gain only 1 stack per basic attack.<br><br>When fully stacked, heal for 8% of the damage you deal to champions (5% for ranged champions).<br><br>Total Healing: @f1@"
+     },
+     {
+      "iconPath": "/lol-game-data/assets/v1/perk-images/Styles/Precision/Triumph.png",
+      "id": 9111,
+      "longDesc": "Takedowns restore 5% of your missing health, 2.5% of your max health, and grant an additional 20 gold. <br><br><hr><br><i>'The most dangerous game brings the greatest glory.' <br>—Noxian Reckoner</i>",
+      "name": "Triumph",
+      "recommendationDescriptor": "",
+      "shortDesc": "<lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Takedown'>Takedowns</lol-uikit-tooltipped-keyword> restore 5% of your missing health and grant an additional 20 gold. ",
+      "slotType": "kMixedRegularSplashable",
+      "styleId": 8000,
+      "styleIdName": "precision",
+      "tooltip": "Takedowns <healing>restore @MaxHealthCalc@ plus 5% of your missing health</healing> and grant an additional <gold>20 gold</gold>. <br><br>Total health restored: <healing>@f1@</healing><br>Total bonus gold granted: <gold>@f2@</gold>"
+     },
+     {
+      "iconPath": "/lol-game-data/assets/v1/perk-images/Styles/Precision/LegendHaste/LegendHaste.png",
+      "id": 9105,
+      "longDesc": "Gain 1.5 basic ability haste for every <i>Legend</i> stack (<statGood>max 10 stacks</statGood>).<br><br>Earn progress toward <i>Legend</i> stacks for every champion takedown, epic monster takedown, large monster kill, and minion kill.",
+      "name": "Legend: Haste",
+      "recommendationDescriptor": "",
+      "shortDesc": "<lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Takedown'>Takedowns</lol-uikit-tooltipped-keyword> on enemies grant permanent Basic Ability <b>Haste</b>. ",
+      "slotType": "kMixedRegularSplashable",
+      "styleId": 8000,
+      "styleIdName": "precision",
+      "tooltip": "Gain 1.5 basic ability haste for every <i>Legend</i> stack (<statGood>max 10 stacks</statGood>).<br><br>Earn progress toward <i>Legend</i> stacks for every champion takedown, epic monster takedown, large monster kill, and minion kill.<br><hr><br>Total Basic Ability Haste granted: <scaleAD>@f1.1@</scaleAD> (<statGood>@f3@ of 10</statGood>)<br>Progress Towards Next Stack: @f2@%"
+     },
+     {
+      "iconPath": "/lol-game-data/assets/v1/perk-images/Styles/Sorcery/LastStand/LastStand.png",
+      "id": 8299,
+      "longDesc": "Deal 5% - 11% increased damage to champions while you are below 60% health. Max damage gained at 30% health.",
+      "name": "Last Stand",
+      "recommendationDescriptor": "",
+      "shortDesc": "Deal more damage to champions while you are low on health.",
+      "slotType": "kMixedRegularSplashable",
+      "styleId": 8000,
+      "styleIdName": "precision",
+      "tooltip": "Deal 5% - 11% increased damage to champions while you are below 60% health. Max damage gained at 30% health.<br><br><rules>Minimum bonus is 5%.<br>Maximum bonus is granted while below 30% health.</rules><br><hr><br>Total bonus damage: <scaleAD>@f1@</scaleAD>"
+     },
+     {
+      "iconPath": "/lol-game-data/assets/v1/perk-images/Styles/Domination/CheapShot/CheapShot.png",
+      "id": 8126,
+      "longDesc": "Damaging champions with <b>impaired movement or actions</b> deals 10 - 45 bonus true damage (based on level).<br><br>Cooldown: 4s<br><rules>Activates on damage occurring after the impairment.</rules>",
+      "name": "Cheap Shot",
+      "recommendationDescriptor": "Earned by winning ranked games in Season 2020 - Split 1.",
+      "shortDesc": "Deal bonus true damage to enemy champions with <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_ImpairAct'>impaired movement or actions</lol-uikit-tooltipped-keyword>. ",
+      "slotType": "kMixedRegularSplashable",
+      "styleId": 8100,
+      "styleIdName": "domination",
+      "tooltip": "Damaging champions with <b>impaired movement or actions</b> deals <trueDamage>@DamageCalc@ bonus true damage</trueDamage>.<br>Cooldown: 4s<br><rules>Activates on damage occurring after the impairment.</rules><br><br>Total bonus damage dealt: @f1@"
+     },
+     {
+      "iconPath": "/lol-game-data/assets/v1/perk-images/Styles/Domination/UltimateHunter/UltimateHunter.png",
+      "id": 8106,
+      "longDesc": "Your ultimate gains <attention>6</attention> Ability Haste, plus an additional <attention>5</attention> Ability Haste per <i>Bounty Hunter</i> stack. <i>Bounty Hunter</i> stacks are earned the first time you get a takedown on each enemy champion.",
+      "name": "Ultimate Hunter",
+      "recommendationDescriptor": "",
+      "shortDesc": "<b>Unique</b> <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Takedown'>takedowns</lol-uikit-tooltipped-keyword> grant permanent cooldown reduction on your Ultimate. ",
+      "slotType": "kMixedRegularSplashable",
+      "styleId": 8100,
+      "styleIdName": "domination",
+      "tooltip": "Your ultimate gains <attention>6</attention> Ability Haste, plus an additional <attention>5</attention> Ability Haste per <i>Bounty Hunter</i> stack. <i>Bounty Hunter</i> stacks are earned the first time you get a takedown on each enemy champion.<br><br>Current Ultimate Hunter increase: <attention>@f3@ Ultimate Haste</attention><br><br><u>No Claimable Bounties</u>"
+     },
+     {
+      "iconPath": "/lol-game-data/assets/v1/perk-images/StatMods/StatModsAttackSpeedIcon.png",
+      "id": 5005,
+      "longDesc": "+10% Attack Speed",
+      "name": "Attack Speed",
+      "recommendationDescriptor": "",
+      "shortDesc": "+10% Attack Speed",
+      "slotType": "kStatMod",
+      "styleId": 8400,
+      "styleIdName": "resolve",
+      "tooltip": "+10% Attack Speed"
+     },
+     {
+      "iconPath": "/lol-game-data/assets/v1/perk-images/StatMods/StatModsAdaptiveForceIcon.png",
+      "id": 5008,
+      "longDesc": "+9 <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>Adaptive Force</font></lol-uikit-tooltipped-keyword>",
+      "name": "Adaptive Force",
+      "recommendationDescriptor": "",
+      "shortDesc": "+9 <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>Adaptive Force</font></lol-uikit-tooltipped-keyword>",
+      "slotType": "kStatMod",
+      "styleId": 8400,
+      "styleIdName": "resolve",
+      "tooltip": "<scaleAD>+@f2@ Attack Damage</scaleAD>"
+     },
+     {
+      "iconPath": "/lol-game-data/assets/v1/perk-images/StatMods/StatModsHealthPlusIcon.png",
+      "id": 5001,
+      "longDesc": "+10-180 Health (based on level)",
+      "name": "Health Scaling",
+      "recommendationDescriptor": "",
+      "shortDesc": "+10-180 Health (based on level)",
+      "slotType": "kStatMod",
+      "styleId": 8400,
+      "styleIdName": "resolve",
+      "tooltip": "<scaleHealth>+@f1@ Health</scaleHealth> (based on level)"
+     }
+    ],
+    "position": "JUNGLE",
+    "primaryPerkStyleId": 8000,
+    "primaryRecommendationAttribute": "kDamagePerSecond",
+    "recommendationChampionId": 32,
+    "recommendationId": "2026-09-14.000542",
+    "secondaryPerkStyleId": 8100,
+    "secondaryRecommendationAttribute": "kCooldown",
+    "summonerSpellIds": [
+     4,
+     11
+    ]
+   },
+   {
+    "isDefaultPosition": true,
+    "isRecommendationOverride": false,
+    "keystone": {
+     "iconPath": "/lol-game-data/assets/v1/perk-images/Styles/Precision/Conqueror/Conqueror.png",
+     "id": 8010,
+     "longDesc": "Basic attacks or spells that deal damage to an enemy champion grant 2 stacks of Conqueror for 5s, gaining 1.8-4 <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>Adaptive Force</font></lol-uikit-tooltipped-keyword> per stack. Stacks up to 12 times. Ranged champions gain only 1 stack per basic attack.<br><br>When fully stacked, heal for 8% of the damage you deal to champions (5% for ranged champions).",
+     "name": "Conqueror",
+     "recommendationDescriptor": "Bonus Damage, Sustain",
+     "shortDesc": "Gain stacks of adaptive force when attacking enemy champions. After reaching 12 stacks, heal for a portion of damage you deal to champions.",
+     "slotType": "kKeyStone",
+     "styleId": 8000,
+     "styleIdName": "precision",
+     "tooltip": "Basic attacks or spells that deal damage to an enemy champion grant 2 stacks of Conqueror for 5s, gaining <scaleLevel>@f5.1@</scaleLevel> <scaleAD>Attack Damage</scaleAD> per stack. Stacks up to 12 times. Ranged champions gain only 1 stack per basic attack.<br><br>When fully stacked, heal for 8% of the damage you deal to champions (5% for ranged champions).<br><br>Total Healing: @f1@"
+    },
+    "perks": [
+     {
+      "iconPath": "/lol-game-data/assets/v1/perk-images/Styles/Precision/Conqueror/Conqueror.png",
+      "id": 8010,
+      "longDesc": "Basic attacks or spells that deal damage to an enemy champion grant 2 stacks of Conqueror for 5s, gaining 1.8-4 <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>Adaptive Force</font></lol-uikit-tooltipped-keyword> per stack. Stacks up to 12 times. Ranged champions gain only 1 stack per basic attack.<br><br>When fully stacked, heal for 8% of the damage you deal to champions (5% for ranged champions).",
+      "name": "Conqueror",
+      "recommendationDescriptor": "Bonus Damage, Sustain",
+      "shortDesc": "Gain stacks of adaptive force when attacking enemy champions. After reaching 12 stacks, heal for a portion of damage you deal to champions.",
+      "slotType": "kKeyStone",
+      "styleId": 8000,
+      "styleIdName": "precision",
+      "tooltip": "Basic attacks or spells that deal damage to an enemy champion grant 2 stacks of Conqueror for 5s, gaining <scaleLevel>@f5.1@</scaleLevel> <scaleAD>Attack Damage</scaleAD> per stack. Stacks up to 12 times. Ranged champions gain only 1 stack per basic attack.<br><br>When fully stacked, heal for 8% of the damage you deal to champions (5% for ranged champions).<br><br>Total Healing: @f1@"
+     },
+     {
+      "iconPath": "/lol-game-data/assets/v1/perk-images/Styles/Precision/Triumph.png",
+      "id": 9111,
+      "longDesc": "Takedowns restore 5% of your missing health, 2.5% of your max health, and grant an additional 20 gold. <br><br><hr><br><i>'The most dangerous game brings the greatest glory.' <br>—Noxian Reckoner</i>",
+      "name": "Triumph",
+      "recommendationDescriptor": "",
+      "shortDesc": "<lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Takedown'>Takedowns</lol-uikit-tooltipped-keyword> restore 5% of your missing health and grant an additional 20 gold. ",
+      "slotType": "kMixedRegularSplashable",
+      "styleId": 8000,
+      "styleIdName": "precision",
+      "tooltip": "Takedowns <healing>restore @MaxHealthCalc@ plus 5% of your missing health</healing> and grant an additional <gold>20 gold</gold>. <br><br>Total health restored: <healing>@f1@</healing><br>Total bonus gold granted: <gold>@f2@</gold>"
+     },
+     {
+      "iconPath": "/lol-game-data/assets/v1/perk-images/Styles/Precision/LegendHaste/LegendHaste.png",
+      "id": 9105,
+      "longDesc": "Gain 1.5 basic ability haste for every <i>Legend</i> stack (<statGood>max 10 stacks</statGood>).<br><br>Earn progress toward <i>Legend</i> stacks for every champion takedown, epic monster takedown, large monster kill, and minion kill.",
+      "name": "Legend: Haste",
+      "recommendationDescriptor": "",
+      "shortDesc": "<lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Takedown'>Takedowns</lol-uikit-tooltipped-keyword> on enemies grant permanent Basic Ability <b>Haste</b>. ",
+      "slotType": "kMixedRegularSplashable",
+      "styleId": 8000,
+      "styleIdName": "precision",
+      "tooltip": "Gain 1.5 basic ability haste for every <i>Legend</i> stack (<statGood>max 10 stacks</statGood>).<br><br>Earn progress toward <i>Legend</i> stacks for every champion takedown, epic monster takedown, large monster kill, and minion kill.<br><hr><br>Total Basic Ability Haste granted: <scaleAD>@f1.1@</scaleAD> (<statGood>@f3@ of 10</statGood>)<br>Progress Towards Next Stack: @f2@%"
+     },
+     {
+      "iconPath": "/lol-game-data/assets/v1/perk-images/Styles/Sorcery/LastStand/LastStand.png",
+      "id": 8299,
+      "longDesc": "Deal 5% - 11% increased damage to champions while you are below 60% health. Max damage gained at 30% health.",
+      "name": "Last Stand",
+      "recommendationDescriptor": "",
+      "shortDesc": "Deal more damage to champions while you are low on health.",
+      "slotType": "kMixedRegularSplashable",
+      "styleId": 8000,
+      "styleIdName": "precision",
+      "tooltip": "Deal 5% - 11% increased damage to champions while you are below 60% health. Max damage gained at 30% health.<br><br><rules>Minimum bonus is 5%.<br>Maximum bonus is granted while below 30% health.</rules><br><hr><br>Total bonus damage: <scaleAD>@f1@</scaleAD>"
+     },
+     {
+      "iconPath": "/lol-game-data/assets/v1/perk-images/Styles/Resolve/Conditioning/Conditioning.png",
+      "id": 8429,
+      "longDesc": "After 12 min gain +8 Armor and +8 Magic Resist and increase your Armor and Magic Resist by 3%.",
+      "name": "Conditioning",
+      "recommendationDescriptor": "",
+      "shortDesc": "After 12 min gain +8 Armor and +8 Magic Resist and increase your Armor and Magic Resist by 3%.",
+      "slotType": "kMixedRegularSplashable",
+      "styleId": 8400,
+      "styleIdName": "resolve",
+      "tooltip": "After 12 minutes gain <scaleArmor>@ArmorCalcTooltip@ Armor</scaleArmor> and <scaleMR>@MagicResistCalcTooltip@ Magic Resist</scaleMR>."
+     },
+     {
+      "iconPath": "/lol-game-data/assets/v1/perk-images/Styles/Resolve/Overgrowth/Overgrowth.png",
+      "id": 8451,
+      "longDesc": "Absorb life essence from monsters or enemy minions that die near you, permanently gaining 3 maximum health for every 8.<br><br>When you've absorbed 120 monsters or enemy minions, gain an additional 3.5% maximum health.",
+      "name": "Overgrowth",
+      "recommendationDescriptor": "",
+      "shortDesc": "Gain permanent max health when minions or monsters die near you.",
+      "slotType": "kMixedRegularSplashable",
+      "styleId": 8400,
+      "styleIdName": "resolve",
+      "tooltip": "Absorb life essence from monsters or enemy minions that die near you, permanently gaining 3 maximum health for every 8.<br><br>When you've absorbed 120 monsters or enemy minions, gain an additional 3.5% maximum health.<br><hr><br>Total Max Health Earned: <scaleHealth>@f1@</scaleHealth><br>Enemies Absorbed: <passiveText>@f2@</passiveText>"
+     },
+     {
+      "iconPath": "/lol-game-data/assets/v1/perk-images/StatMods/StatModsAdaptiveForceIcon.png",
+      "id": 5008,
+      "longDesc": "+9 <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>Adaptive Force</font></lol-uikit-tooltipped-keyword>",
+      "name": "Adaptive Force",
+      "recommendationDescriptor": "",
+      "shortDesc": "+9 <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>Adaptive Force</font></lol-uikit-tooltipped-keyword>",
+      "slotType": "kStatMod",
+      "styleId": 8400,
+      "styleIdName": "resolve",
+      "tooltip": "<scaleAD>+@f2@ Attack Damage</scaleAD>"
+     },
+     {
+      "iconPath": "/lol-game-data/assets/v1/perk-images/StatMods/StatModsAdaptiveForceIcon.png",
+      "id": 5008,
+      "longDesc": "+9 <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>Adaptive Force</font></lol-uikit-tooltipped-keyword>",
+      "name": "Adaptive Force",
+      "recommendationDescriptor": "",
+      "shortDesc": "+9 <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>Adaptive Force</font></lol-uikit-tooltipped-keyword>",
+      "slotType": "kStatMod",
+      "styleId": 8400,
+      "styleIdName": "resolve",
+      "tooltip": "<scaleAD>+@f2@ Attack Damage</scaleAD>"
+     },
+     {
+      "iconPath": "/lol-game-data/assets/v1/perk-images/StatMods/StatModsHealthPlusIcon.png",
+      "id": 5001,
+      "longDesc": "+10-180 Health (based on level)",
+      "name": "Health Scaling",
+      "recommendationDescriptor": "",
+      "shortDesc": "+10-180 Health (based on level)",
+      "slotType": "kStatMod",
+      "styleId": 8400,
+      "styleIdName": "resolve",
+      "tooltip": "<scaleHealth>+@f1@ Health</scaleHealth> (based on level)"
+     }
+    ],
+    "position": "JUNGLE",
+    "primaryPerkStyleId": 8000,
+    "primaryRecommendationAttribute": "kDurability",
+    "recommendationChampionId": 32,
+    "recommendationId": "2026-09-14.000544",
+    "secondaryPerkStyleId": 8400,
+    "secondaryRecommendationAttribute": "kDamagePerSecond",
+    "summonerSpellIds": [
+     4,
+     11
+    ]
+   }
+  ]
+ },
+ "enriched": [
+  {
+   "isDefaultPosition": true,
+   "isRecommendationOverride": false,
+   "keystone": {
+    "iconPath": "/lol-game-data/assets/v1/perk-images/Styles/Resolve/VeteranAftershock/VeteranAftershock.png",
+    "id": 8439,
+    "longDesc": "After immobilizing an enemy champion, increase your Armor and Magic Resist by 45 + 75% of your Bonus Resists for 2.5s. Then explode, dealing magic damage to nearby enemies.<br><br>Damage: 25 - 120 (+8% of your bonus health)<br>Cooldown: 20s<br><br>Resistance bonus from Aftershock capped at: 80-150 (based on level)<br>",
+    "name": "Aftershock",
+    "recommendationDescriptor": "Burst Defenses",
+    "shortDesc": "After <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Immobilize'>immobilizing</lol-uikit-tooltipped-keyword> an enemy champion gain defenses and later deal a burst of magic damage around you.",
+    "slotType": "kKeyStone",
+    "styleId": 8400,
+    "styleIdName": "resolve",
+    "tooltip": "After immobilizing an enemy champion, gain <scaleArmor>@ArmorBuff@ Armor</scaleArmor> and <scaleMR>@MagicResistBuff@ Magic Resist</scaleMR> for 2.5s. Then explode, dealing <magicDamage>@DamageCalc@ magic damage</magicDamage> to nearby enemies.<br>Cooldown: 20s<br><rules><i>Resist gains are capped at @MaxResistCalc@</i></rules><br><br>Total damage dealt: <magicDamage>@f1@</magicDamage><br>Total damage mitigated: <scaleHealth>@f9@</scaleHealth>"
+   },
+   "perks": [
+    {
+     "iconPath": "/lol-game-data/assets/v1/perk-images/Styles/Resolve/VeteranAftershock/VeteranAftershock.png",
+     "id": 8439,
+     "longDesc": "After immobilizing an enemy champion, increase your Armor and Magic Resist by 45 + 75% of your Bonus Resists for 2.5s. Then explode, dealing magic damage to nearby enemies.<br><br>Damage: 25 - 120 (+8% of your bonus health)<br>Cooldown: 20s<br><br>Resistance bonus from Aftershock capped at: 80-150 (based on level)<br>",
+     "name": "Aftershock",
+     "recommendationDescriptor": "Burst Defenses",
+     "shortDesc": "After <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Immobilize'>immobilizing</lol-uikit-tooltipped-keyword> an enemy champion gain defenses and later deal a burst of magic damage around you.",
+     "slotType": "kKeyStone",
+     "styleId": 8400,
+     "styleIdName": "resolve",
+     "tooltip": "After immobilizing an enemy champion, gain <scaleArmor>@ArmorBuff@ Armor</scaleArmor> and <scaleMR>@MagicResistBuff@ Magic Resist</scaleMR> for 2.5s. Then explode, dealing <magicDamage>@DamageCalc@ magic damage</magicDamage> to nearby enemies.<br>Cooldown: 20s<br><rules><i>Resist gains are capped at @MaxResistCalc@</i></rules><br><br>Total damage dealt: <magicDamage>@f1@</magicDamage><br>Total damage mitigated: <scaleHealth>@f9@</scaleHealth>"
+    },
+    {
+     "iconPath": "/lol-game-data/assets/v1/perk-images/Styles/Resolve/FontOfLife/FontOfLife.png",
+     "id": 8463,
+     "longDesc": "Impairing the movement of an enemy champion restores Health to you and the lowest health nearby allied champion.<br><br>70% effect for Ranged Users.<br><br>Cooldown: 20s",
+     "name": "Font of Life",
+     "recommendationDescriptor": "",
+     "shortDesc": "<lol-uikit-tooltipped-keyword key='LinkTooltip_Description_ImpairMov'>Impairing</lol-uikit-tooltipped-keyword> the movement of an enemy champion heals nearby allied champions. ",
+     "slotType": "kMixedRegularSplashable",
+     "styleId": 8400,
+     "styleIdName": "resolve",
+     "tooltip": "Impairing the movement of an enemy champion restores <healing>@BaseHeal@ Health</healing> to you and the lowest health nearby allied champion.<br>Cooldown: 20s<br><br>Total heal: <healing>@f1@</healing>"
+    },
+    {
+     "iconPath": "/lol-game-data/assets/v1/perk-images/Styles/Resolve/BonePlating/BonePlating.png",
+     "id": 8473,
+     "longDesc": "After taking damage from an enemy champion, the next 3 spells or attacks you receive from them deal 30-60 (based on level) less damage.<br><br>Duration: 1.5s<br>Cooldown: 55s",
+     "name": "Bone Plating",
+     "recommendationDescriptor": "",
+     "shortDesc": "After taking damage from an enemy champion, the next 3 spells or attacks you receive from them deal 30-60 (based on level) less damage.<br><br>Duration: 1.5s<br>Cooldown: 55s",
+     "slotType": "kMixedRegularSplashable",
+     "styleId": 8400,
+     "styleIdName": "resolve",
+     "tooltip": "After taking damage from an enemy champion, the next 3 spells or attacks you receive from them deal @BlockCalc@ less damage.<br>Duration: 1.5s<br>Cooldown: 55s<br><br>Total Damage Reduced: <scaleLevel>@f1@</scaleLevel>"
+    },
+    {
+     "iconPath": "/lol-game-data/assets/v1/perk-images/Styles/Sorcery/Unflinching/Unflinching.png",
+     "id": 8242,
+     "longDesc": "Gain 10 Armor and Magic Resist when crowd controlled and for 2 seconds after.",
+     "name": "Unflinching",
+     "recommendationDescriptor": "",
+     "shortDesc": "Gain Armor and Magic Resist when receiving crowd control.",
+     "slotType": "kMixedRegularSplashable",
+     "styleId": 8400,
+     "styleIdName": "resolve",
+     "tooltip": "Gain <scaleLevel>@f1@</scaleLevel> <scaleArmor>Armor</scaleArmor> and <scaleMR>Magic Resist</scaleMR> while crowd controlled and for 2s after.<br><br>Total combat time with increased resistances: @f6@s."
+    },
+    {
+     "iconPath": "/lol-game-data/assets/v1/perk-images/Styles/Domination/CheapShot/CheapShot.png",
+     "id": 8126,
+     "longDesc": "Damaging champions with <b>impaired movement or actions</b> deals 10 - 45 bonus true damage (based on level).<br><br>Cooldown: 4s<br><rules>Activates on damage occurring after the impairment.</rules>",
+     "name": "Cheap Shot",
+     "recommendationDescriptor": "Earned by winning ranked games in Season 2020 - Split 1.",
+     "shortDesc": "Deal bonus true damage to enemy champions with <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_ImpairAct'>impaired movement or actions</lol-uikit-tooltipped-keyword>. ",
+     "slotType": "kMixedRegularSplashable",
+     "styleId": 8100,
+     "styleIdName": "domination",
+     "tooltip": "Damaging champions with <b>impaired movement or actions</b> deals <trueDamage>@DamageCalc@ bonus true damage</trueDamage>.<br>Cooldown: 4s<br><rules>Activates on damage occurring after the impairment.</rules><br><br>Total bonus damage dealt: @f1@"
+    },
+    {
+     "iconPath": "/lol-game-data/assets/v1/perk-images/Styles/Domination/UltimateHunter/UltimateHunter.png",
+     "id": 8106,
+     "longDesc": "Your ultimate gains <attention>6</attention> Ability Haste, plus an additional <attention>5</attention> Ability Haste per <i>Bounty Hunter</i> stack. <i>Bounty Hunter</i> stacks are earned the first time you get a takedown on each enemy champion.",
+     "name": "Ultimate Hunter",
+     "recommendationDescriptor": "",
+     "shortDesc": "<b>Unique</b> <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Takedown'>takedowns</lol-uikit-tooltipped-keyword> grant permanent cooldown reduction on your Ultimate. ",
+     "slotType": "kMixedRegularSplashable",
+     "styleId": 8100,
+     "styleIdName": "domination",
+     "tooltip": "Your ultimate gains <attention>6</attention> Ability Haste, plus an additional <attention>5</attention> Ability Haste per <i>Bounty Hunter</i> stack. <i>Bounty Hunter</i> stacks are earned the first time you get a takedown on each enemy champion.<br><br>Current Ultimate Hunter increase: <attention>@f3@ Ultimate Haste</attention><br><br><u>No Claimable Bounties</u>"
+    },
+    {
+     "iconPath": "/lol-game-data/assets/v1/perk-images/StatMods/StatModsAdaptiveForceIcon.png",
+     "id": 5008,
+     "longDesc": "+9 <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>Adaptive Force</font></lol-uikit-tooltipped-keyword>",
+     "name": "Adaptive Force",
+     "recommendationDescriptor": "",
+     "shortDesc": "+9 <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>Adaptive Force</font></lol-uikit-tooltipped-keyword>",
+     "slotType": "kStatMod",
+     "styleId": 8400,
+     "styleIdName": "resolve",
+     "tooltip": "<scaleAD>+@f2@ Attack Damage</scaleAD>"
+    },
+    {
+     "iconPath": "/lol-game-data/assets/v1/perk-images/StatMods/StatModsAdaptiveForceIcon.png",
+     "id": 5008,
+     "longDesc": "+9 <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>Adaptive Force</font></lol-uikit-tooltipped-keyword>",
+     "name": "Adaptive Force",
+     "recommendationDescriptor": "",
+     "shortDesc": "+9 <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>Adaptive Force</font></lol-uikit-tooltipped-keyword>",
+     "slotType": "kStatMod",
+     "styleId": 8400,
+     "styleIdName": "resolve",
+     "tooltip": "<scaleAD>+@f2@ Attack Damage</scaleAD>"
+    },
+    {
+     "iconPath": "/lol-game-data/assets/v1/perk-images/StatMods/StatModsHealthPlusIcon.png",
+     "id": 5001,
+     "longDesc": "+10-180 Health (based on level)",
+     "name": "Health Scaling",
+     "recommendationDescriptor": "",
+     "shortDesc": "+10-180 Health (based on level)",
+     "slotType": "kStatMod",
+     "styleId": 8400,
+     "styleIdName": "resolve",
+     "tooltip": "<scaleHealth>+@f1@ Health</scaleHealth> (based on level)"
+    }
+   ],
+   "position": "JUNGLE",
+   "primaryPerkStyleId": 8400,
+   "primaryRecommendationAttribute": "kDurability",
+   "recommendationChampionId": 32,
+   "recommendationId": "2026-09-14.000543",
+   "secondaryPerkStyleId": 8100,
+   "secondaryRecommendationAttribute": "kUtility",
+   "summonerSpellIds": [
+    4,
+    11
+   ],
+   "primaryStyle": {
+    "name": "Resolve",
+    "icon": "/lol-game-data/assets/v1/perk-images/Styles/7204_Resolve.png"
+   },
+   "subStyle": {
+    "name": "Domination",
+    "icon": "/lol-game-data/assets/v1/perk-images/Styles/7200_Domination.png"
+   },
+   "perkDetails": [
+    {
+     "id": {
+      "iconPath": "/lol-game-data/assets/v1/perk-images/Styles/Resolve/VeteranAftershock/VeteranAftershock.png",
+      "id": 8439,
+      "longDesc": "After immobilizing an enemy champion, increase your Armor and Magic Resist by 45 + 75% of your Bonus Resists for 2.5s. Then explode, dealing magic damage to nearby enemies.<br><br>Damage: 25 - 120 (+8% of your bonus health)<br>Cooldown: 20s<br><br>Resistance bonus from Aftershock capped at: 80-150 (based on level)<br>",
+      "name": "Aftershock",
+      "recommendationDescriptor": "Burst Defenses",
+      "shortDesc": "After <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Immobilize'>immobilizing</lol-uikit-tooltipped-keyword> an enemy champion gain defenses and later deal a burst of magic damage around you.",
+      "slotType": "kKeyStone",
+      "styleId": 8400,
+      "styleIdName": "resolve",
+      "tooltip": "After immobilizing an enemy champion, gain <scaleArmor>@ArmorBuff@ Armor</scaleArmor> and <scaleMR>@MagicResistBuff@ Magic Resist</scaleMR> for 2.5s. Then explode, dealing <magicDamage>@DamageCalc@ magic damage</magicDamage> to nearby enemies.<br>Cooldown: 20s<br><rules><i>Resist gains are capped at @MaxResistCalc@</i></rules><br><br>Total damage dealt: <magicDamage>@f1@</magicDamage><br>Total damage mitigated: <scaleHealth>@f9@</scaleHealth>"
+     }
+    },
+    {
+     "id": {
+      "iconPath": "/lol-game-data/assets/v1/perk-images/Styles/Resolve/FontOfLife/FontOfLife.png",
+      "id": 8463,
+      "longDesc": "Impairing the movement of an enemy champion restores Health to you and the lowest health nearby allied champion.<br><br>70% effect for Ranged Users.<br><br>Cooldown: 20s",
+      "name": "Font of Life",
+      "recommendationDescriptor": "",
+      "shortDesc": "<lol-uikit-tooltipped-keyword key='LinkTooltip_Description_ImpairMov'>Impairing</lol-uikit-tooltipped-keyword> the movement of an enemy champion heals nearby allied champions. ",
+      "slotType": "kMixedRegularSplashable",
+      "styleId": 8400,
+      "styleIdName": "resolve",
+      "tooltip": "Impairing the movement of an enemy champion restores <healing>@BaseHeal@ Health</healing> to you and the lowest health nearby allied champion.<br>Cooldown: 20s<br><br>Total heal: <healing>@f1@</healing>"
+     }
+    },
+    {
+     "id": {
+      "iconPath": "/lol-game-data/assets/v1/perk-images/Styles/Resolve/BonePlating/BonePlating.png",
+      "id": 8473,
+      "longDesc": "After taking damage from an enemy champion, the next 3 spells or attacks you receive from them deal 30-60 (based on level) less damage.<br><br>Duration: 1.5s<br>Cooldown: 55s",
+      "name": "Bone Plating",
+      "recommendationDescriptor": "",
+      "shortDesc": "After taking damage from an enemy champion, the next 3 spells or attacks you receive from them deal 30-60 (based on level) less damage.<br><br>Duration: 1.5s<br>Cooldown: 55s",
+      "slotType": "kMixedRegularSplashable",
+      "styleId": 8400,
+      "styleIdName": "resolve",
+      "tooltip": "After taking damage from an enemy champion, the next 3 spells or attacks you receive from them deal @BlockCalc@ less damage.<br>Duration: 1.5s<br>Cooldown: 55s<br><br>Total Damage Reduced: <scaleLevel>@f1@</scaleLevel>"
+     }
+    },
+    {
+     "id": {
+      "iconPath": "/lol-game-data/assets/v1/perk-images/Styles/Sorcery/Unflinching/Unflinching.png",
+      "id": 8242,
+      "longDesc": "Gain 10 Armor and Magic Resist when crowd controlled and for 2 seconds after.",
+      "name": "Unflinching",
+      "recommendationDescriptor": "",
+      "shortDesc": "Gain Armor and Magic Resist when receiving crowd control.",
+      "slotType": "kMixedRegularSplashable",
+      "styleId": 8400,
+      "styleIdName": "resolve",
+      "tooltip": "Gain <scaleLevel>@f1@</scaleLevel> <scaleArmor>Armor</scaleArmor> and <scaleMR>Magic Resist</scaleMR> while crowd controlled and for 2s after.<br><br>Total combat time with increased resistances: @f6@s."
+     }
+    },
+    {
+     "id": {
+      "iconPath": "/lol-game-data/assets/v1/perk-images/Styles/Domination/CheapShot/CheapShot.png",
+      "id": 8126,
+      "longDesc": "Damaging champions with <b>impaired movement or actions</b> deals 10 - 45 bonus true damage (based on level).<br><br>Cooldown: 4s<br><rules>Activates on damage occurring after the impairment.</rules>",
+      "name": "Cheap Shot",
+      "recommendationDescriptor": "Earned by winning ranked games in Season 2020 - Split 1.",
+      "shortDesc": "Deal bonus true damage to enemy champions with <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_ImpairAct'>impaired movement or actions</lol-uikit-tooltipped-keyword>. ",
+      "slotType": "kMixedRegularSplashable",
+      "styleId": 8100,
+      "styleIdName": "domination",
+      "tooltip": "Damaging champions with <b>impaired movement or actions</b> deals <trueDamage>@DamageCalc@ bonus true damage</trueDamage>.<br>Cooldown: 4s<br><rules>Activates on damage occurring after the impairment.</rules><br><br>Total bonus damage dealt: @f1@"
+     }
+    },
+    {
+     "id": {
+      "iconPath": "/lol-game-data/assets/v1/perk-images/Styles/Domination/UltimateHunter/UltimateHunter.png",
+      "id": 8106,
+      "longDesc": "Your ultimate gains <attention>6</attention> Ability Haste, plus an additional <attention>5</attention> Ability Haste per <i>Bounty Hunter</i> stack. <i>Bounty Hunter</i> stacks are earned the first time you get a takedown on each enemy champion.",
+      "name": "Ultimate Hunter",
+      "recommendationDescriptor": "",
+      "shortDesc": "<b>Unique</b> <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Takedown'>takedowns</lol-uikit-tooltipped-keyword> grant permanent cooldown reduction on your Ultimate. ",
+      "slotType": "kMixedRegularSplashable",
+      "styleId": 8100,
+      "styleIdName": "domination",
+      "tooltip": "Your ultimate gains <attention>6</attention> Ability Haste, plus an additional <attention>5</attention> Ability Haste per <i>Bounty Hunter</i> stack. <i>Bounty Hunter</i> stacks are earned the first time you get a takedown on each enemy champion.<br><br>Current Ultimate Hunter increase: <attention>@f3@ Ultimate Haste</attention><br><br><u>No Claimable Bounties</u>"
+     }
+    },
+    {
+     "id": {
+      "iconPath": "/lol-game-data/assets/v1/perk-images/StatMods/StatModsAdaptiveForceIcon.png",
+      "id": 5008,
+      "longDesc": "+9 <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>Adaptive Force</font></lol-uikit-tooltipped-keyword>",
+      "name": "Adaptive Force",
+      "recommendationDescriptor": "",
+      "shortDesc": "+9 <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>Adaptive Force</font></lol-uikit-tooltipped-keyword>",
+      "slotType": "kStatMod",
+      "styleId": 8400,
+      "styleIdName": "resolve",
+      "tooltip": "<scaleAD>+@f2@ Attack Damage</scaleAD>"
+     }
+    },
+    {
+     "id": {
+      "iconPath": "/lol-game-data/assets/v1/perk-images/StatMods/StatModsAdaptiveForceIcon.png",
+      "id": 5008,
+      "longDesc": "+9 <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>Adaptive Force</font></lol-uikit-tooltipped-keyword>",
+      "name": "Adaptive Force",
+      "recommendationDescriptor": "",
+      "shortDesc": "+9 <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>Adaptive Force</font></lol-uikit-tooltipped-keyword>",
+      "slotType": "kStatMod",
+      "styleId": 8400,
+      "styleIdName": "resolve",
+      "tooltip": "<scaleAD>+@f2@ Attack Damage</scaleAD>"
+     }
+    },
+    {
+     "id": {
+      "iconPath": "/lol-game-data/assets/v1/perk-images/StatMods/StatModsHealthPlusIcon.png",
+      "id": 5001,
+      "longDesc": "+10-180 Health (based on level)",
+      "name": "Health Scaling",
+      "recommendationDescriptor": "",
+      "shortDesc": "+10-180 Health (based on level)",
+      "slotType": "kStatMod",
+      "styleId": 8400,
+      "styleIdName": "resolve",
+      "tooltip": "<scaleHealth>+@f1@ Health</scaleHealth> (based on level)"
+     }
+    }
+   ]
+  },
+  {
+   "isDefaultPosition": true,
+   "isRecommendationOverride": false,
+   "keystone": {
+    "iconPath": "/lol-game-data/assets/v1/perk-images/Styles/Precision/Conqueror/Conqueror.png",
+    "id": 8010,
+    "longDesc": "Basic attacks or spells that deal damage to an enemy champion grant 2 stacks of Conqueror for 5s, gaining 1.8-4 <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>Adaptive Force</font></lol-uikit-tooltipped-keyword> per stack. Stacks up to 12 times. Ranged champions gain only 1 stack per basic attack.<br><br>When fully stacked, heal for 8% of the damage you deal to champions (5% for ranged champions).",
+    "name": "Conqueror",
+    "recommendationDescriptor": "Bonus Damage, Sustain",
+    "shortDesc": "Gain stacks of adaptive force when attacking enemy champions. After reaching 12 stacks, heal for a portion of damage you deal to champions.",
+    "slotType": "kKeyStone",
+    "styleId": 8000,
+    "styleIdName": "precision",
+    "tooltip": "Basic attacks or spells that deal damage to an enemy champion grant 2 stacks of Conqueror for 5s, gaining <scaleLevel>@f5.1@</scaleLevel> <scaleAD>Attack Damage</scaleAD> per stack. Stacks up to 12 times. Ranged champions gain only 1 stack per basic attack.<br><br>When fully stacked, heal for 8% of the damage you deal to champions (5% for ranged champions).<br><br>Total Healing: @f1@"
+   },
+   "perks": [
+    {
+     "iconPath": "/lol-game-data/assets/v1/perk-images/Styles/Precision/Conqueror/Conqueror.png",
+     "id": 8010,
+     "longDesc": "Basic attacks or spells that deal damage to an enemy champion grant 2 stacks of Conqueror for 5s, gaining 1.8-4 <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>Adaptive Force</font></lol-uikit-tooltipped-keyword> per stack. Stacks up to 12 times. Ranged champions gain only 1 stack per basic attack.<br><br>When fully stacked, heal for 8% of the damage you deal to champions (5% for ranged champions).",
+     "name": "Conqueror",
+     "recommendationDescriptor": "Bonus Damage, Sustain",
+     "shortDesc": "Gain stacks of adaptive force when attacking enemy champions. After reaching 12 stacks, heal for a portion of damage you deal to champions.",
+     "slotType": "kKeyStone",
+     "styleId": 8000,
+     "styleIdName": "precision",
+     "tooltip": "Basic attacks or spells that deal damage to an enemy champion grant 2 stacks of Conqueror for 5s, gaining <scaleLevel>@f5.1@</scaleLevel> <scaleAD>Attack Damage</scaleAD> per stack. Stacks up to 12 times. Ranged champions gain only 1 stack per basic attack.<br><br>When fully stacked, heal for 8% of the damage you deal to champions (5% for ranged champions).<br><br>Total Healing: @f1@"
+    },
+    {
+     "iconPath": "/lol-game-data/assets/v1/perk-images/Styles/Precision/Triumph.png",
+     "id": 9111,
+     "longDesc": "Takedowns restore 5% of your missing health, 2.5% of your max health, and grant an additional 20 gold. <br><br><hr><br><i>'The most dangerous game brings the greatest glory.' <br>—Noxian Reckoner</i>",
+     "name": "Triumph",
+     "recommendationDescriptor": "",
+     "shortDesc": "<lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Takedown'>Takedowns</lol-uikit-tooltipped-keyword> restore 5% of your missing health and grant an additional 20 gold. ",
+     "slotType": "kMixedRegularSplashable",
+     "styleId": 8000,
+     "styleIdName": "precision",
+     "tooltip": "Takedowns <healing>restore @MaxHealthCalc@ plus 5% of your missing health</healing> and grant an additional <gold>20 gold</gold>. <br><br>Total health restored: <healing>@f1@</healing><br>Total bonus gold granted: <gold>@f2@</gold>"
+    },
+    {
+     "iconPath": "/lol-game-data/assets/v1/perk-images/Styles/Precision/LegendHaste/LegendHaste.png",
+     "id": 9105,
+     "longDesc": "Gain 1.5 basic ability haste for every <i>Legend</i> stack (<statGood>max 10 stacks</statGood>).<br><br>Earn progress toward <i>Legend</i> stacks for every champion takedown, epic monster takedown, large monster kill, and minion kill.",
+     "name": "Legend: Haste",
+     "recommendationDescriptor": "",
+     "shortDesc": "<lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Takedown'>Takedowns</lol-uikit-tooltipped-keyword> on enemies grant permanent Basic Ability <b>Haste</b>. ",
+     "slotType": "kMixedRegularSplashable",
+     "styleId": 8000,
+     "styleIdName": "precision",
+     "tooltip": "Gain 1.5 basic ability haste for every <i>Legend</i> stack (<statGood>max 10 stacks</statGood>).<br><br>Earn progress toward <i>Legend</i> stacks for every champion takedown, epic monster takedown, large monster kill, and minion kill.<br><hr><br>Total Basic Ability Haste granted: <scaleAD>@f1.1@</scaleAD> (<statGood>@f3@ of 10</statGood>)<br>Progress Towards Next Stack: @f2@%"
+    },
+    {
+     "iconPath": "/lol-game-data/assets/v1/perk-images/Styles/Sorcery/LastStand/LastStand.png",
+     "id": 8299,
+     "longDesc": "Deal 5% - 11% increased damage to champions while you are below 60% health. Max damage gained at 30% health.",
+     "name": "Last Stand",
+     "recommendationDescriptor": "",
+     "shortDesc": "Deal more damage to champions while you are low on health.",
+     "slotType": "kMixedRegularSplashable",
+     "styleId": 8000,
+     "styleIdName": "precision",
+     "tooltip": "Deal 5% - 11% increased damage to champions while you are below 60% health. Max damage gained at 30% health.<br><br><rules>Minimum bonus is 5%.<br>Maximum bonus is granted while below 30% health.</rules><br><hr><br>Total bonus damage: <scaleAD>@f1@</scaleAD>"
+    },
+    {
+     "iconPath": "/lol-game-data/assets/v1/perk-images/Styles/Domination/CheapShot/CheapShot.png",
+     "id": 8126,
+     "longDesc": "Damaging champions with <b>impaired movement or actions</b> deals 10 - 45 bonus true damage (based on level).<br><br>Cooldown: 4s<br><rules>Activates on damage occurring after the impairment.</rules>",
+     "name": "Cheap Shot",
+     "recommendationDescriptor": "Earned by winning ranked games in Season 2020 - Split 1.",
+     "shortDesc": "Deal bonus true damage to enemy champions with <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_ImpairAct'>impaired movement or actions</lol-uikit-tooltipped-keyword>. ",
+     "slotType": "kMixedRegularSplashable",
+     "styleId": 8100,
+     "styleIdName": "domination",
+     "tooltip": "Damaging champions with <b>impaired movement or actions</b> deals <trueDamage>@DamageCalc@ bonus true damage</trueDamage>.<br>Cooldown: 4s<br><rules>Activates on damage occurring after the impairment.</rules><br><br>Total bonus damage dealt: @f1@"
+    },
+    {
+     "iconPath": "/lol-game-data/assets/v1/perk-images/Styles/Domination/UltimateHunter/UltimateHunter.png",
+     "id": 8106,
+     "longDesc": "Your ultimate gains <attention>6</attention> Ability Haste, plus an additional <attention>5</attention> Ability Haste per <i>Bounty Hunter</i> stack. <i>Bounty Hunter</i> stacks are earned the first time you get a takedown on each enemy champion.",
+     "name": "Ultimate Hunter",
+     "recommendationDescriptor": "",
+     "shortDesc": "<b>Unique</b> <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Takedown'>takedowns</lol-uikit-tooltipped-keyword> grant permanent cooldown reduction on your Ultimate. ",
+     "slotType": "kMixedRegularSplashable",
+     "styleId": 8100,
+     "styleIdName": "domination",
+     "tooltip": "Your ultimate gains <attention>6</attention> Ability Haste, plus an additional <attention>5</attention> Ability Haste per <i>Bounty Hunter</i> stack. <i>Bounty Hunter</i> stacks are earned the first time you get a takedown on each enemy champion.<br><br>Current Ultimate Hunter increase: <attention>@f3@ Ultimate Haste</attention><br><br><u>No Claimable Bounties</u>"
+    },
+    {
+     "iconPath": "/lol-game-data/assets/v1/perk-images/StatMods/StatModsAttackSpeedIcon.png",
+     "id": 5005,
+     "longDesc": "+10% Attack Speed",
+     "name": "Attack Speed",
+     "recommendationDescriptor": "",
+     "shortDesc": "+10% Attack Speed",
+     "slotType": "kStatMod",
+     "styleId": 8400,
+     "styleIdName": "resolve",
+     "tooltip": "+10% Attack Speed"
+    },
+    {
+     "iconPath": "/lol-game-data/assets/v1/perk-images/StatMods/StatModsAdaptiveForceIcon.png",
+     "id": 5008,
+     "longDesc": "+9 <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>Adaptive Force</font></lol-uikit-tooltipped-keyword>",
+     "name": "Adaptive Force",
+     "recommendationDescriptor": "",
+     "shortDesc": "+9 <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>Adaptive Force</font></lol-uikit-tooltipped-keyword>",
+     "slotType": "kStatMod",
+     "styleId": 8400,
+     "styleIdName": "resolve",
+     "tooltip": "<scaleAD>+@f2@ Attack Damage</scaleAD>"
+    },
+    {
+     "iconPath": "/lol-game-data/assets/v1/perk-images/StatMods/StatModsHealthPlusIcon.png",
+     "id": 5001,
+     "longDesc": "+10-180 Health (based on level)",
+     "name": "Health Scaling",
+     "recommendationDescriptor": "",
+     "shortDesc": "+10-180 Health (based on level)",
+     "slotType": "kStatMod",
+     "styleId": 8400,
+     "styleIdName": "resolve",
+     "tooltip": "<scaleHealth>+@f1@ Health</scaleHealth> (based on level)"
+    }
+   ],
+   "position": "JUNGLE",
+   "primaryPerkStyleId": 8000,
+   "primaryRecommendationAttribute": "kDamagePerSecond",
+   "recommendationChampionId": 32,
+   "recommendationId": "2026-09-14.000542",
+   "secondaryPerkStyleId": 8100,
+   "secondaryRecommendationAttribute": "kCooldown",
+   "summonerSpellIds": [
+    4,
+    11
+   ],
+   "primaryStyle": {
+    "name": "Precision",
+    "icon": "/lol-game-data/assets/v1/perk-images/Styles/7201_Precision.png"
+   },
+   "subStyle": {
+    "name": "Domination",
+    "icon": "/lol-game-data/assets/v1/perk-images/Styles/7200_Domination.png"
+   },
+   "perkDetails": [
+    {
+     "id": {
+      "iconPath": "/lol-game-data/assets/v1/perk-images/Styles/Precision/Conqueror/Conqueror.png",
+      "id": 8010,
+      "longDesc": "Basic attacks or spells that deal damage to an enemy champion grant 2 stacks of Conqueror for 5s, gaining 1.8-4 <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>Adaptive Force</font></lol-uikit-tooltipped-keyword> per stack. Stacks up to 12 times. Ranged champions gain only 1 stack per basic attack.<br><br>When fully stacked, heal for 8% of the damage you deal to champions (5% for ranged champions).",
+      "name": "Conqueror",
+      "recommendationDescriptor": "Bonus Damage, Sustain",
+      "shortDesc": "Gain stacks of adaptive force when attacking enemy champions. After reaching 12 stacks, heal for a portion of damage you deal to champions.",
+      "slotType": "kKeyStone",
+      "styleId": 8000,
+      "styleIdName": "precision",
+      "tooltip": "Basic attacks or spells that deal damage to an enemy champion grant 2 stacks of Conqueror for 5s, gaining <scaleLevel>@f5.1@</scaleLevel> <scaleAD>Attack Damage</scaleAD> per stack. Stacks up to 12 times. Ranged champions gain only 1 stack per basic attack.<br><br>When fully stacked, heal for 8% of the damage you deal to champions (5% for ranged champions).<br><br>Total Healing: @f1@"
+     }
+    },
+    {
+     "id": {
+      "iconPath": "/lol-game-data/assets/v1/perk-images/Styles/Precision/Triumph.png",
+      "id": 9111,
+      "longDesc": "Takedowns restore 5% of your missing health, 2.5% of your max health, and grant an additional 20 gold. <br><br><hr><br><i>'The most dangerous game brings the greatest glory.' <br>—Noxian Reckoner</i>",
+      "name": "Triumph",
+      "recommendationDescriptor": "",
+      "shortDesc": "<lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Takedown'>Takedowns</lol-uikit-tooltipped-keyword> restore 5% of your missing health and grant an additional 20 gold. ",
+      "slotType": "kMixedRegularSplashable",
+      "styleId": 8000,
+      "styleIdName": "precision",
+      "tooltip": "Takedowns <healing>restore @MaxHealthCalc@ plus 5% of your missing health</healing> and grant an additional <gold>20 gold</gold>. <br><br>Total health restored: <healing>@f1@</healing><br>Total bonus gold granted: <gold>@f2@</gold>"
+     }
+    },
+    {
+     "id": {
+      "iconPath": "/lol-game-data/assets/v1/perk-images/Styles/Precision/LegendHaste/LegendHaste.png",
+      "id": 9105,
+      "longDesc": "Gain 1.5 basic ability haste for every <i>Legend</i> stack (<statGood>max 10 stacks</statGood>).<br><br>Earn progress toward <i>Legend</i> stacks for every champion takedown, epic monster takedown, large monster kill, and minion kill.",
+      "name": "Legend: Haste",
+      "recommendationDescriptor": "",
+      "shortDesc": "<lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Takedown'>Takedowns</lol-uikit-tooltipped-keyword> on enemies grant permanent Basic Ability <b>Haste</b>. ",
+      "slotType": "kMixedRegularSplashable",
+      "styleId": 8000,
+      "styleIdName": "precision",
+      "tooltip": "Gain 1.5 basic ability haste for every <i>Legend</i> stack (<statGood>max 10 stacks</statGood>).<br><br>Earn progress toward <i>Legend</i> stacks for every champion takedown, epic monster takedown, large monster kill, and minion kill.<br><hr><br>Total Basic Ability Haste granted: <scaleAD>@f1.1@</scaleAD> (<statGood>@f3@ of 10</statGood>)<br>Progress Towards Next Stack: @f2@%"
+     }
+    },
+    {
+     "id": {
+      "iconPath": "/lol-game-data/assets/v1/perk-images/Styles/Sorcery/LastStand/LastStand.png",
+      "id": 8299,
+      "longDesc": "Deal 5% - 11% increased damage to champions while you are below 60% health. Max damage gained at 30% health.",
+      "name": "Last Stand",
+      "recommendationDescriptor": "",
+      "shortDesc": "Deal more damage to champions while you are low on health.",
+      "slotType": "kMixedRegularSplashable",
+      "styleId": 8000,
+      "styleIdName": "precision",
+      "tooltip": "Deal 5% - 11% increased damage to champions while you are below 60% health. Max damage gained at 30% health.<br><br><rules>Minimum bonus is 5%.<br>Maximum bonus is granted while below 30% health.</rules><br><hr><br>Total bonus damage: <scaleAD>@f1@</scaleAD>"
+     }
+    },
+    {
+     "id": {
+      "iconPath": "/lol-game-data/assets/v1/perk-images/Styles/Domination/CheapShot/CheapShot.png",
+      "id": 8126,
+      "longDesc": "Damaging champions with <b>impaired movement or actions</b> deals 10 - 45 bonus true damage (based on level).<br><br>Cooldown: 4s<br><rules>Activates on damage occurring after the impairment.</rules>",
+      "name": "Cheap Shot",
+      "recommendationDescriptor": "Earned by winning ranked games in Season 2020 - Split 1.",
+      "shortDesc": "Deal bonus true damage to enemy champions with <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_ImpairAct'>impaired movement or actions</lol-uikit-tooltipped-keyword>. ",
+      "slotType": "kMixedRegularSplashable",
+      "styleId": 8100,
+      "styleIdName": "domination",
+      "tooltip": "Damaging champions with <b>impaired movement or actions</b> deals <trueDamage>@DamageCalc@ bonus true damage</trueDamage>.<br>Cooldown: 4s<br><rules>Activates on damage occurring after the impairment.</rules><br><br>Total bonus damage dealt: @f1@"
+     }
+    },
+    {
+     "id": {
+      "iconPath": "/lol-game-data/assets/v1/perk-images/Styles/Domination/UltimateHunter/UltimateHunter.png",
+      "id": 8106,
+      "longDesc": "Your ultimate gains <attention>6</attention> Ability Haste, plus an additional <attention>5</attention> Ability Haste per <i>Bounty Hunter</i> stack. <i>Bounty Hunter</i> stacks are earned the first time you get a takedown on each enemy champion.",
+      "name": "Ultimate Hunter",
+      "recommendationDescriptor": "",
+      "shortDesc": "<b>Unique</b> <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Takedown'>takedowns</lol-uikit-tooltipped-keyword> grant permanent cooldown reduction on your Ultimate. ",
+      "slotType": "kMixedRegularSplashable",
+      "styleId": 8100,
+      "styleIdName": "domination",
+      "tooltip": "Your ultimate gains <attention>6</attention> Ability Haste, plus an additional <attention>5</attention> Ability Haste per <i>Bounty Hunter</i> stack. <i>Bounty Hunter</i> stacks are earned the first time you get a takedown on each enemy champion.<br><br>Current Ultimate Hunter increase: <attention>@f3@ Ultimate Haste</attention><br><br><u>No Claimable Bounties</u>"
+     }
+    },
+    {
+     "id": {
+      "iconPath": "/lol-game-data/assets/v1/perk-images/StatMods/StatModsAttackSpeedIcon.png",
+      "id": 5005,
+      "longDesc": "+10% Attack Speed",
+      "name": "Attack Speed",
+      "recommendationDescriptor": "",
+      "shortDesc": "+10% Attack Speed",
+      "slotType": "kStatMod",
+      "styleId": 8400,
+      "styleIdName": "resolve",
+      "tooltip": "+10% Attack Speed"
+     }
+    },
+    {
+     "id": {
+      "iconPath": "/lol-game-data/assets/v1/perk-images/StatMods/StatModsAdaptiveForceIcon.png",
+      "id": 5008,
+      "longDesc": "+9 <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>Adaptive Force</font></lol-uikit-tooltipped-keyword>",
+      "name": "Adaptive Force",
+      "recommendationDescriptor": "",
+      "shortDesc": "+9 <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>Adaptive Force</font></lol-uikit-tooltipped-keyword>",
+      "slotType": "kStatMod",
+      "styleId": 8400,
+      "styleIdName": "resolve",
+      "tooltip": "<scaleAD>+@f2@ Attack Damage</scaleAD>"
+     }
+    },
+    {
+     "id": {
+      "iconPath": "/lol-game-data/assets/v1/perk-images/StatMods/StatModsHealthPlusIcon.png",
+      "id": 5001,
+      "longDesc": "+10-180 Health (based on level)",
+      "name": "Health Scaling",
+      "recommendationDescriptor": "",
+      "shortDesc": "+10-180 Health (based on level)",
+      "slotType": "kStatMod",
+      "styleId": 8400,
+      "styleIdName": "resolve",
+      "tooltip": "<scaleHealth>+@f1@ Health</scaleHealth> (based on level)"
+     }
+    }
+   ]
+  },
+  {
+   "isDefaultPosition": true,
+   "isRecommendationOverride": false,
+   "keystone": {
+    "iconPath": "/lol-game-data/assets/v1/perk-images/Styles/Precision/Conqueror/Conqueror.png",
+    "id": 8010,
+    "longDesc": "Basic attacks or spells that deal damage to an enemy champion grant 2 stacks of Conqueror for 5s, gaining 1.8-4 <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>Adaptive Force</font></lol-uikit-tooltipped-keyword> per stack. Stacks up to 12 times. Ranged champions gain only 1 stack per basic attack.<br><br>When fully stacked, heal for 8% of the damage you deal to champions (5% for ranged champions).",
+    "name": "Conqueror",
+    "recommendationDescriptor": "Bonus Damage, Sustain",
+    "shortDesc": "Gain stacks of adaptive force when attacking enemy champions. After reaching 12 stacks, heal for a portion of damage you deal to champions.",
+    "slotType": "kKeyStone",
+    "styleId": 8000,
+    "styleIdName": "precision",
+    "tooltip": "Basic attacks or spells that deal damage to an enemy champion grant 2 stacks of Conqueror for 5s, gaining <scaleLevel>@f5.1@</scaleLevel> <scaleAD>Attack Damage</scaleAD> per stack. Stacks up to 12 times. Ranged champions gain only 1 stack per basic attack.<br><br>When fully stacked, heal for 8% of the damage you deal to champions (5% for ranged champions).<br><br>Total Healing: @f1@"
+   },
+   "perks": [
+    {
+     "iconPath": "/lol-game-data/assets/v1/perk-images/Styles/Precision/Conqueror/Conqueror.png",
+     "id": 8010,
+     "longDesc": "Basic attacks or spells that deal damage to an enemy champion grant 2 stacks of Conqueror for 5s, gaining 1.8-4 <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>Adaptive Force</font></lol-uikit-tooltipped-keyword> per stack. Stacks up to 12 times. Ranged champions gain only 1 stack per basic attack.<br><br>When fully stacked, heal for 8% of the damage you deal to champions (5% for ranged champions).",
+     "name": "Conqueror",
+     "recommendationDescriptor": "Bonus Damage, Sustain",
+     "shortDesc": "Gain stacks of adaptive force when attacking enemy champions. After reaching 12 stacks, heal for a portion of damage you deal to champions.",
+     "slotType": "kKeyStone",
+     "styleId": 8000,
+     "styleIdName": "precision",
+     "tooltip": "Basic attacks or spells that deal damage to an enemy champion grant 2 stacks of Conqueror for 5s, gaining <scaleLevel>@f5.1@</scaleLevel> <scaleAD>Attack Damage</scaleAD> per stack. Stacks up to 12 times. Ranged champions gain only 1 stack per basic attack.<br><br>When fully stacked, heal for 8% of the damage you deal to champions (5% for ranged champions).<br><br>Total Healing: @f1@"
+    },
+    {
+     "iconPath": "/lol-game-data/assets/v1/perk-images/Styles/Precision/Triumph.png",
+     "id": 9111,
+     "longDesc": "Takedowns restore 5% of your missing health, 2.5% of your max health, and grant an additional 20 gold. <br><br><hr><br><i>'The most dangerous game brings the greatest glory.' <br>—Noxian Reckoner</i>",
+     "name": "Triumph",
+     "recommendationDescriptor": "",
+     "shortDesc": "<lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Takedown'>Takedowns</lol-uikit-tooltipped-keyword> restore 5% of your missing health and grant an additional 20 gold. ",
+     "slotType": "kMixedRegularSplashable",
+     "styleId": 8000,
+     "styleIdName": "precision",
+     "tooltip": "Takedowns <healing>restore @MaxHealthCalc@ plus 5% of your missing health</healing> and grant an additional <gold>20 gold</gold>. <br><br>Total health restored: <healing>@f1@</healing><br>Total bonus gold granted: <gold>@f2@</gold>"
+    },
+    {
+     "iconPath": "/lol-game-data/assets/v1/perk-images/Styles/Precision/LegendHaste/LegendHaste.png",
+     "id": 9105,
+     "longDesc": "Gain 1.5 basic ability haste for every <i>Legend</i> stack (<statGood>max 10 stacks</statGood>).<br><br>Earn progress toward <i>Legend</i> stacks for every champion takedown, epic monster takedown, large monster kill, and minion kill.",
+     "name": "Legend: Haste",
+     "recommendationDescriptor": "",
+     "shortDesc": "<lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Takedown'>Takedowns</lol-uikit-tooltipped-keyword> on enemies grant permanent Basic Ability <b>Haste</b>. ",
+     "slotType": "kMixedRegularSplashable",
+     "styleId": 8000,
+     "styleIdName": "precision",
+     "tooltip": "Gain 1.5 basic ability haste for every <i>Legend</i> stack (<statGood>max 10 stacks</statGood>).<br><br>Earn progress toward <i>Legend</i> stacks for every champion takedown, epic monster takedown, large monster kill, and minion kill.<br><hr><br>Total Basic Ability Haste granted: <scaleAD>@f1.1@</scaleAD> (<statGood>@f3@ of 10</statGood>)<br>Progress Towards Next Stack: @f2@%"
+    },
+    {
+     "iconPath": "/lol-game-data/assets/v1/perk-images/Styles/Sorcery/LastStand/LastStand.png",
+     "id": 8299,
+     "longDesc": "Deal 5% - 11% increased damage to champions while you are below 60% health. Max damage gained at 30% health.",
+     "name": "Last Stand",
+     "recommendationDescriptor": "",
+     "shortDesc": "Deal more damage to champions while you are low on health.",
+     "slotType": "kMixedRegularSplashable",
+     "styleId": 8000,
+     "styleIdName": "precision",
+     "tooltip": "Deal 5% - 11% increased damage to champions while you are below 60% health. Max damage gained at 30% health.<br><br><rules>Minimum bonus is 5%.<br>Maximum bonus is granted while below 30% health.</rules><br><hr><br>Total bonus damage: <scaleAD>@f1@</scaleAD>"
+    },
+    {
+     "iconPath": "/lol-game-data/assets/v1/perk-images/Styles/Resolve/Conditioning/Conditioning.png",
+     "id": 8429,
+     "longDesc": "After 12 min gain +8 Armor and +8 Magic Resist and increase your Armor and Magic Resist by 3%.",
+     "name": "Conditioning",
+     "recommendationDescriptor": "",
+     "shortDesc": "After 12 min gain +8 Armor and +8 Magic Resist and increase your Armor and Magic Resist by 3%.",
+     "slotType": "kMixedRegularSplashable",
+     "styleId": 8400,
+     "styleIdName": "resolve",
+     "tooltip": "After 12 minutes gain <scaleArmor>@ArmorCalcTooltip@ Armor</scaleArmor> and <scaleMR>@MagicResistCalcTooltip@ Magic Resist</scaleMR>."
+    },
+    {
+     "iconPath": "/lol-game-data/assets/v1/perk-images/Styles/Resolve/Overgrowth/Overgrowth.png",
+     "id": 8451,
+     "longDesc": "Absorb life essence from monsters or enemy minions that die near you, permanently gaining 3 maximum health for every 8.<br><br>When you've absorbed 120 monsters or enemy minions, gain an additional 3.5% maximum health.",
+     "name": "Overgrowth",
+     "recommendationDescriptor": "",
+     "shortDesc": "Gain permanent max health when minions or monsters die near you.",
+     "slotType": "kMixedRegularSplashable",
+     "styleId": 8400,
+     "styleIdName": "resolve",
+     "tooltip": "Absorb life essence from monsters or enemy minions that die near you, permanently gaining 3 maximum health for every 8.<br><br>When you've absorbed 120 monsters or enemy minions, gain an additional 3.5% maximum health.<br><hr><br>Total Max Health Earned: <scaleHealth>@f1@</scaleHealth><br>Enemies Absorbed: <passiveText>@f2@</passiveText>"
+    },
+    {
+     "iconPath": "/lol-game-data/assets/v1/perk-images/StatMods/StatModsAdaptiveForceIcon.png",
+     "id": 5008,
+     "longDesc": "+9 <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>Adaptive Force</font></lol-uikit-tooltipped-keyword>",
+     "name": "Adaptive Force",
+     "recommendationDescriptor": "",
+     "shortDesc": "+9 <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>Adaptive Force</font></lol-uikit-tooltipped-keyword>",
+     "slotType": "kStatMod",
+     "styleId": 8400,
+     "styleIdName": "resolve",
+     "tooltip": "<scaleAD>+@f2@ Attack Damage</scaleAD>"
+    },
+    {
+     "iconPath": "/lol-game-data/assets/v1/perk-images/StatMods/StatModsAdaptiveForceIcon.png",
+     "id": 5008,
+     "longDesc": "+9 <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>Adaptive Force</font></lol-uikit-tooltipped-keyword>",
+     "name": "Adaptive Force",
+     "recommendationDescriptor": "",
+     "shortDesc": "+9 <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>Adaptive Force</font></lol-uikit-tooltipped-keyword>",
+     "slotType": "kStatMod",
+     "styleId": 8400,
+     "styleIdName": "resolve",
+     "tooltip": "<scaleAD>+@f2@ Attack Damage</scaleAD>"
+    },
+    {
+     "iconPath": "/lol-game-data/assets/v1/perk-images/StatMods/StatModsHealthPlusIcon.png",
+     "id": 5001,
+     "longDesc": "+10-180 Health (based on level)",
+     "name": "Health Scaling",
+     "recommendationDescriptor": "",
+     "shortDesc": "+10-180 Health (based on level)",
+     "slotType": "kStatMod",
+     "styleId": 8400,
+     "styleIdName": "resolve",
+     "tooltip": "<scaleHealth>+@f1@ Health</scaleHealth> (based on level)"
+    }
+   ],
+   "position": "JUNGLE",
+   "primaryPerkStyleId": 8000,
+   "primaryRecommendationAttribute": "kDurability",
+   "recommendationChampionId": 32,
+   "recommendationId": "2026-09-14.000544",
+   "secondaryPerkStyleId": 8400,
+   "secondaryRecommendationAttribute": "kDamagePerSecond",
+   "summonerSpellIds": [
+    4,
+    11
+   ],
+   "primaryStyle": {
+    "name": "Precision",
+    "icon": "/lol-game-data/assets/v1/perk-images/Styles/7201_Precision.png"
+   },
+   "subStyle": {
+    "name": "Resolve",
+    "icon": "/lol-game-data/assets/v1/perk-images/Styles/7204_Resolve.png"
+   },
+   "perkDetails": [
+    {
+     "id": {
+      "iconPath": "/lol-game-data/assets/v1/perk-images/Styles/Precision/Conqueror/Conqueror.png",
+      "id": 8010,
+      "longDesc": "Basic attacks or spells that deal damage to an enemy champion grant 2 stacks of Conqueror for 5s, gaining 1.8-4 <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>Adaptive Force</font></lol-uikit-tooltipped-keyword> per stack. Stacks up to 12 times. Ranged champions gain only 1 stack per basic attack.<br><br>When fully stacked, heal for 8% of the damage you deal to champions (5% for ranged champions).",
+      "name": "Conqueror",
+      "recommendationDescriptor": "Bonus Damage, Sustain",
+      "shortDesc": "Gain stacks of adaptive force when attacking enemy champions. After reaching 12 stacks, heal for a portion of damage you deal to champions.",
+      "slotType": "kKeyStone",
+      "styleId": 8000,
+      "styleIdName": "precision",
+      "tooltip": "Basic attacks or spells that deal damage to an enemy champion grant 2 stacks of Conqueror for 5s, gaining <scaleLevel>@f5.1@</scaleLevel> <scaleAD>Attack Damage</scaleAD> per stack. Stacks up to 12 times. Ranged champions gain only 1 stack per basic attack.<br><br>When fully stacked, heal for 8% of the damage you deal to champions (5% for ranged champions).<br><br>Total Healing: @f1@"
+     }
+    },
+    {
+     "id": {
+      "iconPath": "/lol-game-data/assets/v1/perk-images/Styles/Precision/Triumph.png",
+      "id": 9111,
+      "longDesc": "Takedowns restore 5% of your missing health, 2.5% of your max health, and grant an additional 20 gold. <br><br><hr><br><i>'The most dangerous game brings the greatest glory.' <br>—Noxian Reckoner</i>",
+      "name": "Triumph",
+      "recommendationDescriptor": "",
+      "shortDesc": "<lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Takedown'>Takedowns</lol-uikit-tooltipped-keyword> restore 5% of your missing health and grant an additional 20 gold. ",
+      "slotType": "kMixedRegularSplashable",
+      "styleId": 8000,
+      "styleIdName": "precision",
+      "tooltip": "Takedowns <healing>restore @MaxHealthCalc@ plus 5% of your missing health</healing> and grant an additional <gold>20 gold</gold>. <br><br>Total health restored: <healing>@f1@</healing><br>Total bonus gold granted: <gold>@f2@</gold>"
+     }
+    },
+    {
+     "id": {
+      "iconPath": "/lol-game-data/assets/v1/perk-images/Styles/Precision/LegendHaste/LegendHaste.png",
+      "id": 9105,
+      "longDesc": "Gain 1.5 basic ability haste for every <i>Legend</i> stack (<statGood>max 10 stacks</statGood>).<br><br>Earn progress toward <i>Legend</i> stacks for every champion takedown, epic monster takedown, large monster kill, and minion kill.",
+      "name": "Legend: Haste",
+      "recommendationDescriptor": "",
+      "shortDesc": "<lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Takedown'>Takedowns</lol-uikit-tooltipped-keyword> on enemies grant permanent Basic Ability <b>Haste</b>. ",
+      "slotType": "kMixedRegularSplashable",
+      "styleId": 8000,
+      "styleIdName": "precision",
+      "tooltip": "Gain 1.5 basic ability haste for every <i>Legend</i> stack (<statGood>max 10 stacks</statGood>).<br><br>Earn progress toward <i>Legend</i> stacks for every champion takedown, epic monster takedown, large monster kill, and minion kill.<br><hr><br>Total Basic Ability Haste granted: <scaleAD>@f1.1@</scaleAD> (<statGood>@f3@ of 10</statGood>)<br>Progress Towards Next Stack: @f2@%"
+     }
+    },
+    {
+     "id": {
+      "iconPath": "/lol-game-data/assets/v1/perk-images/Styles/Sorcery/LastStand/LastStand.png",
+      "id": 8299,
+      "longDesc": "Deal 5% - 11% increased damage to champions while you are below 60% health. Max damage gained at 30% health.",
+      "name": "Last Stand",
+      "recommendationDescriptor": "",
+      "shortDesc": "Deal more damage to champions while you are low on health.",
+      "slotType": "kMixedRegularSplashable",
+      "styleId": 8000,
+      "styleIdName": "precision",
+      "tooltip": "Deal 5% - 11% increased damage to champions while you are below 60% health. Max damage gained at 30% health.<br><br><rules>Minimum bonus is 5%.<br>Maximum bonus is granted while below 30% health.</rules><br><hr><br>Total bonus damage: <scaleAD>@f1@</scaleAD>"
+     }
+    },
+    {
+     "id": {
+      "iconPath": "/lol-game-data/assets/v1/perk-images/Styles/Resolve/Conditioning/Conditioning.png",
+      "id": 8429,
+      "longDesc": "After 12 min gain +8 Armor and +8 Magic Resist and increase your Armor and Magic Resist by 3%.",
+      "name": "Conditioning",
+      "recommendationDescriptor": "",
+      "shortDesc": "After 12 min gain +8 Armor and +8 Magic Resist and increase your Armor and Magic Resist by 3%.",
+      "slotType": "kMixedRegularSplashable",
+      "styleId": 8400,
+      "styleIdName": "resolve",
+      "tooltip": "After 12 minutes gain <scaleArmor>@ArmorCalcTooltip@ Armor</scaleArmor> and <scaleMR>@MagicResistCalcTooltip@ Magic Resist</scaleMR>."
+     }
+    },
+    {
+     "id": {
+      "iconPath": "/lol-game-data/assets/v1/perk-images/Styles/Resolve/Overgrowth/Overgrowth.png",
+      "id": 8451,
+      "longDesc": "Absorb life essence from monsters or enemy minions that die near you, permanently gaining 3 maximum health for every 8.<br><br>When you've absorbed 120 monsters or enemy minions, gain an additional 3.5% maximum health.",
+      "name": "Overgrowth",
+      "recommendationDescriptor": "",
+      "shortDesc": "Gain permanent max health when minions or monsters die near you.",
+      "slotType": "kMixedRegularSplashable",
+      "styleId": 8400,
+      "styleIdName": "resolve",
+      "tooltip": "Absorb life essence from monsters or enemy minions that die near you, permanently gaining 3 maximum health for every 8.<br><br>When you've absorbed 120 monsters or enemy minions, gain an additional 3.5% maximum health.<br><hr><br>Total Max Health Earned: <scaleHealth>@f1@</scaleHealth><br>Enemies Absorbed: <passiveText>@f2@</passiveText>"
+     }
+    },
+    {
+     "id": {
+      "iconPath": "/lol-game-data/assets/v1/perk-images/StatMods/StatModsAdaptiveForceIcon.png",
+      "id": 5008,
+      "longDesc": "+9 <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>Adaptive Force</font></lol-uikit-tooltipped-keyword>",
+      "name": "Adaptive Force",
+      "recommendationDescriptor": "",
+      "shortDesc": "+9 <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>Adaptive Force</font></lol-uikit-tooltipped-keyword>",
+      "slotType": "kStatMod",
+      "styleId": 8400,
+      "styleIdName": "resolve",
+      "tooltip": "<scaleAD>+@f2@ Attack Damage</scaleAD>"
+     }
+    },
+    {
+     "id": {
+      "iconPath": "/lol-game-data/assets/v1/perk-images/StatMods/StatModsAdaptiveForceIcon.png",
+      "id": 5008,
+      "longDesc": "+9 <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>Adaptive Force</font></lol-uikit-tooltipped-keyword>",
+      "name": "Adaptive Force",
+      "recommendationDescriptor": "",
+      "shortDesc": "+9 <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>Adaptive Force</font></lol-uikit-tooltipped-keyword>",
+      "slotType": "kStatMod",
+      "styleId": 8400,
+      "styleIdName": "resolve",
+      "tooltip": "<scaleAD>+@f2@ Attack Damage</scaleAD>"
+     }
+    },
+    {
+     "id": {
+      "iconPath": "/lol-game-data/assets/v1/perk-images/StatMods/StatModsHealthPlusIcon.png",
+      "id": 5001,
+      "longDesc": "+10-180 Health (based on level)",
+      "name": "Health Scaling",
+      "recommendationDescriptor": "",
+      "shortDesc": "+10-180 Health (based on level)",
+      "slotType": "kStatMod",
+      "styleId": 8400,
+      "styleIdName": "resolve",
+      "tooltip": "<scaleHealth>+@f1@ Health</scaleHealth> (based on level)"
+     }
+    }
+   ]
+  }
+ ],
+ "allStyles": [
+  {
+   "allowedSubStyles": [
+    8200,
+    8400,
+    8300,
+    8100
+   ],
+   "assetMap": {
+    "p8000_s0_k0": "/lol-game-data/assets/v1/perk-images/Styles/Precision/p8000_s0_k0.jpg",
+    "p8000_s0_k8005": "/lol-game-data/assets/v1/perk-images/Styles/Precision/p8000_s0_k8005.jpg",
+    "p8000_s0_k8008": "/lol-game-data/assets/v1/perk-images/Styles/Precision/p8000_s0_k8008.jpg",
+    "p8000_s0_k8010": "/lol-game-data/assets/v1/perk-images/Styles/Precision/p8000_s0_k8010.jpg",
+    "p8000_s0_k8021": "/lol-game-data/assets/v1/perk-images/Styles/Precision/p8000_s0_k8021.jpg",
+    "p8000_s8100_k0": "/lol-game-data/assets/v1/perk-images/Styles/Precision/p8000_s8100_k0.jpg",
+    "p8000_s8100_k8005": "/lol-game-data/assets/v1/perk-images/Styles/Precision/p8000_s8100_k8005.jpg",
+    "p8000_s8100_k8008": "/lol-game-data/assets/v1/perk-images/Styles/Precision/p8000_s8100_k8008.jpg",
+    "p8000_s8100_k8010": "/lol-game-data/assets/v1/perk-images/Styles/Precision/p8000_s8100_k8010.jpg",
+    "p8000_s8100_k8021": "/lol-game-data/assets/v1/perk-images/Styles/Precision/p8000_s8100_k8021.jpg",
+    "p8000_s8200_k0": "/lol-game-data/assets/v1/perk-images/Styles/Precision/p8000_s8200_k0.jpg",
+    "p8000_s8200_k8005": "/lol-game-data/assets/v1/perk-images/Styles/Precision/p8000_s8200_k8005.jpg",
+    "p8000_s8200_k8008": "/lol-game-data/assets/v1/perk-images/Styles/Precision/p8000_s8200_k8008.jpg",
+    "p8000_s8200_k8010": "/lol-game-data/assets/v1/perk-images/Styles/Precision/p8000_s8200_k8010.jpg",
+    "p8000_s8200_k8021": "/lol-game-data/assets/v1/perk-images/Styles/Precision/p8000_s8200_k8021.jpg",
+    "p8000_s8300_k0": "/lol-game-data/assets/v1/perk-images/Styles/Precision/p8000_s8300_k0.jpg",
+    "p8000_s8300_k8005": "/lol-game-data/assets/v1/perk-images/Styles/Precision/p8000_s8300_k8005.jpg",
+    "p8000_s8300_k8008": "/lol-game-data/assets/v1/perk-images/Styles/Precision/p8000_s8300_k8008.jpg",
+    "p8000_s8300_k8010": "/lol-game-data/assets/v1/perk-images/Styles/Precision/p8000_s8300_k8010.jpg",
+    "p8000_s8300_k8021": "/lol-game-data/assets/v1/perk-images/Styles/Precision/p8000_s8300_k8021.jpg",
+    "p8000_s8400_k0": "/lol-game-data/assets/v1/perk-images/Styles/Precision/p8000_s8400_k0.jpg",
+    "p8000_s8400_k8005": "/lol-game-data/assets/v1/perk-images/Styles/Precision/p8000_s8400_k8005.jpg",
+    "p8000_s8400_k8008": "/lol-game-data/assets/v1/perk-images/Styles/Precision/p8000_s8400_k8008.jpg",
+    "p8000_s8400_k8010": "/lol-game-data/assets/v1/perk-images/Styles/Precision/p8000_s8400_k8010.jpg",
+    "p8000_s8400_k8021": "/lol-game-data/assets/v1/perk-images/Styles/Precision/p8000_s8400_k8021.jpg",
+    "svg_icon": "/lol-game-data/assets/v1/perk-images/Styles/Precision/precision_icon.svg",
+    "svg_icon_16": "/lol-game-data/assets/v1/perk-images/Styles/Precision/precision_icon_16.svg"
+   },
+   "defaultPageName": "Precision: The Perfect",
+   "defaultPerks": [
+    8005,
+    9111,
+    9104,
+    8014,
+    8233,
+    8236,
+    5005,
+    5008,
+    5001
+   ],
+   "defaultSubStyle": 8200,
+   "iconPath": "/lol-game-data/assets/v1/perk-images/Styles/7201_Precision.png",
+   "id": 8000,
+   "idName": "precision",
+   "name": "Precision",
+   "slots": [
+    {
+     "perks": [
+      8005,
+      8008,
+      8021,
+      8010
+     ],
+     "slotLabel": "",
+     "type": "kKeyStone"
+    },
+    {
+     "perks": [
+      9101,
+      9111,
+      8009
+     ],
+     "slotLabel": "",
+     "type": "kMixedRegularSplashable"
+    },
+    {
+     "perks": [
+      9104,
+      9105,
+      9103
+     ],
+     "slotLabel": "",
+     "type": "kMixedRegularSplashable"
+    },
+    {
+     "perks": [
+      8014,
+      8017,
+      8299
+     ],
+     "slotLabel": "",
+     "type": "kMixedRegularSplashable"
+    },
+    {
+     "perks": [
+      5008,
+      5005,
+      5007
+     ],
+     "slotLabel": "",
+     "type": "kStatMod"
+    },
+    {
+     "perks": [
+      5008,
+      5010,
+      5001
+     ],
+     "slotLabel": "",
+     "type": "kStatMod"
+    },
+    {
+     "perks": [
+      5011,
+      5013,
+      5001
+     ],
+     "slotLabel": "",
+     "type": "kStatMod"
+    }
+   ],
+   "subStyleBonus": [
+    {
+     "perkId": 8004,
+     "styleId": 8200
+    },
+    {
+     "perkId": 8006,
+     "styleId": 8400
+    },
+    {
+     "perkId": 8007,
+     "styleId": 8300
+    },
+    {
+     "perkId": 8016,
+     "styleId": 8100
+    }
+   ],
+   "tooltip": "Improved attacks and sustained damage"
+  },
+  {
+   "allowedSubStyles": [
+    8300,
+    8400,
+    8200,
+    8000
+   ],
+   "assetMap": {
+    "p8100_s0_k0": "/lol-game-data/assets/v1/perk-images/Styles/Domination/p8100_s0_k0.jpg",
+    "p8100_s0_k8112": "/lol-game-data/assets/v1/perk-images/Styles/Domination/p8100_s0_k8112.jpg",
+    "p8100_s0_k8124": "/lol-game-data/assets/v1/perk-images/Styles/Domination/p8100_s0_k8124.jpg",
+    "p8100_s0_k8128": "/lol-game-data/assets/v1/perk-images/Styles/Domination/p8100_s0_k8124.jpg",
+    "p8100_s0_k9923": "/lol-game-data/assets/v1/perk-images/Styles/Domination/p8100_s0_k9923.jpg",
+    "p8100_s8000_k0": "/lol-game-data/assets/v1/perk-images/Styles/Domination/p8100_s8000_k0.jpg",
+    "p8100_s8000_k8112": "/lol-game-data/assets/v1/perk-images/Styles/Domination/p8100_s8000_k8112.jpg",
+    "p8100_s8000_k8124": "/lol-game-data/assets/v1/perk-images/Styles/Domination/p8100_s8000_k8124.jpg",
+    "p8100_s8000_k8128": "/lol-game-data/assets/v1/perk-images/Styles/Domination/p8100_s8000_k8128.jpg",
+    "p8100_s8000_k9923": "/lol-game-data/assets/v1/perk-images/Styles/Domination/p8100_s8000_k9923.jpg",
+    "p8100_s8200_k0": "/lol-game-data/assets/v1/perk-images/Styles/Domination/p8100_s8200_k0.jpg",
+    "p8100_s8200_k8112": "/lol-game-data/assets/v1/perk-images/Styles/Domination/p8100_s8200_k8112.jpg",
+    "p8100_s8200_k8124": "/lol-game-data/assets/v1/perk-images/Styles/Domination/p8100_s8200_k8124.jpg",
+    "p8100_s8200_k8128": "/lol-game-data/assets/v1/perk-images/Styles/Domination/p8100_s8200_k8128.jpg",
+    "p8100_s8200_k9923": "/lol-game-data/assets/v1/perk-images/Styles/Domination/p8100_s8200_k9923.jpg",
+    "p8100_s8300_k0": "/lol-game-data/assets/v1/perk-images/Styles/Domination/p8100_s8300_k0.jpg",
+    "p8100_s8300_k8112": "/lol-game-data/assets/v1/perk-images/Styles/Domination/p8100_s8300_k8112.jpg",
+    "p8100_s8300_k8124": "/lol-game-data/assets/v1/perk-images/Styles/Domination/p8100_s8300_k8124.jpg",
+    "p8100_s8300_k8128": "/lol-game-data/assets/v1/perk-images/Styles/Domination/p8100_s8300_k8128.jpg",
+    "p8100_s8300_k9923": "/lol-game-data/assets/v1/perk-images/Styles/Domination/p8100_s8300_k9923.jpg",
+    "p8100_s8400_k0": "/lol-game-data/assets/v1/perk-images/Styles/Domination/p8100_s8400_k0.jpg",
+    "p8100_s8400_k8112": "/lol-game-data/assets/v1/perk-images/Styles/Domination/p8100_s8400_k8112.jpg",
+    "p8100_s8400_k8124": "/lol-game-data/assets/v1/perk-images/Styles/Domination/p8100_s8400_k8124.jpg",
+    "p8100_s8400_k8128": "/lol-game-data/assets/v1/perk-images/Styles/Domination/p8100_s8400_k8128.jpg",
+    "p8100_s8400_k9923": "/lol-game-data/assets/v1/perk-images/Styles/Domination/p8100_s8400_k9923.jpg",
+    "svg_icon": "/lol-game-data/assets/v1/perk-images/Styles/Domination/domination_icon.svg",
+    "svg_icon_16": "/lol-game-data/assets/v1/perk-images/Styles/Domination/domination_icon_16.svg"
+   },
+   "defaultPageName": "Domination: The Executioner",
+   "defaultPerks": [
+    8112,
+    8139,
+    8140,
+    8135,
+    9111,
+    8014,
+    5005,
+    5008,
+    5001
+   ],
+   "defaultSubStyle": 8000,
+   "iconPath": "/lol-game-data/assets/v1/perk-images/Styles/7200_Domination.png",
+   "id": 8100,
+   "idName": "domination",
+   "name": "Domination",
+   "slots": [
+    {
+     "perks": [
+      8112,
+      8128,
+      9923
+     ],
+     "slotLabel": "",
+     "type": "kKeyStone"
+    },
+    {
+     "perks": [
+      8126,
+      8139,
+      8143
+     ],
+     "slotLabel": "",
+     "type": "kMixedRegularSplashable"
+    },
+    {
+     "perks": [
+      8137,
+      8140,
+      8141
+     ],
+     "slotLabel": "",
+     "type": "kMixedRegularSplashable"
+    },
+    {
+     "perks": [
+      8135,
+      8105,
+      8106
+     ],
+     "slotLabel": "",
+     "type": "kMixedRegularSplashable"
+    },
+    {
+     "perks": [
+      5008,
+      5005,
+      5007
+     ],
+     "slotLabel": "",
+     "type": "kStatMod"
+    },
+    {
+     "perks": [
+      5008,
+      5010,
+      5001
+     ],
+     "slotLabel": "",
+     "type": "kStatMod"
+    },
+    {
+     "perks": [
+      5011,
+      5013,
+      5001
+     ],
+     "slotLabel": "",
+     "type": "kStatMod"
+    }
+   ],
+   "subStyleBonus": [
+    {
+     "perkId": 8109,
+     "styleId": 8300
+    },
+    {
+     "perkId": 8114,
+     "styleId": 8400
+    },
+    {
+     "perkId": 8115,
+     "styleId": 8200
+    },
+    {
+     "perkId": 8127,
+     "styleId": 8000
+    }
+   ],
+   "tooltip": "Burst damage and target access "
+  },
+  {
+   "allowedSubStyles": [
+    8000,
+    8300,
+    8400,
+    8100
+   ],
+   "assetMap": {
+    "p8200_s0_k0": "/lol-game-data/assets/v1/perk-images/Styles/Sorcery/p8200_s0_k0.jpg",
+    "p8200_s0_k8214": "/lol-game-data/assets/v1/perk-images/Styles/Sorcery/p8200_s0_k8214.jpg",
+    "p8200_s0_k8229": "/lol-game-data/assets/v1/perk-images/Styles/Sorcery/p8200_s0_k8229.jpg",
+    "p8200_s0_k8230": "/lol-game-data/assets/v1/perk-images/Styles/Sorcery/p8200_s0_k8230.jpg",
+    "p8200_s8000_k0": "/lol-game-data/assets/v1/perk-images/Styles/Sorcery/p8200_s8000_k0.jpg",
+    "p8200_s8000_k8214": "/lol-game-data/assets/v1/perk-images/Styles/Sorcery/p8200_s8000_k8214.jpg",
+    "p8200_s8000_k8229": "/lol-game-data/assets/v1/perk-images/Styles/Sorcery/p8200_s8000_k8229.jpg",
+    "p8200_s8000_k8230": "/lol-game-data/assets/v1/perk-images/Styles/Sorcery/p8200_s8000_k8230.jpg",
+    "p8200_s8100_k0": "/lol-game-data/assets/v1/perk-images/Styles/Sorcery/p8200_s8100_k0.jpg",
+    "p8200_s8100_k8214": "/lol-game-data/assets/v1/perk-images/Styles/Sorcery/p8200_s8100_k8214.jpg",
+    "p8200_s8100_k8229": "/lol-game-data/assets/v1/perk-images/Styles/Sorcery/p8200_s8100_k8229.jpg",
+    "p8200_s8100_k8230": "/lol-game-data/assets/v1/perk-images/Styles/Sorcery/p8200_s8100_k8230.jpg",
+    "p8200_s8300_k0": "/lol-game-data/assets/v1/perk-images/Styles/Sorcery/p8200_s8300_k0.jpg",
+    "p8200_s8300_k8214": "/lol-game-data/assets/v1/perk-images/Styles/Sorcery/p8200_s8300_k8214.jpg",
+    "p8200_s8300_k8229": "/lol-game-data/assets/v1/perk-images/Styles/Sorcery/p8200_s8300_k8229.jpg",
+    "p8200_s8300_k8230": "/lol-game-data/assets/v1/perk-images/Styles/Sorcery/p8200_s8300_k8230.jpg",
+    "p8200_s8400_k0": "/lol-game-data/assets/v1/perk-images/Styles/Sorcery/p8200_s8400_k0.jpg",
+    "p8200_s8400_k8214": "/lol-game-data/assets/v1/perk-images/Styles/Sorcery/p8200_s8400_k8214.jpg",
+    "p8200_s8400_k8229": "/lol-game-data/assets/v1/perk-images/Styles/Sorcery/p8200_s8400_k8229.jpg",
+    "p8200_s8400_k8230": "/lol-game-data/assets/v1/perk-images/Styles/Sorcery/STORMRAIDERS.jpg",
+    "p8200_s8400_k8992": "/lol-game-data/assets/v1/perk-images/Styles/Sorcery/DFT.jpg",
+    "svg_icon": "/lol-game-data/assets/v1/perk-images/Styles/Sorcery/sorcery_icon.svg",
+    "svg_icon_16": "/lol-game-data/assets/v1/perk-images/Styles/Sorcery/sorcery_icon_16.svg"
+   },
+   "defaultPageName": "Sorcery: The Calamity",
+   "defaultPerks": [
+    8229,
+    8226,
+    8210,
+    8236,
+    8140,
+    8105,
+    5008,
+    5008,
+    5001
+   ],
+   "defaultSubStyle": 8100,
+   "iconPath": "/lol-game-data/assets/v1/perk-images/Styles/7202_Sorcery.png",
+   "id": 8200,
+   "idName": "sorcery",
+   "name": "Sorcery",
+   "slots": [
+    {
+     "perks": [
+      8214,
+      8229,
+      8230,
+      8992
+     ],
+     "slotLabel": "",
+     "type": "kKeyStone"
+    },
+    {
+     "perks": [
+      8224,
+      8226,
+      8275
+     ],
+     "slotLabel": "",
+     "type": "kMixedRegularSplashable"
+    },
+    {
+     "perks": [
+      8210,
+      8234,
+      8233
+     ],
+     "slotLabel": "",
+     "type": "kMixedRegularSplashable"
+    },
+    {
+     "perks": [
+      8237,
+      8232,
+      8236
+     ],
+     "slotLabel": "",
+     "type": "kMixedRegularSplashable"
+    },
+    {
+     "perks": [
+      5008,
+      5005,
+      5007
+     ],
+     "slotLabel": "",
+     "type": "kStatMod"
+    },
+    {
+     "perks": [
+      5008,
+      5010,
+      5001
+     ],
+     "slotLabel": "",
+     "type": "kStatMod"
+    },
+    {
+     "perks": [
+      5011,
+      5013,
+      5001
+     ],
+     "slotLabel": "",
+     "type": "kStatMod"
+    }
+   ],
+   "subStyleBonus": [
+    {
+     "perkId": 8205,
+     "styleId": 8000
+    },
+    {
+     "perkId": 8207,
+     "styleId": 8300
+    },
+    {
+     "perkId": 8208,
+     "styleId": 8400
+    },
+    {
+     "perkId": 8220,
+     "styleId": 8100
+    }
+   ],
+   "tooltip": "Empowered abilities and resource manipulation"
+  },
+  {
+   "allowedSubStyles": [
+    8100,
+    8200,
+    8400,
+    8000
+   ],
+   "assetMap": {
+    "p8300_s0_k0": "/lol-game-data/assets/v1/perk-images/Styles/Inspiration/p8300_s0_k0.jpg",
+    "p8300_s0_k8351": "/lol-game-data/assets/v1/perk-images/Styles/Inspiration/p8300_s0_k8351.jpg",
+    "p8300_s0_k8360": "/lol-game-data/assets/v1/perk-images/Styles/Inspiration/p8300_s0_k8360.jpg",
+    "p8300_s0_k8369": "/lol-game-data/assets/v1/perk-images/Styles/Inspiration/p8300_s0_k8369.jpg",
+    "p8300_s8000_k0": "/lol-game-data/assets/v1/perk-images/Styles/Inspiration/p8300_s8000_k0.jpg",
+    "p8300_s8000_k8351": "/lol-game-data/assets/v1/perk-images/Styles/Inspiration/p8300_s8000_k8351.jpg",
+    "p8300_s8000_k8360": "/lol-game-data/assets/v1/perk-images/Styles/Inspiration/p8300_s8000_k8360.jpg",
+    "p8300_s8000_k8369": "/lol-game-data/assets/v1/perk-images/Styles/Inspiration/p8300_s8000_k8369.jpg",
+    "p8300_s8100_k0": "/lol-game-data/assets/v1/perk-images/Styles/Inspiration/p8300_s8100_k0.jpg",
+    "p8300_s8100_k8351": "/lol-game-data/assets/v1/perk-images/Styles/Inspiration/p8300_s8100_k8351.jpg",
+    "p8300_s8100_k8360": "/lol-game-data/assets/v1/perk-images/Styles/Inspiration/p8300_s8100_k8360.jpg",
+    "p8300_s8100_k8369": "/lol-game-data/assets/v1/perk-images/Styles/Inspiration/p8300_s8100_k8369.jpg",
+    "p8300_s8200_k0": "/lol-game-data/assets/v1/perk-images/Styles/Inspiration/p8300_s8200_k0.jpg",
+    "p8300_s8200_k8351": "/lol-game-data/assets/v1/perk-images/Styles/Inspiration/p8300_s8200_k8351.jpg",
+    "p8300_s8200_k8360": "/lol-game-data/assets/v1/perk-images/Styles/Inspiration/p8300_s8200_k8360.jpg",
+    "p8300_s8200_k8369": "/lol-game-data/assets/v1/perk-images/Styles/Inspiration/p8300_s8200_k8369.jpg",
+    "p8300_s8400_k0": "/lol-game-data/assets/v1/perk-images/Styles/Inspiration/p8300_s8400_k0.jpg",
+    "p8300_s8400_k8351": "/lol-game-data/assets/v1/perk-images/Styles/Inspiration/p8300_s8400_k8351.jpg",
+    "p8300_s8400_k8360": "/lol-game-data/assets/v1/perk-images/Styles/Inspiration/p8300_s8400_k8360.jpg",
+    "p8300_s8400_k8369": "/lol-game-data/assets/v1/perk-images/Styles/Inspiration/p8300_s8400_k8369.jpg",
+    "svg_icon": "/lol-game-data/assets/v1/perk-images/Styles/Inspiration/inspiration_icon.svg",
+    "svg_icon_16": "/lol-game-data/assets/v1/perk-images/Styles/Inspiration/inspiration_icon_16.svg"
+   },
+   "defaultPageName": "Inspiration: The Timeless",
+   "defaultPerks": [
+    8351,
+    8321,
+    8313,
+    8347,
+    8451,
+    8444,
+    5007,
+    5001,
+    5001
+   ],
+   "defaultSubStyle": 8400,
+   "iconPath": "/lol-game-data/assets/v1/perk-images/Styles/7203_Whimsy.png",
+   "id": 8300,
+   "idName": "inspiration",
+   "name": "Inspiration",
+   "slots": [
+    {
+     "perks": [
+      8351,
+      8360,
+      8369
+     ],
+     "slotLabel": "",
+     "type": "kKeyStone"
+    },
+    {
+     "perks": [
+      8306,
+      8304,
+      8321
+     ],
+     "slotLabel": "",
+     "type": "kMixedRegularSplashable"
+    },
+    {
+     "perks": [
+      8313,
+      8352,
+      8345
+     ],
+     "slotLabel": "",
+     "type": "kMixedRegularSplashable"
+    },
+    {
+     "perks": [
+      8347,
+      8410,
+      8316
+     ],
+     "slotLabel": "",
+     "type": "kMixedRegularSplashable"
+    },
+    {
+     "perks": [
+      5008,
+      5005,
+      5007
+     ],
+     "slotLabel": "",
+     "type": "kStatMod"
+    },
+    {
+     "perks": [
+      5008,
+      5010,
+      5001
+     ],
+     "slotLabel": "",
+     "type": "kStatMod"
+    },
+    {
+     "perks": [
+      5011,
+      5013,
+      5001
+     ],
+     "slotLabel": "",
+     "type": "kStatMod"
+    }
+   ],
+   "subStyleBonus": [
+    {
+     "perkId": 8318,
+     "styleId": 8100
+    },
+    {
+     "perkId": 8319,
+     "styleId": 8200
+    },
+    {
+     "perkId": 8320,
+     "styleId": 8400
+    },
+    {
+     "perkId": 8344,
+     "styleId": 8000
+    }
+   ],
+   "tooltip": "Creative tools and rule bending "
+  },
+  {
+   "allowedSubStyles": [
+    8000,
+    8100,
+    8200,
+    8300
+   ],
+   "assetMap": {
+    "p8400_s0_k0": "/lol-game-data/assets/v1/perk-images/Styles/Resolve/p8400_s0_k0.jpg",
+    "p8400_s0_k8437": "/lol-game-data/assets/v1/perk-images/Styles/Resolve/p8400_s0_k8437.jpg",
+    "p8400_s0_k8439": "/lol-game-data/assets/v1/perk-images/Styles/Resolve/p8400_s0_k8439.jpg",
+    "p8400_s0_k8465": "/lol-game-data/assets/v1/perk-images/Styles/Resolve/p8400_s0_k8465.jpg",
+    "p8400_s8000_k0": "/lol-game-data/assets/v1/perk-images/Styles/Resolve/p8400_s8000_k0.jpg",
+    "p8400_s8000_k8437": "/lol-game-data/assets/v1/perk-images/Styles/Resolve/p8400_s8000_k8437.jpg",
+    "p8400_s8000_k8439": "/lol-game-data/assets/v1/perk-images/Styles/Resolve/p8400_s8000_k8439.jpg",
+    "p8400_s8000_k8465": "/lol-game-data/assets/v1/perk-images/Styles/Resolve/p8400_s8000_k8465.jpg",
+    "p8400_s8100_k0": "/lol-game-data/assets/v1/perk-images/Styles/Resolve/p8400_s8100_k0.jpg",
+    "p8400_s8100_k8437": "/lol-game-data/assets/v1/perk-images/Styles/Resolve/p8400_s8100_k8437.jpg",
+    "p8400_s8100_k8439": "/lol-game-data/assets/v1/perk-images/Styles/Resolve/p8400_s8100_k8439.jpg",
+    "p8400_s8100_k8465": "/lol-game-data/assets/v1/perk-images/Styles/Resolve/p8400_s8100_k8465.jpg",
+    "p8400_s8200_k0": "/lol-game-data/assets/v1/perk-images/Styles/Resolve/p8400_s8200_k0.jpg",
+    "p8400_s8200_k8437": "/lol-game-data/assets/v1/perk-images/Styles/Resolve/p8400_s8200_k8437.jpg",
+    "p8400_s8200_k8439": "/lol-game-data/assets/v1/perk-images/Styles/Resolve/p8400_s8200_k8439.jpg",
+    "p8400_s8200_k8465": "/lol-game-data/assets/v1/perk-images/Styles/Resolve/p8400_s8200_k8465.jpg",
+    "p8400_s8300_k0": "/lol-game-data/assets/v1/perk-images/Styles/Resolve/p8400_s8300_k0.jpg",
+    "p8400_s8300_k8437": "/lol-game-data/assets/v1/perk-images/Styles/Resolve/p8400_s8300_k8437.jpg",
+    "p8400_s8300_k8439": "/lol-game-data/assets/v1/perk-images/Styles/Resolve/p8400_s8300_k8439.jpg",
+    "p8400_s8300_k8465": "/lol-game-data/assets/v1/perk-images/Styles/Resolve/p8400_s8300_k8465.jpg",
+    "svg_icon": "/lol-game-data/assets/v1/perk-images/Styles/Resolve/resolve_icon.svg",
+    "svg_icon_16": "/lol-game-data/assets/v1/perk-images/Styles/Resolve/resolve_icon_16.svg"
+   },
+   "defaultPageName": "Resolve: The Colossus",
+   "defaultPerks": [
+    8437,
+    8446,
+    8444,
+    8451,
+    8224,
+    8237,
+    5008,
+    5001,
+    5001
+   ],
+   "defaultSubStyle": 8200,
+   "iconPath": "/lol-game-data/assets/v1/perk-images/Styles/7204_Resolve.png",
+   "id": 8400,
+   "idName": "resolve",
+   "name": "Resolve",
+   "slots": [
+    {
+     "perks": [
+      8437,
+      8439,
+      8465
+     ],
+     "slotLabel": "",
+     "type": "kKeyStone"
+    },
+    {
+     "perks": [
+      8446,
+      8463,
+      8401
+     ],
+     "slotLabel": "",
+     "type": "kMixedRegularSplashable"
+    },
+    {
+     "perks": [
+      8429,
+      8444,
+      8473
+     ],
+     "slotLabel": "",
+     "type": "kMixedRegularSplashable"
+    },
+    {
+     "perks": [
+      8451,
+      8453,
+      8242
+     ],
+     "slotLabel": "",
+     "type": "kMixedRegularSplashable"
+    },
+    {
+     "perks": [
+      5008,
+      5005,
+      5007
+     ],
+     "slotLabel": "",
+     "type": "kStatMod"
+    },
+    {
+     "perks": [
+      5008,
+      5010,
+      5001
+     ],
+     "slotLabel": "",
+     "type": "kStatMod"
+    },
+    {
+     "perks": [
+      5011,
+      5013,
+      5001
+     ],
+     "slotLabel": "",
+     "type": "kStatMod"
+    }
+   ],
+   "subStyleBonus": [
+    {
+     "perkId": 8414,
+     "styleId": 8000
+    },
+    {
+     "perkId": 8454,
+     "styleId": 8100
+    },
+    {
+     "perkId": 8415,
+     "styleId": 8200
+    },
+    {
+     "perkId": 8416,
+     "styleId": 8300
+    }
+   ],
+   "tooltip": "Durability and crowd control"
+  }
+ ]
+}

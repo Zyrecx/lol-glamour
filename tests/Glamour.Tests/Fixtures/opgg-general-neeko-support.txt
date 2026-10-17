@@ -1,0 +1,6 @@
+class LolGetChampionAnalysis: data
+class Data: boots,starter_items,last_items,summoner_spells,runes
+class Boots: ids,play,win
+class Runes: primary_page_id,primary_rune_ids,secondary_page_id,secondary_rune_ids,stat_mod_ids,play,win
+
+LolGetChampionAnalysis(Data(Boots([3158],3897,1970),Boots([2003,2003],6393,3162),[Boots([3152],6416,3194),Boots([3871],3522,1713),Boots([3157],3202,1692)],Boots([4,7],3385,1721),Runes(8200,[8229,8226,8210,8237],8100,[8106,8126],[5008,5008,5001],1685,814)))

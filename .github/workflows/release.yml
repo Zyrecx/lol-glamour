@@ -1,0 +1,57 @@
+# Release (SPEC "Publishing"): a v* tag builds the UI and .NET, runs the tests, packs with Velopack and publishes the GitHub release
+# that installed copies update from. Runs only on the public repo (LogReport.GitHubRepo).
+name: release
+
+on:
+  push:
+    tags: ['v*']
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '10.0.x'
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+          cache-dependency-path: web/package-lock.json
+
+      - name: Version from the tag
+        id: v
+        shell: pwsh
+        run: echo "version=$('${{ github.ref_name }}'.TrimStart('v'))" >> $env:GITHUB_OUTPUT
+
+      - name: UI
+        working-directory: web
+        run: |
+          npm ci
+          npm test
+          npm run build
+
+      - name: Test
+        run: dotnet test Glamour.slnx -c Release
+
+      - name: Publish
+        run: dotnet publish src/Glamour.Desktop -c Release -r win-x64 --self-contained -p:Version=${{ steps.v.outputs.version }} -p:GlamourChannel=release -o publish
+
+      - name: Pack and upload
+        shell: pwsh
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          dotnet tool install -g vpk --version 1.2.161
+          $repo = "https://github.com/${{ github.repository }}"
+          # The previous release, so Velopack can make a delta package (none on the first release).
+          vpk download github --repoUrl $repo --token $env:GH_TOKEN
+          # Pack id GlamourApp: installs to %LOCALAPPDATA%\GlamourApp, never the data folder %LOCALAPPDATA%\Glamour.
+          vpk pack --packId GlamourApp --packVersion ${{ steps.v.outputs.version }} --packDir publish --mainExe Glamour.exe --packTitle Glamour --packAuthors Glamour --icon src/Glamour.Desktop/glamour.ico
+          vpk upload github --repoUrl $repo --token $env:GH_TOKEN --publish --releaseName "Glamour ${{ steps.v.outputs.version }}" --tag ${{ github.ref_name }}

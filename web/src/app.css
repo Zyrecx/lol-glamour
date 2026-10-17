@@ -1,0 +1,33 @@
+:root {
+  --bg: #140e1c; --surface: #1d1428; --card: #241a33; --card2: #2e2140; --line: #3b2c50;
+  --fg: #f3ecfa; --muted: #a999bd; --accent: #a65fe0; --accent-fg: #fff; --accent2: #c58cf0;
+  --ok: #5fd39a; --warn: #ffcf7a; --err: #ff8fa0;
+  --radius: 1rem; --radius-sm: .65rem;
+  color-scheme: dark;
+}
+* { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
+html, body { margin: 0; background: var(--bg); color: var(--fg); }
+body { font: 16px/1.45 system-ui, -apple-system, "Segoe UI", sans-serif; min-height: 100dvh; }
+img { -webkit-user-drag: none; user-select: none; }
+h1, h2, h3, p { margin: 0; }
+h2 { font-size: 1rem; }
+a { color: var(--accent2); }
+code { background: var(--card2); padding: .05rem .35rem; border-radius: .3rem; font-size: .85em; word-break: break-all; }
+button, input, textarea, select { font: inherit; color: inherit; }
+button { min-height: 2.75rem; padding: .5rem 1rem; border: 0; border-radius: var(--radius-sm); background: var(--accent); color: var(--accent-fg); cursor: pointer; }
+button:hover:not(:disabled) { filter: brightness(1.08); }
+button:active:not(:disabled) { filter: brightness(.92); }
+button:disabled { opacity: .5; cursor: default; }
+button.quiet { background: var(--card2); color: var(--fg); }
+button.danger { background: #5a2433; color: #ffd2da; }
+button.full { width: 100%; }
+button:focus-visible, input:focus-visible, textarea:focus-visible, a:focus-visible, select:focus-visible { outline: 2px solid var(--accent2); outline-offset: 2px; }
+input[type=text], input[type=password], input[type=number], input[type=search], textarea, select {
+  width: 100%; padding: .65rem .8rem; border-radius: var(--radius-sm); border: 1px solid var(--line); background: #0f0a16;
+}
+textarea { resize: vertical; }
+.muted { color: var(--muted); font-size: .88rem; }
+.warn { color: var(--warn); } .err { color: var(--err); } .ok { color: var(--ok); }
+.stack { display: grid; gap: .6rem; }
+.row { display: flex; gap: .75rem; align-items: center; justify-content: space-between; }
+.sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }

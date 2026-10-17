@@ -1,0 +1,11 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/Glamour.Core/Glamour.Core.csproj" />
+    <Project Path="src/Glamour.Desktop/Glamour.Desktop.csproj" />
+    <Project Path="src/Glamour.Host/Glamour.Host.csproj" />
+    <Project Path="src/Glamour.Lcu/Glamour.Lcu.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/Glamour.Tests/Glamour.Tests.csproj" />
+  </Folder>
+</Solution>

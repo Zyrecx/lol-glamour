@@ -1,0 +1,2982 @@
+[
+ {
+  "awUnlocked": false,
+  "championId": 157,
+  "childSkins": [],
+  "chromaPreviewPath": null,
+  "disabled": false,
+  "emblems": [],
+  "groupSplash": "",
+  "id": 157000,
+  "isBase": true,
+  "isChampionUnlocked": true,
+  "name": "Yasuo",
+  "ownership": {
+   "loyaltyReward": false,
+   "owned": true,
+   "rental": {
+    "rented": false
+   },
+   "xboxGPReward": false
+  },
+  "productType": null,
+  "rarityGemPath": "",
+  "skinAugments": {},
+  "splashPath": "/lol-game-data/assets/ASSETS/Characters/Yasuo/Skins/Base/Images/yasuo_splash_centered_0.jpg",
+  "splashVideoPath": null,
+  "stillObtainable": false,
+  "tilePath": "/lol-game-data/assets/ASSETS/Characters/Yasuo/Skins/Base/Images/yasuo_splash_tile_0.jpg",
+  "unlocked": true
+ },
+ {
+  "awUnlocked": false,
+  "championId": 157,
+  "childSkins": [
+   {
+    "awUnlocked": false,
+    "championId": 157,
+    "chromaPreviewPath": "/lol-game-data/assets/v1/champion-chroma-images/157/157004.png",
+    "colors": [
+     "#2756CE",
+     "#2756CE"
+    ],
+    "disabled": false,
+    "id": 157004,
+    "isBase": false,
+    "isChampionUnlocked": true,
+    "name": "High Noon Yasuo (Sapphire)",
+    "ownership": {
+     "loyaltyReward": false,
+     "owned": false,
+     "rental": {
+      "rented": false
+     },
+     "xboxGPReward": false
+    },
+    "parentSkinId": 157001,
+    "shortName": "",
+    "skinAugments": {},
+    "splashPath": "/lol-game-data/assets/ASSETS/Characters/Yasuo/Skins/Skin01/Images/yasuo_splash_centered_1.jpg",
+    "splashVideoPath": null,
+    "stage": 0,
+    "stillObtainable": false,
+    "tilePath": "",
+    "unlocked": false
+   },
+   {
+    "awUnlocked": false,
+    "championId": 157,
+    "chromaPreviewPath": "/lol-game-data/assets/v1/champion-chroma-images/157/157005.png",
+    "colors": [
+     "#9C68D7",
+     "#9C68D7"
+    ],
+    "disabled": false,
+    "id": 157005,
+    "isBase": false,
+    "isChampionUnlocked": true,
+    "name": "High Noon Yasuo (Amethyst)",
+    "ownership": {
+     "loyaltyReward": false,
+     "owned": false,
+     "rental": {
+      "rented": false
+     },
+     "xboxGPReward": false
+    },
+    "parentSkinId": 157001,
+    "shortName": "",
+    "skinAugments": {},
+    "splashPath": "/lol-game-data/assets/ASSETS/Characters/Yasuo/Skins/Skin01/Images/yasuo_splash_centered_1.jpg",
+    "splashVideoPath": null,
+    "stage": 0,
+    "stillObtainable": false,
+    "tilePath": "",
+    "unlocked": false
+   },
+   {
+    "awUnlocked": false,
+    "championId": 157,
+    "chromaPreviewPath": "/lol-game-data/assets/v1/champion-chroma-images/157/157006.png",
+    "colors": [
+     "#9F4A25",
+     "#9F4A25"
+    ],
+    "disabled": false,
+    "id": 157006,
+    "isBase": false,
+    "isChampionUnlocked": true,
+    "name": "High Noon Yasuo (Jasper)",
+    "ownership": {
+     "loyaltyReward": false,
+     "owned": false,
+     "rental": {
+      "rented": false
+     },
+     "xboxGPReward": false
+    },
+    "parentSkinId": 157001,
+    "shortName": "",
+    "skinAugments": {},
+    "splashPath": "/lol-game-data/assets/ASSETS/Characters/Yasuo/Skins/Skin01/Images/yasuo_splash_centered_1.jpg",
+    "splashVideoPath": null,
+    "stage": 0,
+    "stillObtainable": false,
+    "tilePath": "",
+    "unlocked": false
+   },
+   {
+    "awUnlocked": false,
+    "championId": 157,
+    "chromaPreviewPath": "/lol-game-data/assets/v1/champion-chroma-images/157/157007.png",
+    "colors": [
+     "#2DA130",
+     "#2DA130"
+    ],
+    "disabled": false,
+    "id": 157007,
+    "isBase": false,
+    "isChampionUnlocked": true,
+    "name": "High Noon Yasuo (Emerald)",
+    "ownership": {
+     "loyaltyReward": false,
+     "owned": false,
+     "rental": {
+      "rented": false
+     },
+     "xboxGPReward": false
+    },
+    "parentSkinId": 157001,
+    "shortName": "",
+    "skinAugments": {},
+    "splashPath": "/lol-game-data/assets/ASSETS/Characters/Yasuo/Skins/Skin01/Images/yasuo_splash_centered_1.jpg",
+    "splashVideoPath": null,
+    "stage": 0,
+    "stillObtainable": false,
+    "tilePath": "",
+    "unlocked": false
+   },
+   {
+    "awUnlocked": false,
+    "championId": 157,
+    "chromaPreviewPath": "/lol-game-data/assets/v1/champion-chroma-images/157/157008.png",
+    "colors": [
+     "#27211C",
+     "#27211C"
+    ],
+    "disabled": false,
+    "id": 157008,
+    "isBase": false,
+    "isChampionUnlocked": true,
+    "name": "High Noon Yasuo (Obsidian)",
+    "ownership": {
+     "loyaltyReward": false,
+     "owned": false,
+     "rental": {
+      "rented": false
+     },
+     "xboxGPReward": false
+    },
+    "parentSkinId": 157001,
+    "shortName": "",
+    "skinAugments": {},
+    "splashPath": "/lol-game-data/assets/ASSETS/Characters/Yasuo/Skins/Skin01/Images/yasuo_splash_centered_1.jpg",
+    "splashVideoPath": null,
+    "stage": 0,
+    "stillObtainable": false,
+    "tilePath": "",
+    "unlocked": false
+   }
+  ],
+  "chromaPreviewPath": "/lol-game-data/assets/v1/champion-chroma-images/157/157001.png",
+  "disabled": false,
+  "emblems": [],
+  "groupSplash": "",
+  "id": 157001,
+  "isBase": false,
+  "isChampionUnlocked": true,
+  "name": "High Noon Yasuo",
+  "ownership": {
+   "loyaltyReward": false,
+   "owned": false,
+   "rental": {
+    "rented": false
+   },
+   "xboxGPReward": false
+  },
+  "productType": null,
+  "rarityGemPath": "",
+  "skinAugments": {},
+  "splashPath": "/lol-game-data/assets/ASSETS/Characters/Yasuo/Skins/Skin01/Images/yasuo_splash_centered_1.jpg",
+  "splashVideoPath": null,
+  "stillObtainable": false,
+  "tilePath": "/lol-game-data/assets/ASSETS/Characters/Yasuo/Skins/Skin01/Images/yasuo_splash_tile_1.jpg",
+  "unlocked": false
+ },
+ {
+  "awUnlocked": false,
+  "championId": 157,
+  "childSkins": [],
+  "chromaPreviewPath": null,
+  "disabled": false,
+  "emblems": [],
+  "groupSplash": "",
+  "id": 157002,
+  "isBase": false,
+  "isChampionUnlocked": true,
+  "name": "PROJECT: Yasuo",
+  "ownership": {
+   "loyaltyReward": false,
+   "owned": false,
+   "rental": {
+    "rented": false
+   },
+   "xboxGPReward": false
+  },
+  "productType": null,
+  "rarityGemPath": "",
+  "skinAugments": {},
+  "splashPath": "/lol-game-data/assets/ASSETS/Characters/Yasuo/Skins/Skin02/Images/yasuo_splash_centered_2.jpg",
+  "splashVideoPath": null,
+  "stillObtainable": false,
+  "tilePath": "/lol-game-data/assets/ASSETS/Characters/Yasuo/Skins/Skin02/Images/yasuo_splash_tile_2.jpg",
+  "unlocked": false
+ },
+ {
+  "awUnlocked": false,
+  "championId": 157,
+  "childSkins": [],
+  "chromaPreviewPath": null,
+  "disabled": false,
+  "emblems": [],
+  "groupSplash": "",
+  "id": 157003,
+  "isBase": false,
+  "isChampionUnlocked": true,
+  "name": "Blood Moon Yasuo",
+  "ownership": {
+   "loyaltyReward": false,
+   "owned": false,
+   "rental": {
+    "rented": false
+   },
+   "xboxGPReward": false
+  },
+  "productType": null,
+  "rarityGemPath": "",
+  "skinAugments": {},
+  "splashPath": "/lol-game-data/assets/ASSETS/Characters/Yasuo/Skins/Skin03/Images/yasuo_splash_centered_3.jpg",
+  "splashVideoPath": null,
+  "stillObtainable": false,
+  "tilePath": "/lol-game-data/assets/ASSETS/Characters/Yasuo/Skins/Skin03/Images/yasuo_splash_tile_3.jpg",
+  "unlocked": false
+ },
+ {
+  "awUnlocked": false,
+  "championId": 157,
+  "childSkins": [
+   {
+    "awUnlocked": false,
+    "championId": 157,
+    "chromaPreviewPath": "/lol-game-data/assets/v1/champion-chroma-images/157/157034.png",
+    "colors": [
+     "#C33C3E",
+     "#0C0E15"
+    ],
+    "disabled": false,
+    "id": 157034,
+    "isBase": false,
+    "isChampionUnlocked": true,
+    "name": "Nightbringer Yasuo (Pariah)",
+    "ownership": {
+     "loyaltyReward": false,
+     "owned": false,
+     "rental": {
+      "rented": false
+     },
+     "xboxGPReward": false
+    },
+    "parentSkinId": 157009,
+    "shortName": "",
+    "skinAugments": {},
+    "splashPath": "/lol-game-data/assets/ASSETS/Characters/Yasuo/Skins/Skin09/Images/yasuo_splash_centered_9.jpg",
+    "splashVideoPath": null,
+    "stage": 0,
+    "stillObtainable": false,
+    "tilePath": "",
+    "unlocked": false
+   }
+  ],
+  "chromaPreviewPath": "/lol-game-data/assets/v1/champion-chroma-images/157/157009.png",
+  "disabled": false,
+  "emblems": [],
+  "groupSplash": "",
+  "id": 157009,
+  "isBase": false,
+  "isChampionUnlocked": true,
+  "name": "Nightbringer Yasuo",
+  "ownership": {
+   "loyaltyReward": false,
+   "owned": false,
+   "rental": {
+    "rented": false
+   },
+   "xboxGPReward": false
+  },
+  "productType": null,
+  "rarityGemPath": "",
+  "skinAugments": {},
+  "splashPath": "/lol-game-data/assets/ASSETS/Characters/Yasuo/Skins/Skin09/Images/yasuo_splash_centered_9.jpg",
+  "splashVideoPath": null,
+  "stillObtainable": false,
+  "tilePath": "/lol-game-data/assets/ASSETS/Characters/Yasuo/Skins/Skin09/Images/yasuo_splash_tile_9.jpg",
+  "unlocked": false
+ },
+ {
+  "awUnlocked": false,
+  "championId": 157,
+  "childSkins": [
+   {
+    "awUnlocked": false,
+    "championId": 157,
+    "chromaPreviewPath": "/lol-game-data/assets/v1/champion-chroma-images/157/157011.png",
+    "colors": [
+     "#D33528",
+     "#D33528"
+    ],
+    "disabled": false,
+    "id": 157011,
+    "isBase": false,
+    "isChampionUnlocked": true,
+    "name": "Odyssey Yasuo (Ruby)",
+    "ownership": {
+     "loyaltyReward": false,
+     "owned": false,
+     "rental": {
+      "rented": false
+     },
+     "xboxGPReward": false
+    },
+    "parentSkinId": 157010,
+    "shortName": "",
+    "skinAugments": {},
+    "splashPath": "/lol-game-data/assets/ASSETS/Characters/Yasuo/Skins/Skin10/Images/yasuo_splash_centered_10.jpg",
+    "splashVideoPath": null,
+    "stage": 0,
+    "stillObtainable": false,
+    "tilePath": "",
+    "unlocked": false
+   },
+   {
+    "awUnlocked": false,
+    "championId": 157,
+    "chromaPreviewPath": "/lol-game-data/assets/v1/champion-chroma-images/157/157012.png",
+    "colors": [
+     "#2756CE",
+     "#2756CE"
+    ],
+    "disabled": false,
+    "id": 157012,
+    "isBase": false,
+    "isChampionUnlocked": true,
+    "name": "Odyssey Yasuo (Sapphire)",
+    "ownership": {
+     "loyaltyReward": false,
+     "owned": false,
+     "rental": {
+      "rented": false
+     },
+     "xboxGPReward": false
+    },
+    "parentSkinId": 157010,
+    "shortName": "",
+    "skinAugments": {},
+    "splashPath": "/lol-game-data/assets/ASSETS/Characters/Yasuo/Skins/Skin10/Images/yasuo_splash_centered_10.jpg",
+    "splashVideoPath": null,
+    "stage": 0,
+    "stillObtainable": false,
+    "tilePath": "",
+    "unlocked": false
+   },
+   {
+    "awUnlocked": false,
+    "championId": 157,
+    "chromaPreviewPath": "/lol-game-data/assets/v1/champion-chroma-images/157/157013.png",
+    "colors": [
+     "#ECF9F8",
+     "#ECF9F8"
+    ],
+    "disabled": false,
+    "id": 157013,
+    "isBase": false,
+    "isChampionUnlocked": true,
+    "name": "Odyssey Yasuo (Pearl)",
+    "ownership": {
+     "loyaltyReward": false,
+     "owned": false,
+     "rental": {
+      "rented": false
+     },
+     "xboxGPReward": false
+    },
+    "parentSkinId": 157010,
+    "shortName": "",
+    "skinAugments": {},
+    "splashPath": "/lol-game-data/assets/ASSETS/Characters/Yasuo/Skins/Skin10/Images/yasuo_splash_centered_10.jpg",
+    "splashVideoPath": null,
+    "stage": 0,
+    "stillObtainable": false,
+    "tilePath": "",
+    "unlocked": false
+   },
+   {
+    "awUnlocked": false,
+    "championId": 157,
+    "chromaPreviewPath": "/lol-game-data/assets/v1/champion-chroma-images/157/157014.png",
+    "colors": [
+     "#27211C",
+     "#27211C"
+    ],
+    "disabled": false,
+    "id": 157014,
+    "isBase": false,
+    "isChampionUnlocked": true,
+    "name": "Odyssey Yasuo (Obsidian)",
+    "ownership": {
+     "loyaltyReward": false,
+     "owned": false,
+     "rental": {
+      "rented": false
+     },
+     "xboxGPReward": false
+    },
+    "parentSkinId": 157010,
+    "shortName": "",
+    "skinAugments": {},
+    "splashPath": "/lol-game-data/assets/ASSETS/Characters/Yasuo/Skins/Skin10/Images/yasuo_splash_centered_10.jpg",
+    "splashVideoPath": null,
+    "stage": 0,
+    "stillObtainable": false,
+    "tilePath": "",
+    "unlocked": false
+   },
+   {
+    "awUnlocked": false,
+    "championId": 157,
+    "chromaPreviewPath": "/lol-game-data/assets/v1/champion-chroma-images/157/157015.png",
+    "colors": [
+     "#54209B",
+     "#54209B"
+    ],
+    "disabled": false,
+    "id": 157015,
+    "isBase": false,
+    "isChampionUnlocked": true,
+    "name": "Odyssey Yasuo (Tanzanite)",
+    "ownership": {
+     "loyaltyReward": false,
+     "owned": false,
+     "rental": {
+      "rented": false
+     },
+     "xboxGPReward": false
+    },
+    "parentSkinId": 157010,
+    "shortName": "",
+    "skinAugments": {},
+    "splashPath": "/lol-game-data/assets/ASSETS/Characters/Yasuo/Skins/Skin10/Images/yasuo_splash_centered_10.jpg",
+    "splashVideoPath": null,
+    "stage": 0,
+    "stillObtainable": false,
+    "tilePath": "",
+    "unlocked": false
+   },
+   {
+    "awUnlocked": false,
+    "championId": 157,
+    "chromaPreviewPath": "/lol-game-data/assets/v1/champion-chroma-images/157/157016.png",
+    "colors": [
+     "#E58BA5",
+     "#E58BA5"
+    ],
+    "disabled": false,
+    "id": 157016,
+    "isBase": false,
+    "isChampionUnlocked": true,
+    "name": "Odyssey Yasuo (Rose Quartz)",
+    "ownership": {
+     "loyaltyReward": false,
+     "owned": false,
+     "rental": {
+      "rented": false
+     },
+     "xboxGPReward": false
+    },
+    "parentSkinId": 157010,
+    "shortName": "",
+    "skinAugments": {},
+    "splashPath": "/lol-game-data/assets/ASSETS/Characters/Yasuo/Skins/Skin10/Images/yasuo_splash_centered_10.jpg",
+    "splashVideoPath": null,
+    "stage": 0,
+    "stillObtainable": false,
+    "tilePath": "",
+    "unlocked": false
+   }
+  ],
+  "chromaPreviewPath": "/lol-game-data/assets/v1/champion-chroma-images/157/157010.png",
+  "disabled": false,
+  "emblems": [],
+  "groupSplash": "",
+  "id": 157010,
+  "isBase": false,
+  "isChampionUnlocked": true,
+  "name": "Odyssey Yasuo",
+  "ownership": {
+   "loyaltyReward": false,
+   "owned": false,
+   "rental": {
+    "rented": false
+   },
+   "xboxGPReward": false
+  },
+  "productType": null,
+  "rarityGemPath": "",
+  "skinAugments": {},
+  "splashPath": "/lol-game-data/assets/ASSETS/Characters/Yasuo/Skins/Skin10/Images/yasuo_splash_centered_10.jpg",
+  "splashVideoPath": null,
+  "stillObtainable": false,
+  "tilePath": "/lol-game-data/assets/ASSETS/Characters/Yasuo/Skins/Skin10/Images/yasuo_splash_tile_10.jpg",
+  "unlocked": false
+ },
+ {
+  "awUnlocked": false,
+  "championId": 157,
+  "childSkins": [
+   {
+    "awUnlocked": false,
+    "championId": 157,
+    "chromaPreviewPath": "/lol-game-data/assets/v1/champion-chroma-images/157/157019.png",
+    "colors": [
+     "#5F432B",
+     "#5F432B"
+    ],
+    "disabled": false,
+    "id": 157019,
+    "isBase": false,
+    "isChampionUnlocked": true,
+    "name": "Battle Boss Yasuo (Meteorite)",
+    "ownership": {
+     "loyaltyReward": false,
+     "owned": false,
+     "rental": {
+      "rented": false
+     },
+     "xboxGPReward": false
+    },
+    "parentSkinId": 157017,
+    "shortName": "",
+    "skinAugments": {},
+    "splashPath": "/lol-game-data/assets/ASSETS/Characters/Yasuo/Skins/Skin17/Images/yasuo_splash_centered_17.jpg",
+    "splashVideoPath": null,
+    "stage": 0,
+    "stillObtainable": false,
+    "tilePath": "",
+    "unlocked": false
+   },
+   {
+    "awUnlocked": false,
+    "championId": 157,
+    "chromaPreviewPath": "/lol-game-data/assets/v1/champion-chroma-images/157/157020.png",
+    "colors": [
+     "#D33528",
+     "#D33528"
+    ],
+    "disabled": false,
+    "id": 157020,
+    "isBase": false,
+    "isChampionUnlocked": true,
+    "name": "Battle Boss Yasuo (Ruby)",
+    "ownership": {
+     "loyaltyReward": false,
+     "owned": false,
+     "rental": {
+      "rented": false
+     },
+     "xboxGPReward": false
+    },
+    "parentSkinId": 157017,
+    "shortName": "",
+    "skinAugments": {},
+    "splashPath": "/lol-game-data/assets/ASSETS/Characters/Yasuo/Skins/Skin17/Images/yasuo_splash_centered_17.jpg",
+    "splashVideoPath": null,
+    "stage": 0,
+    "stillObtainable": false,
+    "tilePath": "",
+    "unlocked": false
+   },
+   {
+    "awUnlocked": false,
+    "championId": 157,
+    "chromaPreviewPath": "/lol-game-data/assets/v1/champion-chroma-images/157/157021.png",
+    "colors": [
+     "#6ABBEE",
+     "#6ABBEE"
+    ],
+    "disabled": false,
+    "id": 157021,
+    "isBase": false,
+    "isChampionUnlocked": true,
+    "name": "Battle Boss Yasuo (Aquamarine)",
+    "ownership": {
+     "loyaltyReward": false,
+     "owned": false,
+     "rental": {
+      "rented": false
+     },
+     "xboxGPReward": false
+    },
+    "parentSkinId": 157017,
+    "shortName": "",
+    "skinAugments": {},
+    "splashPath": "/lol-game-data/assets/ASSETS/Characters/Yasuo/Skins/Skin17/Images/yasuo_splash_centered_17.jpg",
+    "splashVideoPath": null,
+    "stage": 0,
+    "stillObtainable": false,
+    "tilePath": "",
+    "unlocked": false
+   },
+   {
+    "awUnlocked": false,
+    "championId": 157,
+    "chromaPreviewPath": "/lol-game-data/assets/v1/champion-chroma-images/157/157022.png",
+    "colors": [
+     "#9C68D7",
+     "#9C68D7"
+    ],
+    "disabled": false,
+    "id": 157022,
+    "isBase": false,
+    "isChampionUnlocked": true,
+    "name": "Battle Boss Yasuo (Amethyst)",
+    "ownership": {
+     "loyaltyReward": false,
+     "owned": false,
+     "rental": {
+      "rented": false
+     },
+     "xboxGPReward": false
+    },
+    "parentSkinId": 157017,
+    "shortName": "",
+    "skinAugments": {},
+    "splashPath": "/lol-game-data/assets/ASSETS/Characters/Yasuo/Skins/Skin17/Images/yasuo_splash_centered_17.jpg",
+    "splashVideoPath": null,
+    "stage": 0,
+    "stillObtainable": false,
+    "tilePath": "",
+    "unlocked": false
+   },
+   {
+    "awUnlocked": false,
+    "championId": 157,
+    "chromaPreviewPath": "/lol-game-data/assets/v1/champion-chroma-images/157/157023.png",
+    "colors": [
+     "#E58BA5",
+     "#E58BA5"
+    ],
+    "disabled": false,
+    "id": 157023,
+    "isBase": false,
+    "isChampionUnlocked": true,
+    "name": "Battle Boss Yasuo (Rose Quartz)",
+    "ownership": {
+     "loyaltyReward": false,
+     "owned": false,
+     "rental": {
+      "rented": false
+     },
+     "xboxGPReward": false
+    },
+    "parentSkinId": 157017,
+    "shortName": "",
+    "skinAugments": {},
+    "splashPath": "/lol-game-data/assets/ASSETS/Characters/Yasuo/Skins/Skin17/Images/yasuo_splash_centered_17.jpg",
+    "splashVideoPath": null,
+    "stage": 0,
+    "stillObtainable": false,
+    "tilePath": "",
+    "unlocked": false
+   },
+   {
+    "awUnlocked": false,
+    "championId": 157,
+    "chromaPreviewPath": "/lol-game-data/assets/v1/champion-chroma-images/157/157024.png",
+    "colors": [
+     "#FFEE59",
+     "#FFEE59"
+    ],
+    "disabled": false,
+    "id": 157024,
+    "isBase": false,
+    "isChampionUnlocked": true,
+    "name": "Battle Boss Yasuo (Catseye)",
+    "ownership": {
+     "loyaltyReward": false,
+     "owned": false,
+     "rental": {
+      "rented": false
+     },
+     "xboxGPReward": false
+    },
+    "parentSkinId": 157017,
+    "shortName": "",
+    "skinAugments": {},
+    "splashPath": "/lol-game-data/assets/ASSETS/Characters/Yasuo/Skins/Skin17/Images/yasuo_splash_centered_17.jpg",
+    "splashVideoPath": null,
+    "stage": 0,
+    "stillObtainable": false,
+    "tilePath": "",
+    "unlocked": false
+   },
+   {
+    "awUnlocked": false,
+    "championId": 157,
+    "chromaPreviewPath": "/lol-game-data/assets/v1/champion-chroma-images/157/157025.png",
+    "colors": [
+     "#27211C",
+     "#27211C"
+    ],
+    "disabled": false,
+    "id": 157025,
+    "isBase": false,
+    "isChampionUnlocked": true,
+    "name": "Battle Boss Yasuo (Obsidian)",
+    "ownership": {
+     "loyaltyReward": false,
+     "owned": false,
+     "rental": {
+      "rented": false
+     },
+     "xboxGPReward": false
+    },
+    "parentSkinId": 157017,
+    "shortName": "",
+    "skinAugments": {},
+    "splashPath": "/lol-game-data/assets/ASSETS/Characters/Yasuo/Skins/Skin17/Images/yasuo_splash_centered_17.jpg",
+    "splashVideoPath": null,
+    "stage": 0,
+    "stillObtainable": false,
+    "tilePath": "",
+    "unlocked": false
+   },
+   {
+    "awUnlocked": false,
+    "championId": 157,
+    "chromaPreviewPath": "/lol-game-data/assets/v1/champion-chroma-images/157/157026.png",
+    "colors": [
+     "#A5FFF8",
+     "#D87BFF"
+    ],
+    "disabled": false,
+    "id": 157026,
+    "isBase": false,
+    "isChampionUnlocked": true,
+    "name": "Battle Boss Yasuo (K.O.)",
+    "ownership": {
+     "loyaltyReward": false,
+     "owned": false,
+     "rental": {
+      "rented": false
+     },
+     "xboxGPReward": false
+    },
+    "parentSkinId": 157017,
+    "shortName": "",
+    "skinAugments": {},
+    "splashPath": "/lol-game-data/assets/ASSETS/Characters/Yasuo/Skins/Skin17/Images/yasuo_splash_centered_17.jpg",
+    "splashVideoPath": null,
+    "stage": 0,
+    "stillObtainable": false,
+    "tilePath": "",
+    "unlocked": false
+   }
+  ],
+  "chromaPreviewPath": "/lol-game-data/assets/v1/champion-chroma-images/157/157017.png",
+  "disabled": false,
+  "emblems": [],
+  "groupSplash": "",
+  "id": 157017,
+  "isBase": false,
+  "isChampionUnlocked": true,
+  "name": "Battle Boss Yasuo",
+  "ownership": {
+   "loyaltyReward": false,
+   "owned": false,
+   "rental": {
+    "rented": false
+   },
+   "xboxGPReward": false
+  },
+  "productType": null,
+  "rarityGemPath": "",
+  "skinAugments": {},
+  "splashPath": "/lol-game-data/assets/ASSETS/Characters/Yasuo/Skins/Skin17/Images/yasuo_splash_centered_17.jpg",
+  "splashVideoPath": null,
+  "stillObtainable": false,
+  "tilePath": "/lol-game-data/assets/ASSETS/Characters/Yasuo/Skins/Skin17/Images/yasuo_splash_tile_17.jpg",
+  "unlocked": false
+ },
+ {
+  "awUnlocked": false,
+  "championId": 157,
+  "childSkins": [
+   {
+    "awUnlocked": false,
+    "championId": 157,
+    "chromaPreviewPath": "/lol-game-data/assets/v1/champion-chroma-images/157/157027.png",
+    "colors": [
+     "#D33528",
+     "#D33528"
+    ],
+    "disabled": false,
+    "id": 157027,
+    "isBase": false,
+    "isChampionUnlocked": true,
+    "name": "True Damage Yasuo (Ruby)",
+    "ownership": {
+     "loyaltyReward": false,
+     "owned": false,
+     "rental": {
+      "rented": false
+     },
+     "xboxGPReward": false
+    },
+    "parentSkinId": 157018,
+    "shortName": "",
+    "skinAugments": {},
+    "splashPath": "/lol-game-data/assets/ASSETS/Characters/Yasuo/Skins/Skin18/Images/yasuo_splash_centered_18.jpg",
+    "splashVideoPath": null,
+    "stage": 0,
+    "stillObtainable": false,
+    "tilePath": "",
+    "unlocked": false
+   },
+   {
+    "awUnlocked": false,
+    "championId": 157,
+    "chromaPreviewPath": "/lol-game-data/assets/v1/champion-chroma-images/157/157028.png",
+    "colors": [
+     "#27211C",
+     "#27211C"
+    ],
+    "disabled": false,
+    "id": 157028,
+    "isBase": false,
+    "isChampionUnlocked": true,
+    "name": "True Damage Yasuo (Obsidian)",
+    "ownership": {
+     "loyaltyReward": false,
+     "owned": false,
+     "rental": {
+      "rented": false
+     },
+     "xboxGPReward": false
+    },
+    "parentSkinId": 157018,
+    "shortName": "",
+    "skinAugments": {},
+    "splashPath": "/lol-game-data/assets/ASSETS/Characters/Yasuo/Skins/Skin18/Images/yasuo_splash_centered_18.jpg",
+    "splashVideoPath": null,
+    "stage": 0,
+    "stillObtainable": false,
+    "tilePath": "",
+    "unlocked": false
+   },
+   {
+    "awUnlocked": false,
+    "championId": 157,
+    "chromaPreviewPath": "/lol-game-data/assets/v1/champion-chroma-images/157/157029.png",
+    "colors": [
+     "#FFEE59",
+     "#FFEE59"
+    ],
+    "disabled": false,
+    "id": 157029,
+    "isBase": false,
+    "isChampionUnlocked": true,
+    "name": "True Damage Yasuo (Catseye)",
+    "ownership": {
+     "loyaltyReward": false,
+     "owned": false,
+     "rental": {
+      "rented": false
+     },
+     "xboxGPReward": false
+    },
+    "parentSkinId": 157018,
+    "shortName": "",
+    "skinAugments": {},
+    "splashPath": "/lol-game-data/assets/ASSETS/Characters/Yasuo/Skins/Skin18/Images/yasuo_splash_centered_18.jpg",
+    "splashVideoPath": null,
+    "stage": 0,
+    "stillObtainable": false,
+    "tilePath": "",
+    "unlocked": false
+   },
+   {
+    "awUnlocked": false,
+    "championId": 157,
+    "chromaPreviewPath": "/lol-game-data/assets/v1/champion-chroma-images/157/157030.png",
+    "colors": [
+     "#6ABBEE",
+     "#6ABBEE"
+    ],
+    "disabled": false,
+    "id": 157030,
+    "isBase": false,
+    "isChampionUnlocked": true,
+    "name": "True Damage Yasuo (Aquamarine)",
+    "ownership": {
+     "loyaltyReward": false,
+     "owned": false,
+     "rental": {
+      "rented": false
+     },
+     "xboxGPReward": false
+    },
+    "parentSkinId": 157018,
+    "shortName": "",
+    "skinAugments": {},
+    "splashPath": "/lol-game-data/assets/ASSETS/Characters/Yasuo/Skins/Skin18/Images/yasuo_splash_centered_18.jpg",
+    "splashVideoPath": null,
+    "stage": 0,
+    "stillObtainable": false,
+    "tilePath": "",
+    "unlocked": false
+   },
+   {
+    "awUnlocked": false,
+    "championId": 157,
+    "chromaPreviewPath": "/lol-game-data/assets/v1/champion-chroma-images/157/157031.png",
+    "colors": [
+     "#9C68D7",
+     "#9C68D7"
+    ],
+    "disabled": false,
+    "id": 157031,
+    "isBase": false,
+    "isChampionUnlocked": true,
+    "name": "True Damage Yasuo (Amethyst)",
+    "ownership": {
+     "loyaltyReward": false,
+     "owned": false,
+     "rental": {
+      "rented": false
+     },
+     "xboxGPReward": false
+    },
+    "parentSkinId": 157018,
+    "shortName": "",
+    "skinAugments": {},
+    "splashPath": "/lol-game-data/assets/ASSETS/Characters/Yasuo/Skins/Skin18/Images/yasuo_splash_centered_18.jpg",
+    "splashVideoPath": null,
+    "stage": 0,
+    "stillObtainable": false,
+    "tilePath": "",
+    "unlocked": false
+   },
+   {
+    "awUnlocked": false,
+    "championId": 157,
+    "chromaPreviewPath": "/lol-game-data/assets/v1/champion-chroma-images/157/157032.png",
+    "colors": [
+     "#ECF9F8",
+     "#ECF9F8"
+    ],
+    "disabled": false,
+    "id": 157032,
+    "isBase": false,
+    "isChampionUnlocked": true,
+    "name": "True Damage Yasuo (Pearl)",
+    "ownership": {
+     "loyaltyReward": false,
+     "owned": false,
+     "rental": {
+      "rented": false
+     },
+     "xboxGPReward": false
+    },
+    "parentSkinId": 157018,
+    "shortName": "",
+    "skinAugments": {},
+    "splashPath": "/lol-game-data/assets/ASSETS/Characters/Yasuo/Skins/Skin18/Images/yasuo_splash_centered_18.jpg",
+    "splashVideoPath": null,
+    "stage": 0,
+    "stillObtainable": false,
+    "tilePath": "",
+    "unlocked": false
+   },
+   {
+    "awUnlocked": false,
+    "championId": 157,
+    "chromaPreviewPath": "/lol-game-data/assets/v1/champion-chroma-images/157/157033.png",
+    "colors": [
+     "#BD1357",
+     "#19182A"
+    ],
+    "disabled": false,
+    "id": 157033,
+    "isBase": false,
+    "isChampionUnlocked": true,
+    "name": "True Damage Yasuo (Freestyle)",
+    "ownership": {
+     "loyaltyReward": false,
+     "owned": false,
+     "rental": {
+      "rented": false
+     },
+     "xboxGPReward": false
+    },
+    "parentSkinId": 157018,
+    "shortName": "",
+    "skinAugments": {},
+    "splashPath": "/lol-game-data/assets/ASSETS/Characters/Yasuo/Skins/Skin18/Images/yasuo_splash_centered_18.jpg",
+    "splashVideoPath": null,
+    "stage": 0,
+    "stillObtainable": false,
+    "tilePath": "",
+    "unlocked": false
+   }
+  ],
+  "chromaPreviewPath": "/lol-game-data/assets/v1/champion-chroma-images/157/157018.png",
+  "disabled": false,
+  "emblems": [],
+  "groupSplash": "",
+  "id": 157018,
+  "isBase": false,
+  "isChampionUnlocked": true,
+  "name": "True Damage Yasuo",
+  "ownership": {
+   "loyaltyReward": false,
+   "owned": false,
+   "rental": {
+    "rented": false
+   },
+   "xboxGPReward": false
+  },
+  "productType": null,
+  "rarityGemPath": "",
+  "skinAugments": {},
+  "splashPath": "/lol-game-data/assets/ASSETS/Characters/Yasuo/Skins/Skin18/Images/yasuo_splash_centered_18.jpg",
+  "splashVideoPath": null,
+  "stillObtainable": false,
+  "tilePath": "/lol-game-data/assets/ASSETS/Characters/Yasuo/Skins/Skin18/Images/yasuo_splash_tile_18.jpg",
+  "unlocked": false
+ },
+ {
+  "awUnlocked": false,
+  "championId": 157,
+  "childSkins": [],
+  "chromaPreviewPath": null,
+  "disabled": false,
+  "emblems": [],
+  "groupSplash": "",
+  "id": 157035,
+  "isBase": false,
+  "isChampionUnlocked": true,
+  "name": "Prestige True Damage Yasuo",
+  "ownership": {
+   "loyaltyReward": false,
+   "owned": false,
+   "rental": {
+    "rented": false
+   },
+   "xboxGPReward": false
+  },
+  "productType": null,
+  "rarityGemPath": "",
+  "skinAugments": {},
+  "splashPath": "/lol-game-data/assets/ASSETS/Characters/Yasuo/Skins/Skin35/Images/yasuo_splash_centered_35.jpg",
+  "splashVideoPath": null,
+  "stillObtainable": false,
+  "tilePath": "/lol-game-data/assets/ASSETS/Characters/Yasuo/Skins/Skin35/Images/yasuo_splash_tile_35.jpg",
+  "unlocked": false
+ },
+ {
+  "awUnlocked": false,
+  "championId": 157,
+  "childSkins": [
+   {
+    "awUnlocked": false,
+    "championId": 157,
+    "chromaPreviewPath": "/lol-game-data/assets/v1/champion-chroma-images/157/157037.png",
+    "colors": [
+     "#D33528",
+     "#D33528"
+    ],
+    "disabled": false,
+    "id": 157037,
+    "isBase": false,
+    "isChampionUnlocked": true,
+    "name": "Spirit Blossom Yasuo (Ruby)",
+    "ownership": {
+     "loyaltyReward": false,
+     "owned": false,
+     "rental": {
+      "rented": false
+     },
+     "xboxGPReward": false
+    },
+    "parentSkinId": 157036,
+    "shortName": "",
+    "skinAugments": {},
+    "splashPath": "/lol-game-data/assets/ASSETS/Characters/Yasuo/Skins/Skin36/Images/yasuo_splash_centered_36.jpg",
+    "splashVideoPath": null,
+    "stage": 0,
+    "stillObtainable": false,
+    "tilePath": "",
+    "unlocked": false
+   },
+   {
+    "awUnlocked": false,
+    "championId": 157,
+    "chromaPreviewPath": "/lol-game-data/assets/v1/champion-chroma-images/157/157038.png",
+    "colors": [
+     "#27211C",
+     "#27211C"
+    ],
+    "disabled": false,
+    "id": 157038,
+    "isBase": false,
+    "isChampionUnlocked": true,
+    "name": "Spirit Blossom Yasuo (Obsidian)",
+    "ownership": {
+     "loyaltyReward": false,
+     "owned": false,
+     "rental": {
+      "rented": false
+     },
+     "xboxGPReward": false
+    },
+    "parentSkinId": 157036,
+    "shortName": "",
+    "skinAugments": {},
+    "splashPath": "/lol-game-data/assets/ASSETS/Characters/Yasuo/Skins/Skin36/Images/yasuo_splash_centered_36.jpg",
+    "splashVideoPath": null,
+    "stage": 0,
+    "stillObtainable": false,
+    "tilePath": "",
+    "unlocked": false
+   },
+   {
+    "awUnlocked": false,
+    "championId": 157,
+    "chromaPreviewPath": "/lol-game-data/assets/v1/champion-chroma-images/157/157039.png",
+    "colors": [
+     "#2756CE",
+     "#2756CE"
+    ],
+    "disabled": false,
+    "id": 157039,
+    "isBase": false,
+    "isChampionUnlocked": true,
+    "name": "Spirit Blossom Yasuo (Sapphire)",
+    "ownership": {
+     "loyaltyReward": false,
+     "owned": false,
+     "rental": {
+      "rented": false
+     },
+     "xboxGPReward": false
+    },
+    "parentSkinId": 157036,
+    "shortName": "",
+    "skinAugments": {},
+    "splashPath": "/lol-game-data/assets/ASSETS/Characters/Yasuo/Skins/Skin36/Images/yasuo_splash_centered_36.jpg",
+    "splashVideoPath": null,
+    "stage": 0,
+    "stillObtainable": false,
+    "tilePath": "",
+    "unlocked": false
+   },
+   {
+    "awUnlocked": false,
+    "championId": 157,
+    "chromaPreviewPath": "/lol-game-data/assets/v1/champion-chroma-images/157/157040.png",
+    "colors": [
+     "#ECF9F8",
+     "#ECF9F8"
+    ],
+    "disabled": false,
+    "id": 157040,
+    "isBase": false,
+    "isChampionUnlocked": true,
+    "name": "Spirit Blossom Yasuo (Pearl)",
+    "ownership": {
+     "loyaltyReward": false,
+     "owned": false,
+     "rental": {
+      "rented": false
+     },
+     "xboxGPReward": false
+    },
+    "parentSkinId": 157036,
+    "shortName": "",
+    "skinAugments": {},
+    "splashPath": "/lol-game-data/assets/ASSETS/Characters/Yasuo/Skins/Skin36/Images/yasuo_splash_centered_36.jpg",
+    "splashVideoPath": null,
+    "stage": 0,
+    "stillObtainable": false,
+    "tilePath": "",
+    "unlocked": false
+   },
+   {
+    "awUnlocked": false,
+    "championId": 157,
+    "chromaPreviewPath": "/lol-game-data/assets/v1/champion-chroma-images/157/157041.png",
+    "colors": [
+     "#E58BA5",
+     "#E58BA5"
+    ],
+    "disabled": false,
+    "id": 157041,
+    "isBase": false,
+    "isChampionUnlocked": true,
+    "name": "Spirit Blossom Yasuo (Rose Quartz)",
+    "ownership": {
+     "loyaltyReward": false,
+     "owned": false,
+     "rental": {
+      "rented": false
+     },
+     "xboxGPReward": false
+    },
+    "parentSkinId": 157036,
+    "shortName": "",
+    "skinAugments": {},
+    "splashPath": "/lol-game-data/assets/ASSETS/Characters/Yasuo/Skins/Skin36/Images/yasuo_splash_centered_36.jpg",
+    "splashVideoPath": null,
+    "stage": 0,
+    "stillObtainable": false,
+    "tilePath": "",
+    "unlocked": false
+   },
+   {
+    "awUnlocked": false,
+    "championId": 157,
+    "chromaPreviewPath": "/lol-game-data/assets/v1/champion-chroma-images/157/157042.png",
+    "colors": [
+     "#2DA130",
+     "#2DA130"
+    ],
+    "disabled": false,
+    "id": 157042,
+    "isBase": false,
+    "isChampionUnlocked": true,
+    "name": "Spirit Blossom Yasuo (Emerald)",
+    "ownership": {
+     "loyaltyReward": false,
+     "owned": false,
+     "rental": {
+      "rented": false
+     },
+     "xboxGPReward": false
+    },
+    "parentSkinId": 157036,
+    "shortName": "",
+    "skinAugments": {},
+    "splashPath": "/lol-game-data/assets/ASSETS/Characters/Yasuo/Skins/Skin36/Images/yasuo_splash_centered_36.jpg",
+    "splashVideoPath": null,
+    "stage": 0,
+    "stillObtainable": false,
+    "tilePath": "",
+    "unlocked": false
+   },
+   {
+    "awUnlocked": false,
+    "championId": 157,
+    "chromaPreviewPath": "/lol-game-data/assets/v1/champion-chroma-images/157/157043.png",
+    "colors": [
+     "#FFEE59",
+     "#FFEE59"
+    ],
+    "disabled": false,
+    "id": 157043,
+    "isBase": false,
+    "isChampionUnlocked": true,
+    "name": "Spirit Blossom Yasuo (Catseye)",
+    "ownership": {
+     "loyaltyReward": false,
+     "owned": false,
+     "rental": {
+      "rented": false
+     },
+     "xboxGPReward": false
+    },
+    "parentSkinId": 157036,
+    "shortName": "",
+    "skinAugments": {},
+    "splashPath": "/lol-game-data/assets/ASSETS/Characters/Yasuo/Skins/Skin36/Images/yasuo_splash_centered_36.jpg",
+    "splashVideoPath": null,
+    "stage": 0,
+    "stillObtainable": false,
+    "tilePath": "",
+    "unlocked": false
+   },
+   {
+    "awUnlocked": false,
+    "championId": 157,
+    "chromaPreviewPath": "/lol-game-data/assets/v1/champion-chroma-images/157/157044.png",
+    "colors": [
+     "#0C0C0F",
+     "#B2D1E4"
+    ],
+    "disabled": false,
+    "id": 157044,
+    "isBase": false,
+    "isChampionUnlocked": true,
+    "name": "Spirit Blossom Yasuo (Night Blossom)",
+    "ownership": {
+     "loyaltyReward": false,
+     "owned": false,
+     "rental": {
+      "rented": false
+     },
+     "xboxGPReward": false
+    },
+    "parentSkinId": 157036,
+    "shortName": "",
+    "skinAugments": {},
+    "splashPath": "/lol-game-data/assets/ASSETS/Characters/Yasuo/Skins/Skin36/Images/yasuo_splash_centered_36.jpg",
+    "splashVideoPath": null,
+    "stage": 0,
+    "stillObtainable": false,
+    "tilePath": "",
+    "unlocked": false
+   }
+  ],
+  "chromaPreviewPath": "/lol-game-data/assets/v1/champion-chroma-images/157/157036.png",
+  "disabled": false,
+  "emblems": [],
+  "groupSplash": "",
+  "id": 157036,
+  "isBase": false,
+  "isChampionUnlocked": true,
+  "name": "Spirit Blossom Yasuo",
+  "ownership": {
+   "loyaltyReward": false,
+   "owned": false,
+   "rental": {
+    "rented": false
+   },
+   "xboxGPReward": false
+  },
+  "productType": null,
+  "rarityGemPath": "",
+  "skinAugments": {},
+  "splashPath": "/lol-game-data/assets/ASSETS/Characters/Yasuo/Skins/Skin36/Images/yasuo_splash_centered_36.jpg",
+  "splashVideoPath": null,
+  "stillObtainable": false,
+  "tilePath": "/lol-game-data/assets/ASSETS/Characters/Yasuo/Skins/Skin36/Images/yasuo_splash_tile_36.jpg",
+  "unlocked": false
+ },
+ {
+  "awUnlocked": false,
+  "championId": 157,
+  "childSkins": [
+   {
+    "awUnlocked": false,
+    "championId": 157,
+    "chromaPreviewPath": "/lol-game-data/assets/v1/champion-chroma-images/157/157046.png",
+    "colors": [
+     "#D33528",
+     "#D33528"
+    ],
+    "disabled": false,
+    "id": 157046,
+    "isBase": false,
+    "isChampionUnlocked": true,
+    "name": "Sea Dog Yasuo (Ruby)",
+    "ownership": {
+     "loyaltyReward": false,
+     "owned": false,
+     "rental": {
+      "rented": false
+     },
+     "xboxGPReward": false
+    },
+    "parentSkinId": 157045,
+    "shortName": "",
+    "skinAugments": {},
+    "splashPath": "/lol-game-data/assets/ASSETS/Characters/Yasuo/Skins/Skin45/Images/yasuo_splash_centered_45.jpg",
+    "splashVideoPath": null,
+    "stage": 0,
+    "stillObtainable": false,
+    "tilePath": "",
+    "unlocked": false
+   },
+   {
+    "awUnlocked": false,
+    "championId": 157,
+    "chromaPreviewPath": "/lol-game-data/assets/v1/champion-chroma-images/157/157047.png",
+    "colors": [
+     "#FFEE59",
+     "#FFEE59"
+    ],
+    "disabled": false,
+    "id": 157047,
+    "isBase": false,
+    "isChampionUnlocked": true,
+    "name": "Sea Dog Yasuo (Catseye)",
+    "ownership": {
+     "loyaltyReward": false,
+     "owned": false,
+     "rental": {
+      "rented": false
+     },
+     "xboxGPReward": false
+    },
+    "parentSkinId": 157045,
+    "shortName": "",
+    "skinAugments": {},
+    "splashPath": "/lol-game-data/assets/ASSETS/Characters/Yasuo/Skins/Skin45/Images/yasuo_splash_centered_45.jpg",
+    "splashVideoPath": null,
+    "stage": 0,
+    "stillObtainable": false,
+    "tilePath": "",
+    "unlocked": false
+   },
+   {
+    "awUnlocked": false,
+    "championId": 157,
+    "chromaPreviewPath": "/lol-game-data/assets/v1/champion-chroma-images/157/157048.png",
+    "colors": [
+     "#6ABBEE",
+     "#6ABBEE"
+    ],
+    "disabled": false,
+    "id": 157048,
+    "isBase": false,
+    "isChampionUnlocked": true,
+    "name": "Sea Dog Yasuo (Aquamarine)",
+    "ownership": {
+     "loyaltyReward": false,
+     "owned": false,
+     "rental": {
+      "rented": false
+     },
+     "xboxGPReward": false
+    },
+    "parentSkinId": 157045,
+    "shortName": "",
+    "skinAugments": {},
+    "splashPath": "/lol-game-data/assets/ASSETS/Characters/Yasuo/Skins/Skin45/Images/yasuo_splash_centered_45.jpg",
+    "splashVideoPath": null,
+    "stage": 0,
+    "stillObtainable": false,
+    "tilePath": "",
+    "unlocked": false
+   },
+   {
+    "awUnlocked": false,
+    "championId": 157,
+    "chromaPreviewPath": "/lol-game-data/assets/v1/champion-chroma-images/157/157049.png",
+    "colors": [
+     "#2DA130",
+     "#2DA130"
+    ],
+    "disabled": false,
+    "id": 157049,
+    "isBase": false,
+    "isChampionUnlocked": true,
+    "name": "Sea Dog Yasuo (Emerald)",
+    "ownership": {
+     "loyaltyReward": false,
+     "owned": false,
+     "rental": {
+      "rented": false
+     },
+     "xboxGPReward": false
+    },
+    "parentSkinId": 157045,
+    "shortName": "",
+    "skinAugments": {},
+    "splashPath": "/lol-game-data/assets/ASSETS/Characters/Yasuo/Skins/Skin45/Images/yasuo_splash_centered_45.jpg",
+    "splashVideoPath": null,
+    "stage": 0,
+    "stillObtainable": false,
+    "tilePath": "",
+    "unlocked": false
+   },
+   {
+    "awUnlocked": false,
+    "championId": 157,
+    "chromaPreviewPath": "/lol-game-data/assets/v1/champion-chroma-images/157/157050.png",
+    "colors": [
+     "#9C68D7",
+     "#9C68D7"
+    ],
+    "disabled": false,
+    "id": 157050,
+    "isBase": false,
+    "isChampionUnlocked": true,
+    "name": "Sea Dog Yasuo (Amethyst)",
+    "ownership": {
+     "loyaltyReward": false,
+     "owned": false,
+     "rental": {
+      "rented": false
+     },
+     "xboxGPReward": false
+    },
+    "parentSkinId": 157045,
+    "shortName": "",
+    "skinAugments": {},
+    "splashPath": "/lol-game-data/assets/ASSETS/Characters/Yasuo/Skins/Skin45/Images/yasuo_splash_centered_45.jpg",
+    "splashVideoPath": null,
+    "stage": 0,
+    "stillObtainable": false,
+    "tilePath": "",
+    "unlocked": false
+   },
+   {
+    "awUnlocked": false,
+    "championId": 157,
+    "chromaPreviewPath": "/lol-game-data/assets/v1/champion-chroma-images/157/157051.png",
+    "colors": [
+     "#E58BA5",
+     "#E58BA5"
+    ],
+    "disabled": false,
+    "id": 157051,
+    "isBase": false,
+    "isChampionUnlocked": true,
+    "name": "Sea Dog Yasuo (Rose Quartz)",
+    "ownership": {
+     "loyaltyReward": false,
+     "owned": false,
+     "rental": {
+      "rented": false
+     },
+     "xboxGPReward": false
+    },
+    "parentSkinId": 157045,
+    "shortName": "",
+    "skinAugments": {},
+    "splashPath": "/lol-game-data/assets/ASSETS/Characters/Yasuo/Skins/Skin45/Images/yasuo_splash_centered_45.jpg",
+    "splashVideoPath": null,
+    "stage": 0,
+    "stillObtainable": false,
+    "tilePath": "",
+    "unlocked": false
+   },
+   {
+    "awUnlocked": false,
+    "championId": 157,
+    "chromaPreviewPath": "/lol-game-data/assets/v1/champion-chroma-images/157/157052.png",
+    "colors": [
+     "#27211C",
+     "#27211C"
+    ],
+    "disabled": false,
+    "id": 157052,
+    "isBase": false,
+    "isChampionUnlocked": true,
+    "name": "Sea Dog Yasuo (Obsidian)",
+    "ownership": {
+     "loyaltyReward": false,
+     "owned": false,
+     "rental": {
+      "rented": false
+     },
+     "xboxGPReward": false
+    },
+    "parentSkinId": 157045,
+    "shortName": "",
+    "skinAugments": {},
+    "splashPath": "/lol-game-data/assets/ASSETS/Characters/Yasuo/Skins/Skin45/Images/yasuo_splash_centered_45.jpg",
+    "splashVideoPath": null,
+    "stage": 0,
+    "stillObtainable": false,
+    "tilePath": "",
+    "unlocked": false
+   },
+   {
+    "awUnlocked": false,
+    "championId": 157,
+    "chromaPreviewPath": "/lol-game-data/assets/v1/champion-chroma-images/157/157053.png",
+    "colors": [
+     "#ECF9F8",
+     "#ECF9F8"
+    ],
+    "disabled": false,
+    "id": 157053,
+    "isBase": false,
+    "isChampionUnlocked": true,
+    "name": "Sea Dog Yasuo (Pearl)",
+    "ownership": {
+     "loyaltyReward": false,
+     "owned": false,
+     "rental": {
+      "rented": false
+     },
+     "xboxGPReward": false
+    },
+    "parentSkinId": 157045,
+    "shortName": "",
+    "skinAugments": {},
+    "splashPath": "/lol-game-data/assets/ASSETS/Characters/Yasuo/Skins/Skin45/Images/yasuo_splash_centered_45.jpg",
+    "splashVideoPath": null,
+    "stage": 0,
+    "stillObtainable": false,
+    "tilePath": "",
+    "unlocked": false
+   }
+  ],
+  "chromaPreviewPath": "/lol-game-data/assets/v1/champion-chroma-images/157/157045.png",
+  "disabled": false,
+  "emblems": [],
+  "groupSplash": "",
+  "id": 157045,
+  "isBase": false,
+  "isChampionUnlocked": true,
+  "name": "Sea Dog Yasuo",
+  "ownership": {
+   "loyaltyReward": false,
+   "owned": false,
+   "rental": {
+    "rented": false
+   },
+   "xboxGPReward": false
+  },
+  "productType": null,
+  "rarityGemPath": "",
+  "skinAugments": {},
+  "splashPath": "/lol-game-data/assets/ASSETS/Characters/Yasuo/Skins/Skin45/Images/yasuo_splash_centered_45.jpg",
+  "splashVideoPath": null,
+  "stillObtainable": false,
+  "tilePath": "/lol-game-data/assets/ASSETS/Characters/Yasuo/Skins/Skin45/Images/yasuo_splash_tile_45.jpg",
+  "unlocked": false
+ },
+ {
+  "awUnlocked": false,
+  "championId": 157,
+  "childSkins": [],
+  "chromaPreviewPath": null,
+  "disabled": false,
+  "emblems": [],
+  "groupSplash": "",
+  "id": 157054,
+  "isBase": false,
+  "isChampionUnlocked": true,
+  "name": "Truth Dragon Yasuo",
+  "ownership": {
+   "loyaltyReward": false,
+   "owned": true,
+   "rental": {
+    "rented": false
+   },
+   "xboxGPReward": false
+  },
+  "productType": null,
+  "rarityGemPath": "",
+  "skinAugments": {},
+  "splashPath": "/lol-game-data/assets/ASSETS/Characters/Yasuo/Skins/Skin54/Images/yasuo_splash_centered_54.jpg",
+  "splashVideoPath": null,
+  "stillObtainable": false,
+  "tilePath": "/lol-game-data/assets/ASSETS/Characters/Yasuo/Skins/Skin54/Images/yasuo_splash_tile_54.jpg",
+  "unlocked": true
+ },
+ {
+  "awUnlocked": false,
+  "championId": 157,
+  "childSkins": [],
+  "chromaPreviewPath": null,
+  "disabled": false,
+  "emblems": [],
+  "groupSplash": "",
+  "id": 157055,
+  "isBase": false,
+  "isChampionUnlocked": true,
+  "name": "Dream Dragon Yasuo",
+  "ownership": {
+   "loyaltyReward": false,
+   "owned": false,
+   "rental": {
+    "rented": false
+   },
+   "xboxGPReward": false
+  },
+  "productType": null,
+  "rarityGemPath": "",
+  "skinAugments": {},
+  "splashPath": "/lol-game-data/assets/ASSETS/Characters/Yasuo/Skins/Skin55/Images/yasuo_splash_centered_55.jpg",
+  "splashVideoPath": null,
+  "stillObtainable": false,
+  "tilePath": "/lol-game-data/assets/ASSETS/Characters/Yasuo/Skins/Skin55/Images/yasuo_splash_tile_55.jpg",
+  "unlocked": false
+ },
+ {
+  "awUnlocked": false,
+  "championId": 157,
+  "childSkins": [
+   {
+    "awUnlocked": false,
+    "championId": 157,
+    "chromaPreviewPath": "/lol-game-data/assets/v1/champion-chroma-images/157/157058.png",
+    "colors": [
+     "#D33528",
+     "#D33528"
+    ],
+    "disabled": false,
+    "id": 157058,
+    "isBase": false,
+    "isChampionUnlocked": true,
+    "name": "Inkshadow Yasuo (Ruby)",
+    "ownership": {
+     "loyaltyReward": false,
+     "owned": false,
+     "rental": {
+      "rented": false
+     },
+     "xboxGPReward": false
+    },
+    "parentSkinId": 157056,
+    "shortName": "",
+    "skinAugments": {},
+    "splashPath": "/lol-game-data/assets/ASSETS/Characters/Yasuo/Skins/Skin56/Images/yasuo_splash_centered_56.jpg",
+    "splashVideoPath": null,
+    "stage": 0,
+    "stillObtainable": false,
+    "tilePath": "",
+    "unlocked": false
+   },
+   {
+    "awUnlocked": false,
+    "championId": 157,
+    "chromaPreviewPath": "/lol-game-data/assets/v1/champion-chroma-images/157/157059.png",
+    "colors": [
+     "#FFEE59",
+     "#FFEE59"
+    ],
+    "disabled": false,
+    "id": 157059,
+    "isBase": false,
+    "isChampionUnlocked": true,
+    "name": "Inkshadow Yasuo (Catseye)",
+    "ownership": {
+     "loyaltyReward": false,
+     "owned": false,
+     "rental": {
+      "rented": false
+     },
+     "xboxGPReward": false
+    },
+    "parentSkinId": 157056,
+    "shortName": "",
+    "skinAugments": {},
+    "splashPath": "/lol-game-data/assets/ASSETS/Characters/Yasuo/Skins/Skin56/Images/yasuo_splash_centered_56.jpg",
+    "splashVideoPath": null,
+    "stage": 0,
+    "stillObtainable": false,
+    "tilePath": "",
+    "unlocked": false
+   },
+   {
+    "awUnlocked": false,
+    "championId": 157,
+    "chromaPreviewPath": "/lol-game-data/assets/v1/champion-chroma-images/157/157060.png",
+    "colors": [
+     "#2756CE",
+     "#2756CE"
+    ],
+    "disabled": false,
+    "id": 157060,
+    "isBase": false,
+    "isChampionUnlocked": true,
+    "name": "Inkshadow Yasuo (Sapphire)",
+    "ownership": {
+     "loyaltyReward": false,
+     "owned": false,
+     "rental": {
+      "rented": false
+     },
+     "xboxGPReward": false
+    },
+    "parentSkinId": 157056,
+    "shortName": "",
+    "skinAugments": {},
+    "splashPath": "/lol-game-data/assets/ASSETS/Characters/Yasuo/Skins/Skin56/Images/yasuo_splash_centered_56.jpg",
+    "splashVideoPath": null,
+    "stage": 0,
+    "stillObtainable": false,
+    "tilePath": "",
+    "unlocked": false
+   },
+   {
+    "awUnlocked": false,
+    "championId": 157,
+    "chromaPreviewPath": "/lol-game-data/assets/v1/champion-chroma-images/157/157061.png",
+    "colors": [
+     "#2DA130",
+     "#2DA130"
+    ],
+    "disabled": false,
+    "id": 157061,
+    "isBase": false,
+    "isChampionUnlocked": true,
+    "name": "Inkshadow Yasuo (Emerald)",
+    "ownership": {
+     "loyaltyReward": false,
+     "owned": false,
+     "rental": {
+      "rented": false
+     },
+     "xboxGPReward": false
+    },
+    "parentSkinId": 157056,
+    "shortName": "",
+    "skinAugments": {},
+    "splashPath": "/lol-game-data/assets/ASSETS/Characters/Yasuo/Skins/Skin56/Images/yasuo_splash_centered_56.jpg",
+    "splashVideoPath": null,
+    "stage": 0,
+    "stillObtainable": false,
+    "tilePath": "",
+    "unlocked": false
+   },
+   {
+    "awUnlocked": false,
+    "championId": 157,
+    "chromaPreviewPath": "/lol-game-data/assets/v1/champion-chroma-images/157/157062.png",
+    "colors": [
+     "#54209B",
+     "#54209B"
+    ],
+    "disabled": false,
+    "id": 157062,
+    "isBase": false,
+    "isChampionUnlocked": true,
+    "name": "Inkshadow Yasuo (Tanzanite)",
+    "ownership": {
+     "loyaltyReward": false,
+     "owned": false,
+     "rental": {
+      "rented": false
+     },
+     "xboxGPReward": false
+    },
+    "parentSkinId": 157056,
+    "shortName": "",
+    "skinAugments": {},
+    "splashPath": "/lol-game-data/assets/ASSETS/Characters/Yasuo/Skins/Skin56/Images/yasuo_splash_centered_56.jpg",
+    "splashVideoPath": null,
+    "stage": 0,
+    "stillObtainable": false,
+    "tilePath": "",
+    "unlocked": false
+   },
+   {
+    "awUnlocked": false,
+    "championId": 157,
+    "chromaPreviewPath": "/lol-game-data/assets/v1/champion-chroma-images/157/157063.png",
+    "colors": [
+     "#E58BA5",
+     "#E58BA5"
+    ],
+    "disabled": false,
+    "id": 157063,
+    "isBase": false,
+    "isChampionUnlocked": true,
+    "name": "Inkshadow Yasuo (Rose Quartz)",
+    "ownership": {
+     "loyaltyReward": false,
+     "owned": false,
+     "rental": {
+      "rented": false
+     },
+     "xboxGPReward": false
+    },
+    "parentSkinId": 157056,
+    "shortName": "",
+    "skinAugments": {},
+    "splashPath": "/lol-game-data/assets/ASSETS/Characters/Yasuo/Skins/Skin56/Images/yasuo_splash_centered_56.jpg",
+    "splashVideoPath": null,
+    "stage": 0,
+    "stillObtainable": false,
+    "tilePath": "",
+    "unlocked": false
+   },
+   {
+    "awUnlocked": false,
+    "championId": 157,
+    "chromaPreviewPath": "/lol-game-data/assets/v1/champion-chroma-images/157/157064.png",
+    "colors": [
+     "#73BFBE",
+     "#73BFBE"
+    ],
+    "disabled": false,
+    "id": 157064,
+    "isBase": false,
+    "isChampionUnlocked": true,
+    "name": "Inkshadow Yasuo (Turquoise)",
+    "ownership": {
+     "loyaltyReward": false,
+     "owned": false,
+     "rental": {
+      "rented": false
+     },
+     "xboxGPReward": false
+    },
+    "parentSkinId": 157056,
+    "shortName": "",
+    "skinAugments": {},
+    "splashPath": "/lol-game-data/assets/ASSETS/Characters/Yasuo/Skins/Skin56/Images/yasuo_splash_centered_56.jpg",
+    "splashVideoPath": null,
+    "stage": 0,
+    "stillObtainable": false,
+    "tilePath": "",
+    "unlocked": false
+   },
+   {
+    "awUnlocked": false,
+    "championId": 157,
+    "chromaPreviewPath": "/lol-game-data/assets/v1/champion-chroma-images/157/157065.png",
+    "colors": [
+     "#27211C",
+     "#27211C"
+    ],
+    "disabled": false,
+    "id": 157065,
+    "isBase": false,
+    "isChampionUnlocked": true,
+    "name": "Inkshadow Yasuo (Obsidian)",
+    "ownership": {
+     "loyaltyReward": false,
+     "owned": false,
+     "rental": {
+      "rented": false
+     },
+     "xboxGPReward": false
+    },
+    "parentSkinId": 157056,
+    "shortName": "",
+    "skinAugments": {},
+    "splashPath": "/lol-game-data/assets/ASSETS/Characters/Yasuo/Skins/Skin56/Images/yasuo_splash_centered_56.jpg",
+    "splashVideoPath": null,
+    "stage": 0,
+    "stillObtainable": false,
+    "tilePath": "",
+    "unlocked": false
+   },
+   {
+    "awUnlocked": false,
+    "championId": 157,
+    "chromaPreviewPath": "/lol-game-data/assets/v1/champion-chroma-images/157/157066.png",
+    "colors": [
+     "#B5CED6",
+     "#33D889"
+    ],
+    "disabled": false,
+    "id": 157066,
+    "isBase": false,
+    "isChampionUnlocked": true,
+    "name": "Inkshadow Yasuo (Inked)",
+    "ownership": {
+     "loyaltyReward": false,
+     "owned": false,
+     "rental": {
+      "rented": false
+     },
+     "xboxGPReward": false
+    },
+    "parentSkinId": 157056,
+    "shortName": "",
+    "skinAugments": {},
+    "splashPath": "/lol-game-data/assets/ASSETS/Characters/Yasuo/Skins/Skin56/Images/yasuo_splash_centered_56.jpg",
+    "splashVideoPath": null,
+    "stage": 0,
+    "stillObtainable": false,
+    "tilePath": "",
+    "unlocked": false
+   },
+   {
+    "awUnlocked": false,
+    "championId": 157,
+    "chromaPreviewPath": "/lol-game-data/assets/v1/champion-chroma-images/157/157067.png",
+    "colors": [
+     "#B4CECD",
+     "#D55049"
+    ],
+    "disabled": false,
+    "id": 157067,
+    "isBase": false,
+    "isChampionUnlocked": true,
+    "name": "Inkshadow Yasuo (DEFY MSI 2023)",
+    "ownership": {
+     "loyaltyReward": false,
+     "owned": false,
+     "rental": {
+      "rented": false
+     },
+     "xboxGPReward": false
+    },
+    "parentSkinId": 157056,
+    "shortName": "",
+    "skinAugments": {},
+    "splashPath": "/lol-game-data/assets/ASSETS/Characters/Yasuo/Skins/Skin56/Images/yasuo_splash_centered_56.jpg",
+    "splashVideoPath": null,
+    "stage": 0,
+    "stillObtainable": false,
+    "tilePath": "",
+    "unlocked": false
+   }
+  ],
+  "chromaPreviewPath": "/lol-game-data/assets/v1/champion-chroma-images/157/157056.png",
+  "disabled": false,
+  "emblems": [],
+  "groupSplash": "",
+  "id": 157056,
+  "isBase": false,
+  "isChampionUnlocked": true,
+  "name": "Inkshadow Yasuo",
+  "ownership": {
+   "loyaltyReward": false,
+   "owned": false,
+   "rental": {
+    "rented": false
+   },
+   "xboxGPReward": false
+  },
+  "productType": null,
+  "rarityGemPath": "",
+  "skinAugments": {},
+  "splashPath": "/lol-game-data/assets/ASSETS/Characters/Yasuo/Skins/Skin56/Images/yasuo_splash_centered_56.jpg",
+  "splashVideoPath": null,
+  "stillObtainable": false,
+  "tilePath": "/lol-game-data/assets/ASSETS/Characters/Yasuo/Skins/Skin56/Images/yasuo_splash_tile_56.jpg",
+  "unlocked": false
+ },
+ {
+  "awUnlocked": false,
+  "championId": 157,
+  "childSkins": [],
+  "chromaPreviewPath": null,
+  "disabled": false,
+  "emblems": [],
+  "groupSplash": "",
+  "id": 157057,
+  "isBase": false,
+  "isChampionUnlocked": true,
+  "name": "Prestige Inkshadow Yasuo",
+  "ownership": {
+   "loyaltyReward": false,
+   "owned": false,
+   "rental": {
+    "rented": false
+   },
+   "xboxGPReward": false
+  },
+  "productType": null,
+  "rarityGemPath": "",
+  "skinAugments": {},
+  "splashPath": "/lol-game-data/assets/ASSETS/Characters/Yasuo/Skins/Skin57/Images/yasuo_splash_centered_57.jpg",
+  "splashVideoPath": null,
+  "stillObtainable": false,
+  "tilePath": "/lol-game-data/assets/ASSETS/Characters/Yasuo/Skins/Skin57/Images/yasuo_splash_tile_57.jpg",
+  "unlocked": false
+ },
+ {
+  "awUnlocked": false,
+  "championId": 157,
+  "childSkins": [
+   {
+    "awUnlocked": false,
+    "championId": 157,
+    "chromaPreviewPath": "/lol-game-data/assets/v1/champion-chroma-images/157/157069.png",
+    "colors": [
+     "#D33528",
+     "#D33528"
+    ],
+    "disabled": false,
+    "id": 157069,
+    "isBase": false,
+    "isChampionUnlocked": true,
+    "name": "Foreseen Yasuo (Ruby)",
+    "ownership": {
+     "loyaltyReward": false,
+     "owned": false,
+     "rental": {
+      "rented": false
+     },
+     "xboxGPReward": false
+    },
+    "parentSkinId": 157068,
+    "shortName": "",
+    "skinAugments": {},
+    "splashPath": "/lol-game-data/assets/ASSETS/Characters/Yasuo/Skins/Skin68/Images/yasuo_splash_centered_68.jpg",
+    "splashVideoPath": null,
+    "stage": 0,
+    "stillObtainable": false,
+    "tilePath": "",
+    "unlocked": false
+   },
+   {
+    "awUnlocked": false,
+    "championId": 157,
+    "chromaPreviewPath": "/lol-game-data/assets/v1/champion-chroma-images/157/157070.png",
+    "colors": [
+     "#FFEE59",
+     "#FFEE59"
+    ],
+    "disabled": false,
+    "id": 157070,
+    "isBase": false,
+    "isChampionUnlocked": true,
+    "name": "Foreseen Yasuo (Catseye)",
+    "ownership": {
+     "loyaltyReward": false,
+     "owned": false,
+     "rental": {
+      "rented": false
+     },
+     "xboxGPReward": false
+    },
+    "parentSkinId": 157068,
+    "shortName": "",
+    "skinAugments": {},
+    "splashPath": "/lol-game-data/assets/ASSETS/Characters/Yasuo/Skins/Skin68/Images/yasuo_splash_centered_68.jpg",
+    "splashVideoPath": null,
+    "stage": 0,
+    "stillObtainable": false,
+    "tilePath": "",
+    "unlocked": false
+   },
+   {
+    "awUnlocked": false,
+    "championId": 157,
+    "chromaPreviewPath": "/lol-game-data/assets/v1/champion-chroma-images/157/157071.png",
+    "colors": [
+     "#2756CE",
+     "#2756CE"
+    ],
+    "disabled": false,
+    "id": 157071,
+    "isBase": false,
+    "isChampionUnlocked": true,
+    "name": "Foreseen Yasuo (Sapphire)",
+    "ownership": {
+     "loyaltyReward": false,
+     "owned": false,
+     "rental": {
+      "rented": false
+     },
+     "xboxGPReward": false
+    },
+    "parentSkinId": 157068,
+    "shortName": "",
+    "skinAugments": {},
+    "splashPath": "/lol-game-data/assets/ASSETS/Characters/Yasuo/Skins/Skin68/Images/yasuo_splash_centered_68.jpg",
+    "splashVideoPath": null,
+    "stage": 0,
+    "stillObtainable": false,
+    "tilePath": "",
+    "unlocked": false
+   },
+   {
+    "awUnlocked": false,
+    "championId": 157,
+    "chromaPreviewPath": "/lol-game-data/assets/v1/champion-chroma-images/157/157072.png",
+    "colors": [
+     "#2DA130",
+     "#2DA130"
+    ],
+    "disabled": false,
+    "id": 157072,
+    "isBase": false,
+    "isChampionUnlocked": true,
+    "name": "Foreseen Yasuo (Emerald)",
+    "ownership": {
+     "loyaltyReward": false,
+     "owned": false,
+     "rental": {
+      "rented": false
+     },
+     "xboxGPReward": false
+    },
+    "parentSkinId": 157068,
+    "shortName": "",
+    "skinAugments": {},
+    "splashPath": "/lol-game-data/assets/ASSETS/Characters/Yasuo/Skins/Skin68/Images/yasuo_splash_centered_68.jpg",
+    "splashVideoPath": null,
+    "stage": 0,
+    "stillObtainable": false,
+    "tilePath": "",
+    "unlocked": false
+   },
+   {
+    "awUnlocked": false,
+    "championId": 157,
+    "chromaPreviewPath": "/lol-game-data/assets/v1/champion-chroma-images/157/157073.png",
+    "colors": [
+     "#ECF9F8",
+     "#ECF9F8"
+    ],
+    "disabled": false,
+    "id": 157073,
+    "isBase": false,
+    "isChampionUnlocked": true,
+    "name": "Foreseen Yasuo (Pearl)",
+    "ownership": {
+     "loyaltyReward": false,
+     "owned": false,
+     "rental": {
+      "rented": false
+     },
+     "xboxGPReward": false
+    },
+    "parentSkinId": 157068,
+    "shortName": "",
+    "skinAugments": {},
+    "splashPath": "/lol-game-data/assets/ASSETS/Characters/Yasuo/Skins/Skin68/Images/yasuo_splash_centered_68.jpg",
+    "splashVideoPath": null,
+    "stage": 0,
+    "stillObtainable": false,
+    "tilePath": "",
+    "unlocked": false
+   },
+   {
+    "awUnlocked": false,
+    "championId": 157,
+    "chromaPreviewPath": "/lol-game-data/assets/v1/champion-chroma-images/157/157074.png",
+    "colors": [
+     "#27211C",
+     "#27211C"
+    ],
+    "disabled": false,
+    "id": 157074,
+    "isBase": false,
+    "isChampionUnlocked": true,
+    "name": "Foreseen Yasuo (Obsidian)",
+    "ownership": {
+     "loyaltyReward": false,
+     "owned": false,
+     "rental": {
+      "rented": false
+     },
+     "xboxGPReward": false
+    },
+    "parentSkinId": 157068,
+    "shortName": "",
+    "skinAugments": {},
+    "splashPath": "/lol-game-data/assets/ASSETS/Characters/Yasuo/Skins/Skin68/Images/yasuo_splash_centered_68.jpg",
+    "splashVideoPath": null,
+    "stage": 0,
+    "stillObtainable": false,
+    "tilePath": "",
+    "unlocked": false
+   },
+   {
+    "awUnlocked": false,
+    "championId": 157,
+    "chromaPreviewPath": "/lol-game-data/assets/v1/champion-chroma-images/157/157075.png",
+    "colors": [
+     "#9C68D7",
+     "#9C68D7"
+    ],
+    "disabled": false,
+    "id": 157075,
+    "isBase": false,
+    "isChampionUnlocked": true,
+    "name": "Foreseen Yasuo (Amethyst)",
+    "ownership": {
+     "loyaltyReward": false,
+     "owned": false,
+     "rental": {
+      "rented": false
+     },
+     "xboxGPReward": false
+    },
+    "parentSkinId": 157068,
+    "shortName": "",
+    "skinAugments": {},
+    "splashPath": "/lol-game-data/assets/ASSETS/Characters/Yasuo/Skins/Skin68/Images/yasuo_splash_centered_68.jpg",
+    "splashVideoPath": null,
+    "stage": 0,
+    "stillObtainable": false,
+    "tilePath": "",
+    "unlocked": false
+   },
+   {
+    "awUnlocked": false,
+    "championId": 157,
+    "chromaPreviewPath": "/lol-game-data/assets/v1/champion-chroma-images/157/157076.png",
+    "colors": [
+     "#E58BA5",
+     "#E58BA5"
+    ],
+    "disabled": false,
+    "id": 157076,
+    "isBase": false,
+    "isChampionUnlocked": true,
+    "name": "Foreseen Yasuo (Rose Quartz)",
+    "ownership": {
+     "loyaltyReward": false,
+     "owned": false,
+     "rental": {
+      "rented": false
+     },
+     "xboxGPReward": false
+    },
+    "parentSkinId": 157068,
+    "shortName": "",
+    "skinAugments": {},
+    "splashPath": "/lol-game-data/assets/ASSETS/Characters/Yasuo/Skins/Skin68/Images/yasuo_splash_centered_68.jpg",
+    "splashVideoPath": null,
+    "stage": 0,
+    "stillObtainable": false,
+    "tilePath": "",
+    "unlocked": false
+   }
+  ],
+  "chromaPreviewPath": "/lol-game-data/assets/v1/champion-chroma-images/157/157068.png",
+  "disabled": false,
+  "emblems": [],
+  "groupSplash": "",
+  "id": 157068,
+  "isBase": false,
+  "isChampionUnlocked": true,
+  "name": "Foreseen Yasuo",
+  "ownership": {
+   "loyaltyReward": false,
+   "owned": false,
+   "rental": {
+    "rented": false
+   },
+   "xboxGPReward": false
+  },
+  "productType": null,
+  "rarityGemPath": "",
+  "skinAugments": {},
+  "splashPath": "/lol-game-data/assets/ASSETS/Characters/Yasuo/Skins/Skin68/Images/yasuo_splash_centered_68.jpg",
+  "splashVideoPath": null,
+  "stillObtainable": false,
+  "tilePath": "/lol-game-data/assets/ASSETS/Characters/Yasuo/Skins/Skin68/Images/yasuo_splash_tile_68.jpg",
+  "unlocked": false
+ },
+ {
+  "awUnlocked": false,
+  "championId": 157,
+  "childSkins": [
+   {
+    "awUnlocked": false,
+    "championId": 157,
+    "chromaPreviewPath": "/lol-game-data/assets/v1/champion-chroma-images/157/157078.png",
+    "colors": [
+     "#D33528",
+     "#D33528"
+    ],
+    "disabled": false,
+    "id": 157078,
+    "isBase": false,
+    "isChampionUnlocked": true,
+    "name": "Battle Wolf Yasuo (Ruby)",
+    "ownership": {
+     "loyaltyReward": false,
+     "owned": false,
+     "rental": {
+      "rented": false
+     },
+     "xboxGPReward": false
+    },
+    "parentSkinId": 157077,
+    "shortName": "",
+    "skinAugments": {},
+    "splashPath": "/lol-game-data/assets/ASSETS/Characters/Yasuo/Skins/Skin77/Images/yasuo_splash_centered_77.jpg",
+    "splashVideoPath": null,
+    "stage": 0,
+    "stillObtainable": false,
+    "tilePath": "",
+    "unlocked": false
+   },
+   {
+    "awUnlocked": false,
+    "championId": 157,
+    "chromaPreviewPath": "/lol-game-data/assets/v1/champion-chroma-images/157/157079.png",
+    "colors": [
+     "#FFEE59",
+     "#FFEE59"
+    ],
+    "disabled": false,
+    "id": 157079,
+    "isBase": false,
+    "isChampionUnlocked": true,
+    "name": "Battle Wolf Yasuo (Catseye)",
+    "ownership": {
+     "loyaltyReward": false,
+     "owned": false,
+     "rental": {
+      "rented": false
+     },
+     "xboxGPReward": false
+    },
+    "parentSkinId": 157077,
+    "shortName": "",
+    "skinAugments": {},
+    "splashPath": "/lol-game-data/assets/ASSETS/Characters/Yasuo/Skins/Skin77/Images/yasuo_splash_centered_77.jpg",
+    "splashVideoPath": null,
+    "stage": 0,
+    "stillObtainable": false,
+    "tilePath": "",
+    "unlocked": false
+   },
+   {
+    "awUnlocked": false,
+    "championId": 157,
+    "chromaPreviewPath": "/lol-game-data/assets/v1/champion-chroma-images/157/157080.png",
+    "colors": [
+     "#E58BA5",
+     "#E58BA5"
+    ],
+    "disabled": false,
+    "id": 157080,
+    "isBase": false,
+    "isChampionUnlocked": true,
+    "name": "Battle Wolf Yasuo (Rose Quartz)",
+    "ownership": {
+     "loyaltyReward": false,
+     "owned": false,
+     "rental": {
+      "rented": false
+     },
+     "xboxGPReward": false
+    },
+    "parentSkinId": 157077,
+    "shortName": "",
+    "skinAugments": {},
+    "splashPath": "/lol-game-data/assets/ASSETS/Characters/Yasuo/Skins/Skin77/Images/yasuo_splash_centered_77.jpg",
+    "splashVideoPath": null,
+    "stage": 0,
+    "stillObtainable": false,
+    "tilePath": "",
+    "unlocked": false
+   },
+   {
+    "awUnlocked": false,
+    "championId": 157,
+    "chromaPreviewPath": "/lol-game-data/assets/v1/champion-chroma-images/157/157081.png",
+    "colors": [
+     "#B6E084",
+     "#B6E084"
+    ],
+    "disabled": false,
+    "id": 157081,
+    "isBase": false,
+    "isChampionUnlocked": true,
+    "name": "Battle Wolf Yasuo (Peridot)",
+    "ownership": {
+     "loyaltyReward": false,
+     "owned": false,
+     "rental": {
+      "rented": false
+     },
+     "xboxGPReward": false
+    },
+    "parentSkinId": 157077,
+    "shortName": "",
+    "skinAugments": {},
+    "splashPath": "/lol-game-data/assets/ASSETS/Characters/Yasuo/Skins/Skin77/Images/yasuo_splash_centered_77.jpg",
+    "splashVideoPath": null,
+    "stage": 0,
+    "stillObtainable": false,
+    "tilePath": "",
+    "unlocked": false
+   },
+   {
+    "awUnlocked": false,
+    "championId": 157,
+    "chromaPreviewPath": "/lol-game-data/assets/v1/champion-chroma-images/157/157082.png",
+    "colors": [
+     "#73BFBE",
+     "#73BFBE"
+    ],
+    "disabled": false,
+    "id": 157082,
+    "isBase": false,
+    "isChampionUnlocked": true,
+    "name": "Battle Wolf Yasuo (Turquoise)",
+    "ownership": {
+     "loyaltyReward": false,
+     "owned": false,
+     "rental": {
+      "rented": false
+     },
+     "xboxGPReward": false
+    },
+    "parentSkinId": 157077,
+    "shortName": "",
+    "skinAugments": {},
+    "splashPath": "/lol-game-data/assets/ASSETS/Characters/Yasuo/Skins/Skin77/Images/yasuo_splash_centered_77.jpg",
+    "splashVideoPath": null,
+    "stage": 0,
+    "stillObtainable": false,
+    "tilePath": "",
+    "unlocked": false
+   },
+   {
+    "awUnlocked": false,
+    "championId": 157,
+    "chromaPreviewPath": "/lol-game-data/assets/v1/champion-chroma-images/157/157083.png",
+    "colors": [
+     "#9C68D7",
+     "#9C68D7"
+    ],
+    "disabled": false,
+    "id": 157083,
+    "isBase": false,
+    "isChampionUnlocked": true,
+    "name": "Battle Wolf Yasuo (Amethyst)",
+    "ownership": {
+     "loyaltyReward": false,
+     "owned": false,
+     "rental": {
+      "rented": false
+     },
+     "xboxGPReward": false
+    },
+    "parentSkinId": 157077,
+    "shortName": "",
+    "skinAugments": {},
+    "splashPath": "/lol-game-data/assets/ASSETS/Characters/Yasuo/Skins/Skin77/Images/yasuo_splash_centered_77.jpg",
+    "splashVideoPath": null,
+    "stage": 0,
+    "stillObtainable": false,
+    "tilePath": "",
+    "unlocked": false
+   },
+   {
+    "awUnlocked": false,
+    "championId": 157,
+    "chromaPreviewPath": "/lol-game-data/assets/v1/champion-chroma-images/157/157084.png",
+    "colors": [
+     "#ECF9F8",
+     "#ECF9F8"
+    ],
+    "disabled": false,
+    "id": 157084,
+    "isBase": false,
+    "isChampionUnlocked": true,
+    "name": "Battle Wolf Yasuo (Pearl)",
+    "ownership": {
+     "loyaltyReward": false,
+     "owned": false,
+     "rental": {
+      "rented": false
+     },
+     "xboxGPReward": false
+    },
+    "parentSkinId": 157077,
+    "shortName": "",
+    "skinAugments": {},
+    "splashPath": "/lol-game-data/assets/ASSETS/Characters/Yasuo/Skins/Skin77/Images/yasuo_splash_centered_77.jpg",
+    "splashVideoPath": null,
+    "stage": 0,
+    "stillObtainable": false,
+    "tilePath": "",
+    "unlocked": false
+   },
+   {
+    "awUnlocked": false,
+    "championId": 157,
+    "chromaPreviewPath": "/lol-game-data/assets/v1/champion-chroma-images/157/157085.png",
+    "colors": [
+     "#27211C",
+     "#27211C"
+    ],
+    "disabled": false,
+    "id": 157085,
+    "isBase": false,
+    "isChampionUnlocked": true,
+    "name": "Battle Wolf Yasuo (Obsidian)",
+    "ownership": {
+     "loyaltyReward": false,
+     "owned": false,
+     "rental": {
+      "rented": false
+     },
+     "xboxGPReward": false
+    },
+    "parentSkinId": 157077,
+    "shortName": "",
+    "skinAugments": {},
+    "splashPath": "/lol-game-data/assets/ASSETS/Characters/Yasuo/Skins/Skin77/Images/yasuo_splash_centered_77.jpg",
+    "splashVideoPath": null,
+    "stage": 0,
+    "stillObtainable": false,
+    "tilePath": "",
+    "unlocked": false
+   },
+   {
+    "awUnlocked": false,
+    "championId": 157,
+    "chromaPreviewPath": "/lol-game-data/assets/v1/champion-chroma-images/157/157086.png",
+    "colors": [
+     "#F6A630",
+     "#1C61B4"
+    ],
+    "disabled": false,
+    "id": 157086,
+    "isBase": false,
+    "isChampionUnlocked": true,
+    "name": "Battle Wolf Yasuo (Nightwire)",
+    "ownership": {
+     "loyaltyReward": false,
+     "owned": false,
+     "rental": {
+      "rented": false
+     },
+     "xboxGPReward": false
+    },
+    "parentSkinId": 157077,
+    "shortName": "",
+    "skinAugments": {},
+    "splashPath": "/lol-game-data/assets/ASSETS/Characters/Yasuo/Skins/Skin77/Images/yasuo_splash_centered_77.jpg",
+    "splashVideoPath": null,
+    "stage": 0,
+    "stillObtainable": false,
+    "tilePath": "",
+    "unlocked": false
+   }
+  ],
+  "chromaPreviewPath": "/lol-game-data/assets/v1/champion-chroma-images/157/157077.png",
+  "disabled": false,
+  "emblems": [],
+  "groupSplash": "",
+  "id": 157077,
+  "isBase": false,
+  "isChampionUnlocked": true,
+  "name": "Battle Wolf Yasuo",
+  "ownership": {
+   "loyaltyReward": false,
+   "owned": false,
+   "rental": {
+    "rented": false
+   },
+   "xboxGPReward": false
+  },
+  "productType": null,
+  "rarityGemPath": "",
+  "skinAugments": {},
+  "splashPath": "/lol-game-data/assets/ASSETS/Characters/Yasuo/Skins/Skin77/Images/yasuo_splash_centered_77.jpg",
+  "splashVideoPath": null,
+  "stillObtainable": false,
+  "tilePath": "/lol-game-data/assets/ASSETS/Characters/Yasuo/Skins/Skin77/Images/yasuo_splash_tile_77.jpg",
+  "unlocked": false
+ },
+ {
+  "awUnlocked": false,
+  "championId": 157,
+  "childSkins": [],
+  "chromaPreviewPath": null,
+  "disabled": false,
+  "emblems": [],
+  "groupSplash": "",
+  "id": 157087,
+  "isBase": false,
+  "isChampionUnlocked": true,
+  "name": "Genesis Nightbringer Yasuo",
+  "ownership": {
+   "loyaltyReward": false,
+   "owned": false,
+   "rental": {
+    "rented": false
+   },
+   "xboxGPReward": false
+  },
+  "productType": null,
+  "rarityGemPath": "",
+  "skinAugments": {},
+  "splashPath": "/lol-game-data/assets/ASSETS/Characters/Yasuo/Skins/Skin87/Images/yasuo_splash_centered_87.jpg",
+  "splashVideoPath": null,
+  "stillObtainable": false,
+  "tilePath": "/lol-game-data/assets/ASSETS/Characters/Yasuo/Skins/Skin87/Images/yasuo_splash_tile_87.jpg",
+  "unlocked": false
+ },
+ {
+  "awUnlocked": false,
+  "championId": 157,
+  "childSkins": [
+   {
+    "awUnlocked": false,
+    "championId": 157,
+    "chromaPreviewPath": "/lol-game-data/assets/v1/champion-chroma-images/157/157089.png",
+    "colors": [
+     "#D33528",
+     "#D33528"
+    ],
+    "disabled": false,
+    "id": 157089,
+    "isBase": false,
+    "isChampionUnlocked": true,
+    "name": "Petals of Spring Yasuo (Ruby)",
+    "ownership": {
+     "loyaltyReward": false,
+     "owned": false,
+     "rental": {
+      "rented": false
+     },
+     "xboxGPReward": false
+    },
+    "parentSkinId": 157088,
+    "shortName": "",
+    "skinAugments": {},
+    "splashPath": "/lol-game-data/assets/ASSETS/Characters/Yasuo/Skins/Skin88/Images/yasuo_splash_centered_88.jpg",
+    "splashVideoPath": null,
+    "stage": 0,
+    "stillObtainable": false,
+    "tilePath": "",
+    "unlocked": false
+   },
+   {
+    "awUnlocked": false,
+    "championId": 157,
+    "chromaPreviewPath": "/lol-game-data/assets/v1/champion-chroma-images/157/157090.png",
+    "colors": [
+     "#FFEE59",
+     "#FFEE59"
+    ],
+    "disabled": false,
+    "id": 157090,
+    "isBase": false,
+    "isChampionUnlocked": true,
+    "name": "Petals of Spring Yasuo (Catseye)",
+    "ownership": {
+     "loyaltyReward": false,
+     "owned": false,
+     "rental": {
+      "rented": false
+     },
+     "xboxGPReward": false
+    },
+    "parentSkinId": 157088,
+    "shortName": "",
+    "skinAugments": {},
+    "splashPath": "/lol-game-data/assets/ASSETS/Characters/Yasuo/Skins/Skin88/Images/yasuo_splash_centered_88.jpg",
+    "splashVideoPath": null,
+    "stage": 0,
+    "stillObtainable": false,
+    "tilePath": "",
+    "unlocked": false
+   },
+   {
+    "awUnlocked": false,
+    "championId": 157,
+    "chromaPreviewPath": "/lol-game-data/assets/v1/champion-chroma-images/157/157091.png",
+    "colors": [
+     "#2756CE",
+     "#2756CE"
+    ],
+    "disabled": false,
+    "id": 157091,
+    "isBase": false,
+    "isChampionUnlocked": true,
+    "name": "Petals of Spring Yasuo (Sapphire)",
+    "ownership": {
+     "loyaltyReward": false,
+     "owned": false,
+     "rental": {
+      "rented": false
+     },
+     "xboxGPReward": false
+    },
+    "parentSkinId": 157088,
+    "shortName": "",
+    "skinAugments": {},
+    "splashPath": "/lol-game-data/assets/ASSETS/Characters/Yasuo/Skins/Skin88/Images/yasuo_splash_centered_88.jpg",
+    "splashVideoPath": null,
+    "stage": 0,
+    "stillObtainable": false,
+    "tilePath": "",
+    "unlocked": false
+   },
+   {
+    "awUnlocked": false,
+    "championId": 157,
+    "chromaPreviewPath": "/lol-game-data/assets/v1/champion-chroma-images/157/157092.png",
+    "colors": [
+     "#E58BA5",
+     "#E58BA5"
+    ],
+    "disabled": false,
+    "id": 157092,
+    "isBase": false,
+    "isChampionUnlocked": true,
+    "name": "Petals of Spring Yasuo (Rose Quartz)",
+    "ownership": {
+     "loyaltyReward": false,
+     "owned": false,
+     "rental": {
+      "rented": false
+     },
+     "xboxGPReward": false
+    },
+    "parentSkinId": 157088,
+    "shortName": "",
+    "skinAugments": {},
+    "splashPath": "/lol-game-data/assets/ASSETS/Characters/Yasuo/Skins/Skin88/Images/yasuo_splash_centered_88.jpg",
+    "splashVideoPath": null,
+    "stage": 0,
+    "stillObtainable": false,
+    "tilePath": "",
+    "unlocked": false
+   },
+   {
+    "awUnlocked": false,
+    "championId": 157,
+    "chromaPreviewPath": "/lol-game-data/assets/v1/champion-chroma-images/157/157093.png",
+    "colors": [
+     "#9C68D7",
+     "#9C68D7"
+    ],
+    "disabled": false,
+    "id": 157093,
+    "isBase": false,
+    "isChampionUnlocked": true,
+    "name": "Petals of Spring Yasuo (Amethyst)",
+    "ownership": {
+     "loyaltyReward": false,
+     "owned": false,
+     "rental": {
+      "rented": false
+     },
+     "xboxGPReward": false
+    },
+    "parentSkinId": 157088,
+    "shortName": "",
+    "skinAugments": {},
+    "splashPath": "/lol-game-data/assets/ASSETS/Characters/Yasuo/Skins/Skin88/Images/yasuo_splash_centered_88.jpg",
+    "splashVideoPath": null,
+    "stage": 0,
+    "stillObtainable": false,
+    "tilePath": "",
+    "unlocked": false
+   },
+   {
+    "awUnlocked": false,
+    "championId": 157,
+    "chromaPreviewPath": "/lol-game-data/assets/v1/champion-chroma-images/157/157094.png",
+    "colors": [
+     "#ECF9F8",
+     "#ECF9F8"
+    ],
+    "disabled": false,
+    "id": 157094,
+    "isBase": false,
+    "isChampionUnlocked": true,
+    "name": "Petals of Spring Yasuo (Pearl)",
+    "ownership": {
+     "loyaltyReward": false,
+     "owned": false,
+     "rental": {
+      "rented": false
+     },
+     "xboxGPReward": false
+    },
+    "parentSkinId": 157088,
+    "shortName": "",
+    "skinAugments": {},
+    "splashPath": "/lol-game-data/assets/ASSETS/Characters/Yasuo/Skins/Skin88/Images/yasuo_splash_centered_88.jpg",
+    "splashVideoPath": null,
+    "stage": 0,
+    "stillObtainable": false,
+    "tilePath": "",
+    "unlocked": false
+   },
+   {
+    "awUnlocked": false,
+    "championId": 157,
+    "chromaPreviewPath": "/lol-game-data/assets/v1/champion-chroma-images/157/157095.png",
+    "colors": [
+     "#B6E084",
+     "#B6E084"
+    ],
+    "disabled": false,
+    "id": 157095,
+    "isBase": false,
+    "isChampionUnlocked": true,
+    "name": "Petals of Spring Yasuo (Peridot)",
+    "ownership": {
+     "loyaltyReward": false,
+     "owned": false,
+     "rental": {
+      "rented": false
+     },
+     "xboxGPReward": false
+    },
+    "parentSkinId": 157088,
+    "shortName": "",
+    "skinAugments": {},
+    "splashPath": "/lol-game-data/assets/ASSETS/Characters/Yasuo/Skins/Skin88/Images/yasuo_splash_centered_88.jpg",
+    "splashVideoPath": null,
+    "stage": 0,
+    "stillObtainable": false,
+    "tilePath": "",
+    "unlocked": false
+   },
+   {
+    "awUnlocked": false,
+    "championId": 157,
+    "chromaPreviewPath": "/lol-game-data/assets/v1/champion-chroma-images/157/157096.png",
+    "colors": [
+     "#2DA130",
+     "#2DA130"
+    ],
+    "disabled": false,
+    "id": 157096,
+    "isBase": false,
+    "isChampionUnlocked": true,
+    "name": "Petals of Spring Yasuo (Emerald)",
+    "ownership": {
+     "loyaltyReward": false,
+     "owned": false,
+     "rental": {
+      "rented": false
+     },
+     "xboxGPReward": false
+    },
+    "parentSkinId": 157088,
+    "shortName": "",
+    "skinAugments": {},
+    "splashPath": "/lol-game-data/assets/ASSETS/Characters/Yasuo/Skins/Skin88/Images/yasuo_splash_centered_88.jpg",
+    "splashVideoPath": null,
+    "stage": 0,
+    "stillObtainable": false,
+    "tilePath": "",
+    "unlocked": false
+   }
+  ],
+  "chromaPreviewPath": "/lol-game-data/assets/v1/champion-chroma-images/157/157088.png",
+  "disabled": false,
+  "emblems": [],
+  "groupSplash": "",
+  "id": 157088,
+  "isBase": false,
+  "isChampionUnlocked": true,
+  "name": "Petals of Spring Yasuo",
+  "ownership": {
+   "loyaltyReward": false,
+   "owned": false,
+   "rental": {
+    "rented": false
+   },
+   "xboxGPReward": false
+  },
+  "productType": null,
+  "rarityGemPath": "",
+  "skinAugments": {},
+  "splashPath": "/lol-game-data/assets/ASSETS/Characters/Yasuo/Skins/Skin88/Images/yasuo_splash_centered_88.jpg",
+  "splashVideoPath": null,
+  "stillObtainable": false,
+  "tilePath": "/lol-game-data/assets/ASSETS/Characters/Yasuo/Skins/Skin88/Images/yasuo_splash_tile_88.jpg",
+  "unlocked": false
+ }
+]

@@ -1,0 +1,16 @@
+bin/
+obj/
+*.user
+.vs/
+.idea/
+
+# Local only
+tools/logs/
+
+# Web UI: built into the host wwwroot by `npm run build` in web/
+src/Glamour.Host/wwwroot/
+web/node_modules/
+
+# Release packaging (vpk)
+Releases/
+publish/

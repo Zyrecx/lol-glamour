@@ -1,0 +1,28 @@
+name: Problem
+description: Something went wrong or did not do what it should.
+labels: [bug]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened
+      description: What you did, what you expected, what Glamour did instead.
+    validations:
+      required: true
+  - type: input
+    id: when
+    attributes:
+      label: When (about)
+      description: Date and time, so the log lines can be found. In champ select, in game, after a game...
+  - type: input
+    id: version
+    attributes:
+      label: Glamour version
+      description: Filled in by Send a log; otherwise Settings > Glamour.
+    validations:
+      required: true
+  - type: textarea
+    id: log
+    attributes:
+      label: Log
+      description: In Glamour, Settings > Problem report > Send a log. It takes out names and ids, then opens this page and the folder with the zip. Drag the zip here.

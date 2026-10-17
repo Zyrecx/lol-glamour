@@ -1,0 +1,35 @@
+/* The PC window's look: the phone shell's tokens (theme.css) with desktop proportions. Pointer first: compact controls, hover states, visible scrollbars. */
+@import '../shell/theme.css';
+
+.desk h1 { font-size: 26px; letter-spacing: .06em; }
+.desk .page-head { display: flex; flex-direction: column; gap: 4px; margin-bottom: 2px; }
+.desk .page-head p { color: var(--g-muted); font-size: 14px; max-width: 60ch; }
+.desk .eyebrow { font-size: 11px; letter-spacing: .2em; text-transform: uppercase; color: var(--g-gold); font-weight: 700; }
+
+/* Old sections (Card, Toggle, forms) read their classic tokens; give them desktop density. */
+/* :where() keeps these at the lowest specificity, so a component's own scoped button styles (segmented controls, switches) still win. */
+.desk :where(button) { min-height: 36px; padding: 0 16px; border-radius: 8px; font-weight: 600; letter-spacing: .03em; border: 1px solid var(--g-gold); background: var(--g-teal); color: var(--g-teal-ink); }
+.desk :where(button.quiet) { background: rgba(6, 10, 18, .55); color: var(--g-fg); border-color: rgba(200, 170, 110, .45); }
+.desk :where(button.quiet:hover:not(:disabled)) { border-color: var(--g-gold); filter: none; }
+.desk :where(button.danger) { background: rgba(226, 79, 166, .14); color: #FFB3D6; border-color: rgba(226, 79, 166, .5); }
+.desk .card { background: var(--g-card); border: 1px solid var(--g-line); border-radius: var(--g-radius); padding: 18px; }
+.desk .card h2 { font-family: var(--g-display); letter-spacing: .06em; font-size: 15px; }
+.desk code { background: rgba(200, 170, 110, .12); color: var(--g-fg2); }
+.desk .panel { padding: 18px; }
+
+.desk ::-webkit-scrollbar { width: 10px; }
+.desk ::-webkit-scrollbar-thumb { background: rgba(200, 170, 110, .25); border-radius: 6px; border: 2px solid transparent; background-clip: padding-box; }
+.desk ::-webkit-scrollbar-thumb:hover { background: rgba(200, 170, 110, .45); background-clip: padding-box; border: 2px solid transparent; }
+.desk ::-webkit-scrollbar-track { background: transparent; }
+
+/* Hints on the PC: one "i" next to the title instead of a paragraph under every control. Hover or keyboard focus shows it. */
+.desk .hint.hint { display: none; }
+.desk .info.info {
+  position: relative; display: inline-grid; place-items: center; width: 16px; height: 16px; margin-left: 8px; border-radius: 50%; vertical-align: middle;
+  border: 1px solid var(--g-line); color: var(--g-muted); font: 700 10px/1 var(--g-body); letter-spacing: 0; text-transform: none; cursor: help;
+}
+.desk .info.info:hover, .desk .info.info:focus-visible { color: var(--g-gold); border-color: var(--g-gold); outline: none; }
+.desk .info.info:hover::after, .desk .info.info:focus-visible::after {
+  content: attr(data-tip); position: absolute; z-index: 30; left: -8px; top: calc(100% + 8px); width: max-content; max-width: 300px; padding: 9px 11px; border-radius: 8px;
+  background: #0B121E; border: 1px solid var(--g-gold); box-shadow: 0 10px 30px rgba(0, 0, 0, .55); color: var(--g-fg2); font: 400 12.5px/1.45 var(--g-body); text-align: left; white-space: normal;
+}

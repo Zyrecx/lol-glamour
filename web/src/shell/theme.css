@@ -1,0 +1,105 @@
+/* The look of both apps (SPEC "UI (decided)"): dark ground, thin gold lines, teal-to-magenta accent on small elements only.
+   Everything is scoped under .glam. The older variable names (app.css) are mapped onto these tokens, so the shared sections
+   (Accounts, Devices, Alerts, Automation details) match in the phone app and the PC app. */
+.glam {
+  --g-bg: #060A12;
+  --g-panel: #0D1420;
+  --g-card: rgba(13, 20, 32, .94);
+  --g-fg: #F0E6D2;
+  --g-fg2: #E6DCC6;
+  --g-muted: #A69F8F;
+  --g-faint: #6F6A60;
+  --g-gold: #C8AA6E;
+  --g-line: rgba(200, 170, 110, .3);
+  --g-line-soft: rgba(200, 170, 110, .15);
+  --g-teal: #2DE2C4;
+  --g-teal-ink: #03140F;
+  --g-teal-soft: rgba(45, 226, 196, .1);
+  --g-magenta: #E24FA6;
+  --g-amber: #E6B86A;
+  --g-grad: linear-gradient(135deg, #2DE2C4, #E24FA6);
+  --g-display: Cinzel, Georgia, serif;
+  --g-body: Barlow, system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --g-num: 'Barlow Semi Condensed', Barlow, system-ui, sans-serif;
+  --g-radius: 14px;
+  --g-tabs: 74px;
+  /* Stacking, low to high: backdrop 0, content, dock, tabs, takeover, takeover sheets, sheets, champion picker. The shell and main must not
+     create their own stacking context, or a fixed sheet inside them would end up under the tab bar. */
+  --z-dock: 15; --z-tabs: 20; --z-take: 30; --z-sheet: 40; --z-picker: 60;
+
+  --bg: var(--g-bg); --surface: var(--g-panel); --card: var(--g-card); --card2: #111a29; --line: var(--g-line);
+  --fg: var(--g-fg); --muted: var(--g-muted); --accent: var(--g-teal); --accent-fg: var(--g-teal-ink); --accent2: var(--g-teal);
+  --ok: var(--g-teal); --warn: var(--g-amber); --err: #FF8FB8;
+  --radius: var(--g-radius); --radius-sm: 10px;
+
+  background: var(--g-bg);
+  color: var(--g-fg);
+  font-family: var(--g-body);
+  min-height: 100dvh;
+  /* An app, not a document: taps and drags on controls must not select text or flash the tap highlight. Inputs stay selectable. */
+  -webkit-user-select: none; user-select: none; -webkit-touch-callout: none; -webkit-tap-highlight-color: transparent;
+}
+.glam input, .glam textarea { -webkit-user-select: text; user-select: text; }
+.glam a { color: var(--g-teal); }
+.glam a:hover { color: #7FF0DD; }
+.glam .card { border: 1px solid var(--g-line); }
+.glam input[type=text], .glam input[type=password], .glam input[type=number], .glam input[type=search], .glam textarea, .glam select {
+  background: var(--g-bg); border-color: var(--g-line);
+}
+
+.glam .label { font-size: 11px; letter-spacing: .16em; text-transform: uppercase; color: var(--g-muted); font-weight: 700; }
+.glam .display { font-family: var(--g-display); font-weight: 700; letter-spacing: .04em; }
+.glam .num { font-family: var(--g-num); font-variant-numeric: tabular-nums; }
+.glam .panel { background: var(--g-card); border: 1px solid var(--g-line); border-radius: var(--g-radius); padding: 14px; }
+
+.glam .btn {
+  display: flex; align-items: center; justify-content: center; gap: 8px; width: 100%; min-height: 54px; border-radius: 12px;
+  font: 700 15px var(--g-body); letter-spacing: .1em; text-transform: uppercase; text-decoration: none; cursor: pointer; padding: 0 12px;
+}
+.glam .btn-primary { background: var(--g-teal); color: var(--g-teal-ink); border: 1px solid var(--g-gold); }
+.glam .btn-primary:hover:not(:disabled) { background: #5BEBD3; filter: none; }
+.glam .btn-ghost { background: rgba(6, 10, 18, .55); color: var(--g-fg); border: 1px solid rgba(200, 170, 110, .5); }
+.glam .btn-ghost:hover:not(:disabled) { border-color: var(--g-gold); filter: none; }
+.glam .btn-done { background: rgba(45, 226, 196, .12); color: var(--g-teal); border: 1px solid rgba(45, 226, 196, .5); cursor: default; }
+.glam .btn-wait { background: rgba(6, 10, 18, .7); color: var(--g-muted); border: 1px solid rgba(166, 159, 143, .35); cursor: default; font-size: 13px; letter-spacing: .08em; }
+.glam .btn-confirm { background: var(--g-magenta); color: #1A0410; border: 1px solid var(--g-gold); }
+.glam .btn:disabled { opacity: .45; }
+
+.glam .chip {
+  display: inline-flex; align-items: center; gap: 6px; padding: 7px 11px; border-radius: 999px; font-size: 13px; font-weight: 500;
+  background: var(--g-teal-soft); border: 1px solid rgba(45, 226, 196, .4); color: #D9FBF4;
+}
+.glam .chip.off { background: rgba(255, 255, 255, .03); border-color: rgba(166, 159, 143, .3); color: var(--g-muted); text-decoration: line-through; }
+.glam .small-btn {
+  background: transparent; border: 1px solid rgba(200, 170, 110, .5); color: var(--g-fg); border-radius: 999px; padding: 0 14px; min-height: 36px;
+  font: 600 12px var(--g-body); letter-spacing: .06em;
+}
+.glam .small-btn:hover:not(:disabled) { border-color: var(--g-gold); filter: none; }
+
+/* The action zone: the one primary action of a screen, fixed just above the tab bar where the thumb rests. */
+.glam .dock {
+  position: fixed; left: 0; right: 0; bottom: calc(var(--g-tabs) + env(safe-area-inset-bottom)); z-index: var(--z-dock);
+  max-width: 34rem; margin-inline: auto; padding: 18px 16px 10px; display: flex; flex-direction: column; gap: 8px;
+  background: linear-gradient(180deg, rgba(6, 10, 18, 0), rgba(6, 10, 18, .92) 38%, #060A12);
+}
+.glam .dock-row { display: grid; grid-template-columns: auto minmax(0, 1fr); gap: 8px; align-items: stretch; }
+.glam .dock-gap { height: 96px; flex: none; }
+.glam .btn-leave { width: auto; min-width: 84px; min-height: 54px; font-size: 12.5px; letter-spacing: .06em; }
+
+/* The page backdrop: the profile background skin, faded into the ground. */
+.glam .backdrop { position: fixed; inset: 0; z-index: 0; pointer-events: none; overflow: hidden; }
+.glam .backdrop img {
+  position: absolute; inset: 0 0 auto 0; width: 100%; height: 72dvh; object-fit: cover; object-position: 64% 20%; opacity: .5; transition: opacity .4s;
+  -webkit-mask-image: linear-gradient(180deg, #000 0%, #000 35%, transparent 100%); mask-image: linear-gradient(180deg, #000 0%, #000 35%, transparent 100%);
+}
+.glam .backdrop.bright img { opacity: .95; }
+.glam .backdrop::after { content: ''; position: absolute; inset: 0 0 auto 0; height: 72dvh; background: linear-gradient(180deg, rgba(6, 10, 18, .5) 0%, rgba(6, 10, 18, .05) 30%, rgba(6, 10, 18, .35) 100%); }
+
+@keyframes g-pulse { 0%, 100% { opacity: .7 } 50% { opacity: 1 } }
+@keyframes g-spin { to { transform: rotate(360deg) } }
+@keyframes g-rise { from { opacity: 0; transform: translateY(12px) } to { opacity: 1; transform: none } }
+.glam .rise { animation: g-rise .28s ease-out both; }
+.glam.calm *, .glam.calm *::before, .glam.calm *::after { animation: none !important; transition: none !important; }
+@media (prefers-reduced-motion: reduce) {
+  .glam *, .glam *::before, .glam *::after { animation: none !important; transition: none !important; }
+}

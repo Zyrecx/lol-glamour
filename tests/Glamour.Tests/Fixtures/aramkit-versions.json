@@ -1,0 +1,32 @@
+{
+  "latest": "16.20",
+  "versions": [
+    {
+      "version": "16.20",
+      "dataPath": "data/16.20-20261010-46638f86198d",
+      "resourcePath": "resources/16.20-6b24fc84026f",
+      "dataDate": "2026-10-10",
+      "buildTimeUnixMs": 1791609801332,
+      "allMatches": 4061051,
+      "highMatches": 1015262
+    },
+    {
+      "version": "16.19",
+      "dataPath": "data/16.19-20261008-4001b809d48b",
+      "resourcePath": "resources/16.19-2d56995ce28a",
+      "dataDate": "2026-10-08",
+      "buildTimeUnixMs": 1791514260213,
+      "allMatches": 32628818,
+      "highMatches": 8157204
+    },
+    {
+      "version": "16.18",
+      "dataPath": "data/16.18-20260922-67a88c3fcc6c",
+      "resourcePath": "resources/16.18-ade008963fb5",
+      "dataDate": "2026-09-22",
+      "buildTimeUnixMs": 1790493321921,
+      "allMatches": 46883138,
+      "highMatches": 11720784
+    }
+  ]
+}

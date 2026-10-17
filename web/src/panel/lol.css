@@ -1,0 +1,118 @@
+/* The side panel's look: the League client's own (SPEC "PC app direction" 2). Colours sampled from the client next to it; square corners,
+   1 px lines, small caps headers on a band like the client's "SOCIAL" row, gold-framed dark buttons. Scoped under .lol, so the shared
+   sections take it here and keep Glamour's look on the phone and in the window. The client's fonts (Beaufort, Spiegel) are packed inside
+   the client and not served, so the nearest fallbacks are used. */
+.glam.lol {
+  --l-black: #010A13;
+  --l-navy: #091428;
+  --l-band: #0B1A24;
+  --l-frame: #1E282D;
+  --l-grey1: #A09B8C;
+  --l-grey2: #5B5A56;
+  --l-grey3: #3C3C41;
+  --l-btn: #1E2328;
+  --l-gold1: #F0E6D2;
+  --l-gold2: #C8AA6E;
+  --l-gold3: #CDBE91;
+  --l-gold4: #785A28;
+  --l-blue: #0AC8B9;
+  --l-blue-ink: #CDFAFA;
+  --l-red: #D13639;
+
+  /* Glamour's tokens mapped onto the client's palette, so the shared sections follow. */
+  --g-bg: var(--l-black); --g-panel: var(--l-black); --g-card: transparent;
+  --g-fg: var(--l-gold1); --g-fg2: #D8CFBD; --g-muted: var(--l-grey1); --g-faint: var(--l-grey2);
+  --g-gold: var(--l-gold2); --g-line: var(--l-frame); --g-line-soft: rgba(30, 40, 45, .6);
+  --g-teal: var(--l-blue); --g-teal-ink: var(--l-black); --g-teal-soft: rgba(10, 200, 185, .08); --g-magenta: var(--l-red); --g-amber: #C89B3C;
+  --g-display: 'Beaufort for LOL', Cinzel, Georgia, serif;
+  --g-body: 'Spiegel', 'Segoe UI', system-ui, sans-serif;
+  --g-num: 'Spiegel', 'Segoe UI', system-ui, sans-serif;
+  --g-radius: 0; --radius: 0; --radius-sm: 0;
+  --bg: var(--l-black); --surface: var(--l-black); --card: transparent; --card2: var(--l-btn); --line: var(--l-grey3);
+  --fg: var(--l-gold1); --muted: var(--l-grey1); --accent: var(--l-btn); --accent-fg: var(--l-gold3); --accent2: var(--l-gold2);
+  --ok: var(--l-blue); --warn: #C89B3C; --err: #E86A6C;
+
+  background: var(--l-black);
+  font-size: 13px;
+  line-height: 1.35;
+}
+
+/* Buttons: the client's flat button, dark with a gold frame and gold caps. */
+.lol main button, .lol .foot button {
+  min-height: 28px; padding: 0 12px; border-radius: 0; border: 1px solid var(--l-gold4); background: var(--l-btn); color: var(--l-gold3);
+  font: 700 11px var(--g-body); letter-spacing: .06em; text-transform: uppercase;
+}
+/* The client's bottom-bar button (chat, friends, mic, report), measured from a render of the client at 1280x720: 32 px tall right under
+   the bar's 1 px line, a gold frame fading from #C4A667 at the top to #6A4F28 at the bottom, a 1 px #141A21 inner line, a flat #1D2227 fill. */
+.lol .bbtn, .lol .foot button { box-sizing: border-box; height: 32px; min-height: 32px; border: 1px solid; border-image: linear-gradient(180deg, #C4A667, #9A7630 40%, #6A4F28) 1;
+  background: #1D2227; box-shadow: inset 0 0 0 1px #141A21; color: var(--l-gold3); }
+.lol .bbtn:hover:not(:disabled), .lol .foot button:hover:not(:disabled) { border-image: linear-gradient(180deg, #F0E6D2, #C8AA6E 40%, #785A28) 1; background: #252A2F; color: var(--l-gold1); }
+.lol main button:hover:not(:disabled), .lol .foot button:hover:not(:disabled) { filter: none; border-color: var(--l-gold2); color: var(--l-gold1); background: #252a30; }
+.lol main button:disabled, .lol .foot button:disabled { opacity: 1; color: var(--l-grey2); border-color: var(--l-grey3); }
+.lol main button.quiet { background: transparent; border-color: var(--l-grey3); color: var(--l-grey1); }
+.lol main button.danger { background: transparent; border-color: #5A2A2A; color: #E86A6C; }
+
+/* Fields: like the client's chat box. */
+.lol input[type=text], .lol input[type=password], .lol input[type=number], .lol input[type=search], .lol textarea, .lol select {
+  border-radius: 0; border: 1px solid var(--l-grey3); background: var(--l-black); color: var(--l-gold1); padding: 6px 8px; font-size: 12px;
+}
+.lol input:focus-visible, .lol select:focus-visible, .lol textarea:focus-visible { outline: none; border-color: var(--l-gold4); }
+.lol button:focus-visible { outline: 1px solid var(--l-gold2); outline-offset: 1px; }
+
+/* Cards become flat sections under a band header, like the client's sidebar. */
+.lol .card { background: none; border: 0; border-radius: 0; padding: 0 12px 12px; }
+.lol .card > header { margin: 0 -12px 8px; padding: 0 12px; min-height: 30px; align-items: center; background: var(--l-band); border-top: 1px solid var(--l-frame); border-bottom: 1px solid var(--l-frame); }
+.lol .card > header h2 { font: 700 11px var(--g-body); letter-spacing: .1em; text-transform: uppercase; color: var(--l-grey1); }
+.lol .card > header .hint { display: none; }
+.lol .muted { font-size: 12px; color: var(--l-grey1); }
+.lol .stack { gap: 8px; }
+
+/* The shared Toggle rows: label on the left, the panel's slide switch (below) on the right. */
+.lol .toggle { gap: 12px; min-height: 36px; }
+.lol .toggle .label { font-weight: 400; font-size: 13px; color: var(--l-gold1); }
+.lol .toggle .hint { font-size: 11px; color: var(--l-grey2); }
+
+/* The same check box for the panel's own rows. */
+.lol .check { appearance: none; -webkit-appearance: none; flex: none; position: relative; margin: 0; width: 14px; height: 14px; border: 1px solid var(--l-gold4); background: var(--l-black); cursor: pointer; }
+.lol .check::after { content: ''; position: absolute; top: 1px; left: 4px; width: 4px; height: 8px; border: solid var(--l-gold2); border-width: 0 2px 2px 0; transform: rotate(45deg) scale(0); }
+.lol .check:checked { background: var(--l-btn); border-color: var(--l-gold2); }
+.lol .check:checked::after { transform: rotate(45deg) scale(1); }
+.lol .check:disabled { opacity: .5; }
+
+/* On/off switches for whole features: a gold-framed slot whose knob slides right and lights up teal, like the client's lit buttons. */
+.lol .switch, .lol .toggle input { appearance: none; -webkit-appearance: none; flex: none; position: relative; margin: 0; width: 36px; height: 18px; cursor: pointer;
+  border-radius: 0; border: 1px solid var(--l-grey3); background: var(--l-black); transition: background .15s, border-color .15s; }
+.lol .switch::after, .lol .toggle input::after { content: ''; position: absolute; top: 3px; left: 3px; width: 10px; height: 10px; border-radius: 0; border: 0; transform: none;
+  background: var(--l-grey2); transition: left .15s, background .15s, box-shadow .15s; }
+.lol .switch:checked, .lol .toggle input:checked { border-color: var(--l-blue); background: #0A323C; }
+.lol .switch:checked::after, .lol .toggle input:checked::after { left: 21px; transform: none; background: var(--l-blue-ink); box-shadow: 0 0 6px var(--l-blue); }
+.lol .switch:hover:not(:disabled), .lol .toggle input:hover:not(:disabled) { border-color: var(--l-gold4); }
+.lol .switch:checked:hover:not(:disabled), .lol .toggle input:checked:hover:not(:disabled) { border-color: var(--l-blue-ink); }
+.lol .switch:disabled, .lol .toggle input:disabled { opacity: .5; cursor: default; }
+.lol .switch:focus-visible, .lol .toggle input:focus-visible { outline: 1px solid var(--l-gold2); outline-offset: 2px; }
+.lol.calm .switch, .lol.calm .switch::after, .lol.calm .toggle input, .lol.calm .toggle input::after { transition: none; }
+
+/* Segmented choices: the client's text tabs with a gold underline. */
+.lol .seg { background: none; border: 0; border-bottom: 1px solid var(--l-frame); border-radius: 0; padding: 0; gap: 0; }
+.lol .seg button { min-height: 30px; border: 0; border-bottom: 2px solid transparent; margin-bottom: -1px; background: none; color: var(--l-grey1); font: 700 11px var(--g-body); letter-spacing: .04em; text-transform: uppercase; padding: 0 2px; }
+.lol .seg button:hover:not(:disabled) { color: var(--l-gold1); background: none; border-color: transparent; }
+.lol .seg button.on { background: none; color: var(--l-gold1); border-bottom-color: var(--l-gold2); }
+.lol .seg button.withicon { padding: 4px 0; font-size: 10px; }
+
+/* Glamour's own pieces that keep a rounded or teal look elsewhere. */
+.lol .panel { background: none; border: 0; border-radius: 0; padding: 0; }
+.lol .small-btn { border-radius: 0; }
+.lol .chip { border-radius: 0; }
+
+/* Shared pieces that need a nudge at panel size. */
+.lol .toggle .label, .lol .label { text-transform: none; letter-spacing: 0; }
+.lol main button.field { text-transform: none; letter-spacing: 0; font: 400 13px var(--g-body); color: var(--l-gold1); background: var(--l-black); border-color: var(--l-grey3); min-height: 44px; }
+.lol main button.field:hover:not(:disabled) { border-color: var(--l-gold4); background: var(--l-black); }
+/* Saved accounts: flat rows like the client's friend list instead of boxes. */
+.lol .card ul > li:has(> .who) { background: none; border: 0; border-bottom: 1px solid var(--l-frame); padding: 8px 0 10px; }
+.lol .card ul > li.active:has(> .who) .who > :first-child { color: var(--l-gold2); }
+/* Profile icon and tokens: the same band header as the cards. */
+.lol .tokens, .lol .picon { padding: 0 12px 12px; }
+.lol .tokens > h2, .lol .picon > h2 { margin: 0 -12px; padding: 0 12px; min-height: 30px; display: flex; align-items: center; background: var(--l-band); border-top: 1px solid var(--l-frame); border-bottom: 1px solid var(--l-frame);
+  font: 700 11px var(--g-body); letter-spacing: .1em; text-transform: uppercase; color: var(--l-grey1); }
+.lol .tokens .face { border-radius: 0 !important; min-height: 92px; text-transform: none; letter-spacing: 0; }

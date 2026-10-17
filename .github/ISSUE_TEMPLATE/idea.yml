@@ -1,0 +1,11 @@
+name: Idea
+description: Something Glamour could do, or do better.
+labels: [idea]
+body:
+  - type: textarea
+    id: idea
+    attributes:
+      label: Idea
+      description: What you would like, and when it would help (champ select, in game, on the phone...).
+    validations:
+      required: true

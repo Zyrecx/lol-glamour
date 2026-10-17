@@ -1,0 +1,10 @@
+<Project>
+  <!-- One version for every project. The release workflow passes -p:Version=<tag> and -p:GlamourChannel=release; local builds stay "dev" (telemetry tags them so). -->
+  <PropertyGroup>
+    <Version>0.1.0</Version>
+    <GlamourChannel Condition="'$(GlamourChannel)' == ''">dev</GlamourChannel>
+  </PropertyGroup>
+  <ItemGroup>
+    <AssemblyMetadata Include="GlamourChannel" Value="$(GlamourChannel)" />
+  </ItemGroup>
+</Project>
