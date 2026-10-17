@@ -1,5 +1,6 @@
 using System.Diagnostics;
 using System.Text.Json;
+using Glamour.Lcu;
 
 namespace Glamour.Host.Profiles;
 
@@ -42,12 +43,16 @@ public sealed class WindowsRiotClient(ILogger<WindowsRiotClient> log) : IRiotCli
         "VALORANT", "VALORANT-Win64-Shipping",
     ];
 
-    /// <summary>One process snapshot for all names (each GetProcessesByName takes a full snapshot of its own; this runs every 2 s while League is closed).</summary>
+    private int _fellBack;
+
+    /// <summary>One process snapshot for all names (each GetProcessesByName takes a full snapshot of its own; this runs every 2 s while League is closed).
+    /// Throws IOException when no process list can be read, so a switch never takes that as "nothing to close".</summary>
     public IReadOnlyList<string> Running()
     {
-        var seen = new HashSet<string>(StringComparer.OrdinalIgnoreCase);
-        foreach (var p in Process.GetProcesses())
-            using (p) seen.Add(p.ProcessName);
+        var seen = ProcessNames.TryGet(ex =>
+        {
+            if (Interlocked.Exchange(ref _fellBack, 1) == 0) log.LogWarning(ex, "The process list failed in .NET, using WMI's");
+        }) ?? throw new IOException("Could not read the list of running processes.");
         return Names.Where(seen.Contains).ToList();
     }
 
@@ -55,7 +60,7 @@ public sealed class WindowsRiotClient(ILogger<WindowsRiotClient> log) : IRiotCli
     public async Task StopAsync(CancellationToken ct)
     {
         foreach (var name in Names)
-            foreach (var p in Process.GetProcessesByName(name))
+            foreach (var p in ProcessNames.ByName(name))
                 try { p.Kill(); } catch (Exception ex) when (ex is InvalidOperationException or System.ComponentModel.Win32Exception) { log.LogDebug(ex, "Could not kill {Name}", name); }
         for (var i = 0; i < 50 && Running().Count > 0; i++) await Task.Delay(100, ct);
         if (Running() is { Count: > 0 } left) throw new IOException($"Could not close {string.Join(", ", left)}.");

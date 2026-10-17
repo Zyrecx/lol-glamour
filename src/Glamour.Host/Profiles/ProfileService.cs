@@ -28,7 +28,7 @@ public sealed class ProfileService(ProfileStore store, IRiotClient client, Func<
             activeId = d.ActiveId,
             adding = d.Adding,
             signedIn = ProfileStore.IsSignedIn(liveFile),
-            running = client.Running(),
+            running = RunningOrNone(),
             profiles = d.Profiles.Select(p => new
             {
                 p.Id, p.Name, p.CapturedAt, p.Overrides, p.RiotId, p.Region, p.Card, hasIcon = File.Exists(store.IconPath(p.Id)),
@@ -204,6 +204,13 @@ public sealed class ProfileService(ProfileStore store, IRiotClient client, Func<
         store.Data.Profiles[i] = store.Data.Profiles[i] with { Overrides = next.Count == 0 ? null : next };
         return Done();
     });
+
+    /// <summary>For display only: a switch itself asks <see cref="IRiotClient.Running"/> and stops when the process list cannot be read.</summary>
+    private IReadOnlyList<string> RunningOrNone()
+    {
+        try { return client.Running(); }
+        catch (IOException) { return []; }
+    }
 
     private Profile? Find(string id) => store.Data.Profiles.FirstOrDefault(p => p.Id == id);
     private Profile? Active() => store.Data.ActiveId is { } a ? Find(a) : null;

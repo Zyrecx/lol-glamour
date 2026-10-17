@@ -9,9 +9,8 @@ public static partial class LcuDiscovery
     public static LcuCredentials? Find()
     {
         // The process list first: a WMI query costs ~50 ms of the WMI service's CPU (measured: ~2% of a core at one per 2 s, all game long), the list a few ms.
-        var running = System.Diagnostics.Process.GetProcessesByName("LeagueClientUx");
-        foreach (var p in running) p.Dispose();
-        if (running.Length == 0) return null;
+        // No list at all: the WMI query below is the only look left.
+        if (ProcessNames.TryGet() is { } running && !running.Contains("LeagueClientUx")) return null;
         // Called every couple of seconds while no client runs, so the WMI (COM) objects are released at once, not left to the finalizer.
         using var searcher = new ManagementObjectSearcher("SELECT CommandLine FROM Win32_Process WHERE Name = 'LeagueClientUx.exe'");
         using var processes = searcher.Get();

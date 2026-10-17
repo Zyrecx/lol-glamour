@@ -31,7 +31,13 @@ public sealed class ConnectionService(SwappableLcuClient client, Engine engine, 
     /// <summary>Looks at the processes while there is no connection (the wait loop calls it every couple of seconds).</summary>
     private void UpdateStage()
     {
-        var running = riot.Running();
+        IReadOnlyList<string> running;
+        try { running = riot.Running(); }
+        catch (Exception e) // also called from the loop's finally: a throw here would end the service, and with it the whole host
+        {
+            log.LogWarning("Process list unavailable: {Message}", e.Message);
+            return;
+        }
         GameProcessRunning = running.Contains("League of Legends"); // the game clock asks too: one process list for both
         var stage = running.Any(n => n.StartsWith("LeagueClient", StringComparison.Ordinal) || n == "League of Legends") ? "league-starting"
             : running.Any(n => n.StartsWith("RiotClient", StringComparison.Ordinal)) ? "riot-client" : "none";

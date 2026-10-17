@@ -17,7 +17,9 @@ public sealed class FakeRiotClient : IRiotClient
     public RiotIdentity? Identity { get; set; }
     public Task<RiotIdentity?> IdentityAsync(CancellationToken ct) => Task.FromResult(Identity);
 
-    public IReadOnlyList<string> Running() => RunningNames;
+    /// <summary>No process list can be read (the real one throws IOException then).</summary>
+    public bool ListFails { get; set; }
+    public IReadOnlyList<string> Running() => ListFails ? throw new IOException("Could not read the list of running processes.") : RunningNames;
     public Task StopAsync(CancellationToken ct) { Calls.Add("stop"); RunningNames = []; return Task.CompletedTask; }
     public void Start(IReadOnlyList<string> products) { if (StartFails) throw new FileNotFoundException("no client"); Calls.Add(products.Count == 0 ? "start" : "start " + string.Join("+", products)); RunningNames = ["RiotClientServices"]; }
 }
@@ -223,6 +225,31 @@ public class ProfileTests : IDisposable
         await _svc.SwitchAsync(alt, confirm: true, default);
         Assert.Contains("t2-rotated", LiveText);
         Assert.Contains("t1-rotated", Saved(main));
+    }
+
+    [Fact]
+    public async Task An_unreadable_process_list_stops_a_switch_but_not_the_profile_list()
+    {
+        var main = await SaveAsync("Main", "s1", "t1");
+        await _svc.BeginAddAsync(true, default);
+        SignIn("s2", "t2");
+        await _svc.SaveCurrentAsync("Alt", null);
+        var alt = _store.Data.ActiveId!;
+        _client.Calls.Clear();
+        _client.ListFails = true;
+
+        Assert.Equal("io", (await Fails(_svc.SwitchAsync(main, confirm: false, default))).Code); // never "nothing runs, no need to ask"
+        Assert.Empty(_client.Calls);
+        Assert.Equal(alt, _store.Data.ActiveId);
+        Assert.Contains("t2", LiveText);
+        _svc.Snapshot();
+    }
+
+    [Fact]
+    public void The_process_list_holds_this_process()
+    {
+        using var me = System.Diagnostics.Process.GetCurrentProcess();
+        Assert.Contains(me.ProcessName, Glamour.Lcu.ProcessNames.TryGet()!);
     }
 
     [Fact]
